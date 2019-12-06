@@ -1,6 +1,5 @@
 # Lowy's KnowledgeBase
 
-https://github.com/LowyShin/KnowledgeBase/wiki
+https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki
 
-Link Test [[aaa]]
-[bbb](bbb)
+
