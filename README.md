@@ -1,30 +1,72 @@
 # Lowy's KnowledgeBase
 
-https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki
+Welcome Lowy's KnowledgeBase
 
+[Translate this page?](https://translate.google.com/translate?depth=1&hl=en&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=http://kb.littleworld.net/)
 
-## [KnowledgeBase](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki)
+## [KnowledgeBase](http://kb.littleworld.net/)
 
-* [git](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/git)
-* [Apache-Drill](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Apache-Drill)
-* [Python](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Python)
+* [Markdown](/wiki/Markdown)
+
+### Data(DBMS, NoSQL)
+
+* [MachineLearning](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/MachineLearning)
+* [SQL Server](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/SQL-Server)
 * [ORACLE](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/ORACLE)
+  * [Installation](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/ORACLEInstallTips)
+  * [DDL](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/DDL)
+  * [Useful SQL](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/UsefulSQL)
   * [ORACLETuning](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/ORACLETuning)
   * [TableSpaceManagement](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/TableSpaceManagement)
-* [SQL Server](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/SQL-Server)
+  * [Flashback](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Flashback)
+  * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
+  * [datetime](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/datetime)
 * [MySQL](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/MySQL)
-* [Shell](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Shell)
-* [crontab](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/crontab)
-* [GoogleSheet](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/GSheet)
-* [Azure](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Azure)
-* [Classic ASP](https://github.com/LowyShin/KB-ClassicASP/wiki)
-* [UIPath](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
+  * [my.cnf](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/my.cnf)
+* [Mongodb](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Mongodb)
+* [Apache-Drill](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Apache-Drill)
+* [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/A5MK2)
+* [Referrals](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Referrals)
 
-## Hardware
+### Development
+
+* [DataVisual](https://observablehq.com/@d3/gallery)
+* [Python](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Python)
+* [Classic ASP](https://github.com/LowyShin/KB-ClassicASP/wiki)
+* [wsf](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
+* [HTML](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/HTML)
+
+### Tools
+
+* [git](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/git)
+* [GoogleSheet](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/GSheet)
+* [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
+* [Excel](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Excel)
+* [VNC](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/VNC)
+* [VPN](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/VPN)
+* [Note Tool](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Note-Tool)
+* [Blog](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Blog)
+
+### Management
+
+* [Shell/bash](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Shell)
+* [crontab](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/crontab)
+* [PowerShell](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/PowerShell)
+* [Windows(DOS) batch](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/WinBatch)
+* [Wscript/wsf](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Wscript)
+* [Azure](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Azure)
+* [File Sync](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Sync)
+* [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+
+### OS
+
+* [CentOS](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/CentOS)
+
+### Hardware
 
 * [Xeon CPU](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Xeon-CPU)
 
-## Hobby
+### Hobby
 
 * [Electronic goods](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Electronic-goods)
 
