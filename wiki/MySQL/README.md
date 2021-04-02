@@ -119,3 +119,10 @@ on duplicate key update FIELDA02 = FIELDB04
 
 * do not ask password when running cron job or shell batch
   * https://qiita.com/goto_yoshiki/items/4f75568799c044df811d
+
+
+## Index
+
+* [Knowledgebase](https://github.com/LowyShin/KnowledgeBase)
+  * [edit this page](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/README.md)
+
