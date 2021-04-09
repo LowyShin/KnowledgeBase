@@ -26,4 +26,4 @@ cat /etc/issue
 
 * [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
 
-* [for edit this page](https://github.com/LowyShin/KnowledgeBase/wiki/CentOS)
+* [for edit this page](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/CentOS/README.md)
