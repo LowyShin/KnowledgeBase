@@ -21,4 +21,9 @@ cat /etc/issue
   ```conf
   + : <loginname> : cron crond :0 tty1 tty2 tty3 tty4 tty5 tty6
   ```
-\
+
+## Links
+
+* [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
+
+* [for edit this page](https://github.com/LowyShin/KnowledgeBase/wiki/CentOS)
