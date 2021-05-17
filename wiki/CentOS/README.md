@@ -36,6 +36,17 @@ cat /etc/issue
   + : <loginname> : cron crond :0 tty1 tty2 tty3 tty4 tty5 tty6
   ```
 
+## whereis
+
+```sh
+# all list
+whereis -l
+
+# target application
+whereis mysql
+```
+
+
 ## Links
 
 * [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
