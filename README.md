@@ -59,7 +59,7 @@
 
 ### OS
 
-* [CentOS](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/CentOS)
+* [CentOS](https://github.com/LowyShin/KnowledgeBase/wiki/CentOS)
 * Android
   * [Rooting app](https://talklowy-jp.blogspot.com/2020/10/android-rooting-app.html)
   * [adb shell](https://talklowy-jp.blogspot.com/2020/10/android-rooting-app.html)
