@@ -73,25 +73,6 @@ SHOW STATUS LIKE 'Qcache%';
   * character_server, character_database
   * https://atsuizo.hatenadiary.jp/entry/2016/08/22/090000
 
-## BinaryLog
-
-Bin-log need for replication configuration. 
-
-* `vi /etc/my.cnf`
-  ```conf
-  [mysqld]
-  # enable binary log
-  bin-log
-  # set expire bin-log
-  expire_logs_days=14
-  ```
-* SQL
-  ```sql
-  -- show bin-log files
-  SHOW MASTER STATUS;
-  -- delete under mysql-bin.000989
-  PURGE MASTER LOGS TO 'mysql-bin.000990';
-  ```
 
 ## Trouble shooting
 
