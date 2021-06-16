@@ -66,7 +66,7 @@ Bin-log need for replication configuration.
 * SQL
   ```sql
   -- show bin-log files
-  SHOW MASTER STATUS;
+  SHOW MASTER LOGS;
   -- delete under mysql-bin.000989
   PURGE MASTER LOGS TO 'mysql-bin.000990';
   ```
