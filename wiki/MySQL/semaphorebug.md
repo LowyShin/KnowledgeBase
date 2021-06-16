@@ -24,3 +24,8 @@ upgrade to mysql 5.5.17
     れる
     ```
 
+## Links
+
+* [Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
+   * [MySQL](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/README.md)
+      * [InnoDB: Warning: a long semaphore wait:](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/semaphorebug.md)  
