@@ -3,15 +3,52 @@
 export ORACLE_SID=HGJ
 sqlplus / as sysdba
 ```
+```sql
+-- 일반적인 시작
+startup;
+-- 강제 종료
+shutdown immediate
+/*
+ 디스크만 마운트 한채로 서비스는 OFF상태로 기동. 
+나중에 database기동을 추가로 해야함. 
+관리 목적으로 기동하는 경우 사용
+*/
+STARTUP MOUNT;
+-- 데이터베이스 기동
+ALTER DATABASE OPEN;
+
+```
 
 ## 기초 지식
+
+### RDBMS는 배열 연산
+
+많은 개발자들이 Sequential한 사고를 하기 때문에 DBMS에 쿼리를 날릴 경우도 마찬가지로 한 줄씩 읽어서 처리하지 않느냐 라는 생각으로 SQL을 접근하지만, RDBMS엔진은 필요한 데이터를 배열로 넣고 연산대상을 배열로 넣은 뒤에 계산을 하면 한 번의 연산으로 배열의 결과가 나오기 때문에 빠른 처리가 가능함. 
+
+연산을 위한 베이스 배열과 연산식 배열을 얼마나 잘 만드느냐가 DBMS의 활용 능력의 차이!
 
 ### 어느 DBMS를 고르나?
 
 * MySQL
-  * 3GB이하 테이블에서의 
+  * 3GB이하 테이블에서의 Random acess속도가 제일 빠름.
+  * Open source이기 때문에 완전한 parameter tuning에 대한 정보가 없고 community등에서 경험을 공개한 내용을 기반으로 튜닝을 해야함. 
+  * 3rd party툴이 많아 필요한 모듈만 설치하여 운영하는 경우 낮은 사양으로 고성능을 발휘함. 
+  * 서버간 Network handshake성능이 높지 않아 서버간 통신을 할 때는 connection pool을 이용하여 established상태를 유지하는 것이 성능 개선에 도움이 됨.
+  * 서버당 3000query/sec 정도를 기준으로 운용하는 것을 권장.
+  * Procedure는 후반에 제공이 시작되었기 때문에 parsing 및 cache 성능 등이 타 DBMS에 비해 떨어짐(Session당 동일 Procedure는 별도 메모리 영역에서 parsing을 한다는 기술이 있음)
+* PostrgreSQL
+  * MySQL보다 오히려 ORACLE에 가까운 툴 사용성 및 성능을 제공.
+  * Network handshake성능이 MySQL의 약 5배 정도 나오기 때문에 web이나 mobile기반의 요청당 connection을 걸어야 하는 경우 압도적인 성능이 나옴.
 * SQL Server
+  * 쿼리당 코스트가 가장 저렴함. (모든 DBMS를 동일 스펙(8C 16G)으로 HW를 장만한 뒤에 초당 쿼리수를 들인 HW, SW비용으로 나눈 금액 )
+  * Advisor등으로 현재 사용패턴에 따른 성능 개선을 위한 조정 제안 등 경험이 부족한 DBA도 일정 이상의 성능을 낼 수 있는 툴을 기본으로 제공
+  * SP(Stored Procedure)의 성능이 강력하여 View보다 select용도로 사용하는 경우가 많음.
 * ORACLE
+  * 64CPU, 128GBMemory 이상의 머신에서 가장 성능이 좋음.
+  * AIX의 경우 1Board = 1CPU이기 때문에 CPU당 퍼포먼스 저하가 없지만, x86의 경우 Multi Core는 코어계수 0.75만큼의 효율 저하가 있고, Hyper threading을 하지 않는 것을 추천
+  * Disk IO를 세세하게 컨트롤 할 수 있는 파라미터를 정할 수 있어 HW에 지식이 풍부할 수록 성능을 더욱 끌어올릴 수 있음.
+  * Procedure에서 select 결과를 출력하는 기능이 없음.
+  * First commit구조로 쿼리를 날리면 이미 Disk까지 반영되고, rollback을 하는 경우 redo log를 기반으로 롤백이 disk단위로 이루어지기 때문에 commit속도가 빠르고 rollback속도가 느림.
 
 ### RAW Device vs. File system
 * raw device
@@ -42,28 +79,214 @@ sqlplus / as sysdba
   * 필요한 양 만큼만 tablespace를 증설하면 되므로 불필요한 영역이 최소화 됨
   * fragmentation 발생시 tablespace를 신설해서 이동하는 등의 조치로 성능저하를 줄이기 쉬움
 
-### using shell
+## Installation
 
-* ORACLE은 SQL Server와는 달리 운용을 위한 툴이 거의 서드파티에 의한 유료 툴로 이루어져 있어 OS의 shell 의존도가 상당히 높음.
+### Preparing
 
-* ORACLE서버간 복사를 위한 팁들..
-  * https://talklowykr.blogspot.com/2020/07/oracle.html
+* Server
+  * Install JDK
+  * Install VNC Server
+* PC
+  * Install VNC Client
 
-  ```sql
-  set long 100000
-  set head off
-  set feed on
-  set wrap on
-  set linesize 3200
-  set pagesize 0
-  set trimspool on
-  set longchunksize 1024
-  spool insertout.txt
+* Connect VNC client
 
-  select dbms_metadata.get_dll('TABLE', 'MyTablename', 'MyOwner');
+### Install ORACLE server application
 
-  exit
+* VNC
+  * Run terminal
+  * User Add
+  ```sh
+  groupadd –g 501 dba
+  groupadd –g 502 oinstall
+  useradd –g dba –G oinstall –u 501 oracle
+  passwd oracle
+
+  # change user
+  su - oracle
   ```
+  * Change bash profile
+    * `~/.bash_profile`
+    ```conf
+    ORACLE_SID=HGJ; export ORACLE_SID
+    ORACLE_BASE=/oracle/11.2.0; export ORACLE_BASE
+    ORACLE_HOME=/oracle/11.2.0/OraHome1; export ORACLE_HOME
+    #ORACLE_SID=xxxx; export ORACLE_SID
+    PATH=$PATH:$ORACLE_HOME/bin
+
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME/lib
+    export ORA_NLS33=$ORACLE_HOME/ocommon/nls/admin/data
+    ORACLE_TERM=xterm; export ORACLE_TERM
+    NLS_LANG=AMERICAN_AMERICA.UTF8;export NLS_LANG
+    PATH=$PATH:$ORACLE_HOME/bin:$ORACLE_HOME/OPatch:
+    export PATH
+    # DISPLAY=:3;export DISPLAY
+    ```
+  * change owner for oracle dir
+    ```sh
+    chown -R oracle:dba /oracle
+    ```
+
+  * Run installer on terminal
+    ```sh
+    ./runInstaller
+    ```
+    * VNC경유로 DISPLAY설정이 안되어 있으면 java error 발생
+    * JRE에러라고 떠도 NHN에서 받았으면 JRE설치 되어 있으니 재설치 필요 없음
+    * ORACLE_BASE : /oracle/11.2.0
+    * ORACLE_HOME : /oracle/11.2.0/OraHome1
+      * ORACLE_HOME 은 자동생성되므로 디렉토리가 존재하지 않아야 함.
+
+    * 설치 중 Kernel parameter fix 하라고 메시지가 뜨는데 ignore all안됨. 다른 ssh 창을 띄워서 fix스크립트 실행
+    ```sh
+    /tmp/CVU_11.2.0.3.0_oracle]# ./runfixup.sh
+    ```
+    * package인스톨
+      ```sh
+      yum install -y libaio-*
+      yum install -y compat-libstdc*
+      yum install -y elfutils-libelf-devel
+      ```
+    * pdksh-5.2.14 error -> ignore all 체크하고 진행
+      * 무시해도 된다고 공식 기록
+        * https://docs.oracle.com/cd/E16338_01/relnotes.112/b56294/toc.htm
+    * 마지막에 스크립트 fail뜨면 orainstRoot.sh 실행
+      ```sh
+      /oracle/oraInventory/orainstRoot.sh
+      ```
+    * 설치 윈도우에 돌아와서 retry하면 성공 뜸.
+    * root.sh 실행
+      ```sh
+      /oracle/11.2.0/OraHome1/root.sh
+      ```
+      * bin dir : /usr/bin
+
+
+### Configuration
+
+* tnsnames.ora
+* listner.ora
+  * netca(GUI) 실행
+    ```sh
+    /oracle/11.2.0/OraHome1/bin/netca
+    ```
+    * listener sample
+    ```conf
+    HGJLSNR23 =
+      (DESCRIPTION =
+        (ADDRESS_LIST =
+        (ADDRESS = (PROTOCOL=TCP)(HOST=10.1.0.1)(PORT=1521))
+        )
+      )
+
+    SID_LIST_HGJLSNR23 =
+      (SID_LIST =
+        (SID_DESC =
+          (GLOBAL_DBNAME = HGJ)
+          (ORACLE_HOME = /oracle/11.2.0/OraHome1)
+          (SID_NAME = mysid)
+        )
+      )
+    ```
+* Create Database
+  * Create datadir
+  ```sh
+  mkdir -p /data2
+  ```
+  * run database management GUI
+  ```sh
+  /OraHome/bin/dbca
+  # input password
+  ```
+  * Database : dbname
+  * SID : dbsid
+  * Database Credentials
+    * Same PWD : `dbadminpwd`
+  * Datafile : `/data2/oradata`
+  * Fast Recovery 
+    * Area : `/data1/fast_recovery_area`
+    * Size : `5000`MBytes
+  * Database Components > Standard Database Components
+    * check `Oracle XML DB` only
+  * Enable Archiving
+    * Archive Log Dest : /data1/ARCH1/HGJDB1
+  * Memory
+    * Size : `120000`MB(23%)
+    * Check Use Automatic Memory Management
+  * Sizing
+    * Process : `3000`
+  * Character Sets
+    * choose from the list of character sets
+      * uncheck Show recommended character sets only
+      * Select `US7ASCII`
+        * recommended UTF-8
+  * Connection Mode
+    * Shared Server : `100`
+  * Datafiles
+    * File Size : `10240`MB
+  * Redo Log Group1~3
+    * File Size : `1024`MB
+    * Dir : `/data2/oradata/{DB_UNIQUE_NAME}/`
+    * Add Member : redo1x.rdo
+      * Dir : `/data3/oradata/{DB_UNIQUE_NAME}/`
+  * 完了すると`spfile<SID>.ora`というファイルが自動作成される
+    * controlfiles位置
+      * `/data2/oradata/<SID>/control01.ctl`
+      * `/data1/fast_recovery_area/<SID>/control02.ctl`
+  * ps -ef で`oracle<SID>`が稼働中のことを確認
+
+* kernel parameter
+  ```conf
+  kernel.sem = 14010 32000 28010 128
+  #kernel.shmall = 268435456
+  # 240GB / 4096
+  # kernel.shmall = 62914560
+  # 180G / 4096
+  kernel.shmall = 47185920
+  kernel.shmmax = 193273528320
+  ```
+
+  * result
+    ```sh
+    ipcs -l
+    ------ Messages Limits --------
+    max queues system wide = 32768
+    max size of message (bytes) = 65536
+    default max size of queue (bytes) = 65536
+
+    ------ Shared Memory Limits --------
+    max number of segments = 4096
+    max seg size (kbytes) = 402653184
+    max total shared memory (kbytes) = 402653184
+    min seg size (bytes) = 1
+
+    ------ Semaphore Limits --------
+    max number of arrays = 128
+    max semaphores per array = 14010
+    max semaphores system wide = 32000
+    max ops per semop call = 28010
+    semaphore max value = 32767
+    ```
+  * https://docs.oracle.com/cd/E11882_01/install.112/e47689/pre_install.htm#LADBI1187
+
+### Restoredata
+
+* create user
+  * 필요한 user생성
+* create tablespace
+  * Disk IO를 보면서 부하가 적은 위치를 기준으로 설정.
+  * Table과 INDEX는 모두 분리하여 작성하는 것이 좋음. 
+  * 하나의 TBS도 파티션을 구분해 주는 것이 성능에 좋음. 
+  * 너무 TBS사이즈를 작게 하면 FILE IO가 빈번하게 일어나기 때문에 역효과. 테이블 사이즈를 보면서 적절하게 만들 필요가 있음.
+  * 하나의 TBS에 두 개 이상 파일을 작성(2개 이상인 경우 파일 손실시 자동 복구 됨.)
+* impdp
+  * User, Permission, Table, Data는 자동 생성되나 Tablespace는 자동생성되지 않기 때문에 먼저 생성해두지 않으면 에러 발생.
+    * User를 생성하지 않으면 permission에러는 나지만 데이터에 이상 없음
+  * impdp를 두 번 실행하면 데이터가 두 번 들어감(PK로 violation error가 뜨는 데이터는 한 번만 들어감)
+* make database link
+
+
+
 
 ## Tuning
 
@@ -84,8 +307,26 @@ sqlplus / as sysdba
 
 ### memory tuning
 
+![PGA/SGA](https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/58f63907-7d91-40f6-9575-59b695ec6b39/Image/43c40f14ad05634bdc5b9d2b0939f554/img_tsushima_120124_01.gif)
+
 * SGA/PGA 割り当て
-    * https://blogs.oracle.com/otnjp/tsushima-hakushi-14
+  * SGA : System Global Area
+    * redo_log_buffer
+      * rolback등에 필요한 데이터 보관 영역이므로 보통 하루에서 일주일 정도 데이터가 보관될 양을 추천
+    * db_cache_size(buffer cache)
+      * parsing된 쿼리를 보관하거나 실행된 쿼리결과를 보관하는 등 가장 많이 사용되는 영역으로 이 영역이 부족하면 swap이 늘어나면서 성능저하에 직결됨.
+    * shared_pool
+      * background process 및 기타 세션별 프로세싱 영역이므로 충분히 크게 잡아주지 않으면 query가 끝나지 않거나 메모리 부족으로 쿼리 실행 실패 문제가 발생할 수 있음.
+    * large_pool
+      * shared_pool과 같은 용도로 사용되는데 주로 처리 결과 및 공용 서버 설정(요즘 같은 익명성 대규모 유저를 받는 경우)의 UGA데이터, RMAN정보 및 parallel옵션을 준 쿼리 결과가 우선 저장되면 shared_pool은 재사용하는 경우가 많지만 large_pool은 삭제되지 않고 지속적인 보관이 되어 memory fragmentation이 shared_pool보다 적게 발생하기 때문에 크게 잡고 많이 사용하는 것이 좋음.
+    * java_pool
+      * JAVA계열 프로세스용으로 거의 사용하지 않으므로 크게 잡지 않아도 됨. JDBC등으로 연결된다고 java_pool을 사용하는 것이 아니고 ORACLE에서 자체적으로 사용하는 것.
+    * stream_pool, etc
+  * PGA : Program Global Area
+    * UGA : User Global Area
+      * 유저별 temporary tablespace 영역 및 전용 서버 설정으로 유저별 영역을 만들 때 사용하 영역으로 요즘 처럼 대규모 익명 유저가 접속하는 서비스의 설계시 실제로 사용은 많이 하지 않음. 대부분 SGA에서 사용하기 때문에 User session에서만 가져야 하는 내용이 적기 때문에 많은 영역을 설정하지 않아도 됨
+    * Stack영역
+  * https://blogs.oracle.com/otnjp/tsushima-hakushi-14
 
 ### config tuning
 
@@ -148,3 +389,35 @@ mount -o remount,size=384g /dev/shm
 ```
 * Shared memory에 맞추어 temp 변경
   * https://stackoverflow.com/questions/55478037/ora-01034-oracle-not-available-ora-27101-shared-memory-realm-does-not-exist-li
+
+
+### using shell
+
+* ORACLE은 SQL Server와는 달리 운용을 위한 툴이 거의 서드파티에 의한 유료 툴로 이루어져 있어 OS의 shell 의존도가 상당히 높음.
+
+* Shell용 SQL
+  ```sql
+  set long 100000
+  set head off
+  set feed on
+  set wrap on
+  set linesize 3200
+  set pagesize 0
+  set trimspool on
+  set longchunksize 1024
+  spool insertout.txt
+
+  select dbms_metadata.get_dll('TABLE', 'MyTablename', 'MyOwner');
+
+  exit
+  ```
+  * long : 한 필드에 표시되는 문자 수. 적으면 내용이 중간에 잘린다. 
+  * head off : 필드명을 없앤다. 
+  * feed on : 한 필드 내의 줄넘김을 표시한다. off면 한줄만 표시되면서 다음 줄 이후는 잘린다. 
+  * wrap on : ?? 기억이;;
+  * linesize 3200 : 한 줄에 3200글자까지 지원.. 이게 작으면 오른쪽이 잘린다. 
+  * pagesize 0 : 한 줄에 표현하는 페이지.. 숫자가 커도 별로 의미 없이 공백만 생기므로 0으로 설정
+  * trimsppo on : 이건 그냥 붙여봤는데 아직 테스트 안함.
+  * lognchunksize 1024 : 오른쪽 글자 잘림을 막아줌(linesize가 있어도 잘리는 경우 이것까지 넣으니까 다음줄로 * 안넘어가고 옆으로 잘 붙어준다.)
+  * spool filename.sql : filename.sql 파일로 출력해준다. 
+  * Ref : https://talklowykr.blogspot.com/2020/07/oracle.html
