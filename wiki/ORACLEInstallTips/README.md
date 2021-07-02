@@ -43,12 +43,19 @@ ALTER DATABASE OPEN;
   * 쿼리당 코스트가 가장 저렴함. (모든 DBMS를 동일 스펙(8C 16G)으로 HW를 장만한 뒤에 초당 쿼리수를 들인 HW, SW비용으로 나눈 금액 )
   * Advisor등으로 현재 사용패턴에 따른 성능 개선을 위한 조정 제안 등 경험이 부족한 DBA도 일정 이상의 성능을 낼 수 있는 툴을 기본으로 제공
   * SP(Stored Procedure)의 성능이 강력하여 View보다 select용도로 사용하는 경우가 많음.
+  * 서버당 5000query/sec 정도의 성능을 기준으로 확장 설계를 검토하는 것을 추천. 
+  * Replication 설정만으로 백업 없이 바로 리플리케이션이 가능하나 Replication initialize중에 database lock이 발생하기 때문에 서비스 중에 Replication initilize를 하지 않는 것을 권장.
+  * table 단위 replication또는 query를 이용한 data shift등 세세한 설정을 지원하여 운영이 편리함.
+  * SSMS(Sql Server Managemennt Studio)에서 모든 스케쥴러 및 replication, performance monitor등 대부분의 운영이 가능하여 초보자도 쉽게 관리할 수 있음.
+  * SSIS(Sql Server Integrate Service)로 ETL등을 스케쥴링 한다거나 데이터 마이그레이션, 워크플로우 관리 등 기본 툴이 강력함.
 * ORACLE
   * 64CPU, 128GBMemory 이상의 머신에서 가장 성능이 좋음.
   * AIX의 경우 1Board = 1CPU이기 때문에 CPU당 퍼포먼스 저하가 없지만, x86의 경우 Multi Core는 코어계수 0.75만큼의 효율 저하가 있고, Hyper threading을 하지 않는 것을 추천
   * Disk IO를 세세하게 컨트롤 할 수 있는 파라미터를 정할 수 있어 HW에 지식이 풍부할 수록 성능을 더욱 끌어올릴 수 있음.
   * Procedure에서 select 결과를 출력하는 기능이 없음.
   * First commit구조로 쿼리를 날리면 이미 Disk까지 반영되고, rollback을 하는 경우 redo log를 기반으로 롤백이 disk단위로 이루어지기 때문에 commit속도가 빠르고 rollback속도가 느림.
+  * CPU당 50000query/sec 정도 생각하고 확장 설계하는 것을 추천.
+    * 16코어라면 90만 x 0.75 = 67.5만qeury/sec 정도라고 생각하면 될 듯.
 
 ### RAW Device vs. File system
 * raw device
