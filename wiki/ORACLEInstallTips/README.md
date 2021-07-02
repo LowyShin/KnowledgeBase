@@ -1,6 +1,6 @@
 ## Oracle의 접속
 ```sh
-export ORACLE_SID=HGJ
+export ORACLE_SID=MySID
 sqlplus / as sysdba
 ```
 ```sql
