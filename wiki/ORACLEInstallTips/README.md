@@ -32,7 +32,7 @@ ALTER DATABASE OPEN;
 * MySQL
   * 3GB이하 테이블에서의 Random acess속도가 제일 빠름.
   * Open source이기 때문에 완전한 parameter tuning에 대한 정보가 없고 community등에서 경험을 공개한 내용을 기반으로 튜닝을 해야함. 
-  * 3rd party툴이 많아 필요한 모듈만 설치하여 운영하는 경우 낮은 사양으로 고성능을 발휘함. 
+  * 3rd party툴이 많아 필요한 모듈만 설치하여 운영하는 경우 낮은 사양에서는 타 DBMS에 비해 고성능을 발휘함. 
   * 서버간 Network handshake성능이 높지 않아 서버간 통신을 할 때는 connection pool을 이용하여 established상태를 유지하는 것이 성능 개선에 도움이 됨.
   * 서버당 3000query/sec 정도를 기준으로 운용하는 것을 권장.
   * Procedure는 후반에 제공이 시작되었기 때문에 parsing 및 cache 성능 등이 타 DBMS에 비해 떨어짐(Session당 동일 Procedure는 별도 메모리 영역에서 parsing을 한다는 기술이 있음)
