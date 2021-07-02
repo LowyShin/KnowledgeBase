@@ -359,7 +359,21 @@ sqlplus / as sysdba @?/rdbms/admin/ashrpt
   * update등으로 인한 row lock이 발생하면서 chain lock 상태
     * iostat을 보더라도 disk사용율이 높지 않은 경우에도 발생할 수 있음. 이는 단일 IO대기 성능 이슈로 발생할 수 있기 때문에 단일IO대기로 나머지 모든 queue가 대기하게 되면 iostat의 disk사용률은 낮은 채로 wait만 늘어나게 됨.
       * SAS와 SATA의 병렬 처리 이슈도 원인의 가능성 있음.
+* OS Memory 튜닝
+```
+ORA-01034: ORACLE not available
+ORA-27102: out of memory
+Linux-x86_64 Error: 12: Cannot allocate memory
+```
+  * ORACLE은 OS상의 메모리를 SHM(Semaphore)영역을 먼저 할당하고 OS 및 어플리케이션 영역을 할당한 뒤에 남은 메모리에서 ORACLE 프로세스에 할당함.
+  * 만약 SHM + App + SGA + PGA가 물리 메모리보다 크게 잡혀있으면 SGA + PGA가 나중에 할당되기 때문에 cannot allocate memory 메시지가 뜸.
+  * 512GB메모리인 경우 
+    * SHM : 252GB
+    * PGA : 64GB
+    * SGA : 178GB
+
 * ORA-27300
+  * SHM(Semaphore)설정 문제로 인한 대량 처리 불가.
 ```sql
 startup
 /*
@@ -380,15 +394,15 @@ kernel.sem = 512 32000 100 1358
 
 vi /etc/sysctl.conf
 ```conf
-# MSL, MNS, OPM, MNI
-# MSN = MSL * MNI
+# MSL(SHM식별자 별 최대 SHM 수), MNS(시스템 전체 SHM수), OPM(SHM콜 당 최대 연산자 수), MNI(시스템 전체 SHM식별자 수)
+# SEMMNS = MSL * MNI
 # Recommend MSL = OPM
 # kernel.sem = 5010 641280 5010 128
-kernel.sem = 14010 32000 28010 128
+kernel.sem = 14010 1793280 14010 128
 #kernel.shmall = 268435456
-# 240GB / 4096
+# 240GB(SGA+PGA) / 4096
 # kernel.shmall = 62914560
-# 180G / 4096
+# 180G(SAG) / 4096
 kernel.shmall = 47185920
 kernel.shmmax = 193273528320
 
@@ -412,13 +426,6 @@ max semaphores system wide = 32000
 max ops per semop call = 28010
 semaphore max value = 32767
 ```
-
-```sh
-mount -o remount,size=384g /dev/shm
-```
-* Shared memory에 맞추어 temp 변경
-  * https://stackoverflow.com/questions/55478037/ora-01034-oracle-not-available-ora-27101-shared-memory-realm-does-not-exist-li
-
 
 ### using shell
 
