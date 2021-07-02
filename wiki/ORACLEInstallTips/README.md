@@ -79,6 +79,29 @@ ALTER DATABASE OPEN;
   * 필요한 양 만큼만 tablespace를 증설하면 되므로 불필요한 영역이 최소화 됨
   * fragmentation 발생시 tablespace를 신설해서 이동하는 등의 조치로 성능저하를 줄이기 쉬움
 
+### SAS vs. SATA
+
+* SAS
+  * Disk에 controller가 없거나 disabled된 상태로 제조되어 SCSI컨트롤러가 없으면 CPU와 통신이 안되는 디스크 방식. 
+  * SCSI컨트롤러가 CPU의 IO처리를 대행하기 때문에 DISK IO가 발생하더라도 CPU는 5%이상 올라가지 않음. 
+  * 수요가 적기 때문에 제조단가가 SATA보다 저렴함에도 불구하고 가격은 높음.
+* SATA
+  * Disk에 controller가 들어있기 때문에 직접 CPU와 통신이 가능하여 중간에 SCSI컨트롤러 등이 없어도 사용가능. 
+  * CPU가 모든 Disk의 IO를 관리하기 때문에 Disk IO가 늘어나면 CPU 처리량도 늘어 Disk IO때문에 CPU가 100%가 될 수 있음. 
+  * 역으로 CPU의 부하 때문에 Disk IO퍼포먼스가 저하될 수 있음.
+
+### HDD vs. SSD
+
+* HDD
+  * 전통 디스크 방식으로 가성비 및 내구성이 좋아 범용으로 사용
+  * 일반적으로 6Gbps 정도가 최대 성능이며 RPM에 따라 처리속도 차이가 남. 디스크의 안쪽과 밖의 RPM에 따른 처리량이 달라 ORACLE등에서는 sparse table등을 만들어 RPM에 따른 효율 저하를 막는 기술 등에 따라 효율이 달라짐.
+* SSD
+  * FLASH NAND메모리에 저장하는 방식으로 기존 메모리와는 달리 전력이 끊겨도 보관되는 성질을 활용한 저장장치
+  * RPM에 무관하고 Board Clock에 비례하여 IO속도가 나옴. 
+  * Read는 보통 HDD의 6~12배, write는 MLC의 경우 1.5배이상, SLC의 경우 6배이상 성능이 나옴.
+  * Write가 많은 경우 SLC를 채용하는 것을 추천하고 검색엔진 등 Read가 많은 서비스라면 MLC로도 충분함. 
+  * SATA타입으로 제조 되기 때문에 CPU영향을 받게 되고 경우에 따라서는 Write 성능 저하 요인이 겹치면 MLC의 경우 HDD 정도의 IO성능이 나오기도 함. 
+
 ## Installation
 
 ### Preparing
@@ -285,9 +308,6 @@ ALTER DATABASE OPEN;
   * impdp를 두 번 실행하면 데이터가 두 번 들어감(PK로 violation error가 뜨는 데이터는 한 번만 들어감)
 * make database link
 
-
-
-
 ## Tuning
 
 ### Index tuning
@@ -330,6 +350,15 @@ ALTER DATABASE OPEN;
 
 ### config tuning
 
+* awr/ash report
+```sh
+sqlplus / as sysdba @?/rdbms/admin/awrrpt
+sqlplus / as sysdba @?/rdbms/admin/ashrpt
+```
+* enq: TX - row lock contention
+  * update등으로 인한 row lock이 발생하면서 chain lock 상태
+    * iostat을 보더라도 disk사용율이 높지 않은 경우에도 발생할 수 있음. 이는 단일 IO대기 성능 이슈로 발생할 수 있기 때문에 단일IO대기로 나머지 모든 queue가 대기하게 되면 iostat의 disk사용률은 낮은 채로 wait만 늘어나게 됨.
+      * SAS와 SATA의 병렬 처리 이슈도 원인의 가능성 있음.
 * ORA-27300
 ```sql
 startup
