@@ -11,7 +11,7 @@
 | HA | 〇 | ✘
 | バックアップ | 〇 <BR> (RDB, AOF) | ✘ <BR> (MySQL連動のため不要)
 | データタイプ | String, List, Set, Hash | String
-| 用途 | メモリDBとして利用する目的。 ファイルにバックアップをしてRedisに直接復旧可能な構造 | MySQLのスピードを上げるためのSelect Cache目的
+| 用途 | メモリDBとして利用する目的。 <BR> ファイルにバックアップをして <BR> Redisに直接復旧可能な構造 | MySQLのスピードを上げるためのSelect Cache目的
 ----
 
 ## Redisの特徴
