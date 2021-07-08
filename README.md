@@ -2,7 +2,7 @@
 
 ## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBaseHome/wiki)
 
-* [Markdown](https://github.com/LowyShin/KnowledgeBaseHome/tree/master/wiki/Markdown)
+* [Markdown](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Markdown)
 
 ### Data(DBMS, NoSQL)
 
@@ -25,6 +25,7 @@
   * [Replication](https://talklowykr.blogspot.com/2021/03/mysql-replication.html)
   * [MMM-MultiMaster](https://talklowy-jp.blogspot.com/2014/08/mysql-mmm-multi-master-ha.html)
   * [semaphore bug](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/semaphorebug.md)
+* [Redis with MySQL](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Redis/README.md)
 * [Mongodb](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mongodb)
 * [Apache-Drill](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Apache-Drill)
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/A5MK2)
