@@ -37,7 +37,7 @@
 
 ### Tools
 
-* [git](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/git)
+* [git](https://github.com/LowyShin/KnowledgeBaseHome/blob/master/wiki/git/README.md)
 * [GoogleSheet](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/GSheet)
 * [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
 * [Excel](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Excel)
