@@ -79,3 +79,5 @@ if(exists){
 * Spring MVC MySQL Redis
     * https://hayashier.com/article/springmvc-get-started/
 
+* [knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
+    * Redis(https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Redis/README.md)
