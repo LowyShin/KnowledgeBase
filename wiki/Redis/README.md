@@ -72,12 +72,8 @@ if(exists){
 
 ## Reference
 
-* Mysql-redis (npm)
-    * https://www.npmjs.com/package/mysql-redis
-* AWS Redis MySQL
-    * https://aws.amazon.com/jp/getting-started/hands-on/boosting-mysql-database-performance-with-amazon-elasticache-for-redis/
-* Spring MVC MySQL Redis
-    * https://hayashier.com/article/springmvc-get-started/
-
+* [Mysql-redis (npm)](https://www.npmjs.com/package/mysql-redis)
+* [AWS Redis MySQL](https://aws.amazon.com/jp/getting-started/hands-on/boosting-mysql-database-performance-with-amazon-elasticache-for-redis/)
+* [Spring MVC MySQL Redis](https://hayashier.com/article/springmvc-get-started/)
 * [knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
-    * Redis(https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Redis/README.md)
+    * [Redis](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Redis/README.md)
