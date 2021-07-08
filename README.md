@@ -1,12 +1,12 @@
 [Translate this page?](https://translate.googleusercontent.com/translate_c?depth=1&hl=en&rurl=translate.google.com&sl=auto&sp=nmt4&tl=ja&u=https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki&usg=ALkJrhgmYJ2j5I5KtTO5ROlKUAYf8bQMcw)
 
-## [KnowledgeBase](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki)
+## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBaseHome/wiki)
 
-* [Markdown](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Markdown)
+* [Markdown](https://github.com/LowyShin/KnowledgeBaseHome/tree/master/wiki/Markdown)
 
 ### Data(DBMS, NoSQL)
 
-* [MachineLearning](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/MachineLearning)
+* [MachineLearning](https://github.com/LowyShin/KnowledgeBaseHome/tree/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/SQL-Server)
 * ORACLE
   * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
@@ -37,7 +37,7 @@
 
 ### Tools
 
-* [git](https://github.com/LowyShin/KnowledgeBaseHome/blob/master/wiki/git/README.md)
+* [git](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
 * [GoogleSheet](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/GSheet)
 * [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
 * [Excel](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Excel)
