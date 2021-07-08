@@ -6,13 +6,13 @@
 
 ### Data(DBMS, NoSQL)
 
-* [MachineLearning](https://github.com/LowyShin/KnowledgeBaseHome/tree/master/wiki/AI/MachineLearning.md)
-* [SQL Server](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/SQL-Server)
+* [MachineLearning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
+* [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
 * ORACLE
   * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
-  * [Installation](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/ORACLEInstallTips)
+  * [Installation](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLEInstallTips)
   * [DDL](https://talklowy-jp.blogspot.com/2020/10/oracle-ddl-lowy-knowledgebase.html)
-  * [ORACLETuning](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/ORACLETuning)
+  * [ORACLETuning](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
   * [Merge Into/Update Join](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/MERGE)
   * [Useful SQL](https://talklowy-jp.blogspot.com/2020/10/oracle-useful-sql.html)
   * [TableSpaceManagement](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/TableSpaceManagement)
