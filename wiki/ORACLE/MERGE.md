@@ -1,0 +1,32 @@
+* Merge into
+```sql
+MERGE INTO BILLUSER B
+USING (
+	SELECT
+		"UID",
+		"USER_NAME",
+		"UEMAIL"
+	FROM TUSER
+	WHERE STATUS = 1
+) A
+ON (B.UID = A.UID)
+-- USING DUAL ON (B.UID = 'giip')
+WHEN MATCHED THEN
+	UPDATE SET
+		USER_NAME = B.USER_NAME,
+		UPDT = SYSDATE
+WHEN NOT MATCHED THEN
+	INSERT
+		( UID, USER_NAME, UEMAIL )
+	VALUES
+		(A.USER_ID,
+		 A.USER_NAME,
+		 A.DEPT_NO )
+```
+
+* Update join
+```sql
+update TMEMBER M
+set MPNT = (select M.MPNT + Q.MPNTCHRG from CHRGEQUEUE Q where M.UID = Q.UID)
+where exists (select 1 from CHRGEQUEUE QC where QC.UID = M.UID)
+```
