@@ -127,3 +127,18 @@ on duplicate key update FIELDA02 = FIELDB04
 * [Knowledgebase](https://github.com/LowyShin/KnowledgeBase)
   * [edit this page](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/README.md)
 
+## Trouble Shooting
+
+* [[ERROR] /usr/local/mysql/libexec/mysqld: Sort aborted]()
+  * change sort_buffer 
+  * InnoDB ストレージエンジン: この修正により、long semaphore wait メッセージで MySQL Server がハングしたり、異常終了するケースが解消される
+  * 5.5.17에서 패치됨(Bug #11766591、Bug #59733)
+    * https://openstandia.jp/oss_info/mysql/pdf/MySQL_5.5.17.pdf
+
+* MySQL my.cnf description
+  * https://qiita.com/yoheiW@github/items/bcbcd11e89bfc7d7f3ff
+
+* Federated table - mysql
+  * https://winashwin.wordpress.com/2012/08/22/mysql-federated-table/
+
+
