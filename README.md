@@ -20,12 +20,8 @@
   * [Flashback](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORAFlashback.md)
   * [BackupRestore](https://talklowy-jp.blogspot.com/2021/02/oracle-backup-and-restore-lowy.html)
   * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
-<<<<<<< HEAD
   * [Configuration](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/initora.md)
-* [MySQL](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/MySQL)
-=======
 * [MySQL](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
->>>>>>> 2586bec112e3bf411cf4a8e4e2b1abb772314ebb
   * [my.cnf](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/my.cnf)
   * [Replication](https://talklowykr.blogspot.com/2021/03/mysql-replication.html)
   * [MMM-MultiMaster](https://talklowy-jp.blogspot.com/2014/08/mysql-mmm-multi-master-ha.html)
