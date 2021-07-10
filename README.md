@@ -19,7 +19,7 @@
   * [datetime](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/datetime)
   * [Flashback](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Flashback)
   * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
-  * [Configuration](wiki/oracle/initora.md)
+  * [Configuration](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/initora.md)
 * [MySQL](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/MySQL)
   * [my.cnf](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/my.cnf)
 * [Mongodb](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Mongodb)
