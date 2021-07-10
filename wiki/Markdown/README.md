@@ -13,3 +13,19 @@
 
 * [ctrl] + [K] → [V] : Show preview on side
 * [Ctrl] + [Shift] + [V] : Show preview other tab
+
+### Table
+
+```
+| TH align left | TH align center | TH align right |
+| :--- | :---: | ---: |
+| TD | TD | TD |
+| TD | TD | TD |
+```
+
+| TH align left | TH align center | TH align right |
+| :--- | :---: | ---: |
+| TD | TD | TD |
+| TD | TD | TD |
+
+
