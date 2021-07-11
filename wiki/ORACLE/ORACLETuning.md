@@ -8,11 +8,17 @@
 
 ## Referral SQL
 
+### 20210616SQL
+
 * Locking SQL text
 ```sql
 SELECT
-  s.machine,
-  a.sql_text
+  s.machine,status
+  , s.event
+  , to_char(prev_exec_start, 'YYYYMMDD HH24MISS')
+  , row_wait_block#
+  , row_wait_file#
+  , a.sql_text
 FROM v$session s,
      v$sqlarea a,
      v$process p
@@ -23,8 +29,7 @@ WHERE s.PREV_HASH_VALUE = a.hash_value
   	select SID from v$lock
 	where type in ('TX', 'XR')
 	)
-order by s.machine
-;
+order by s.machine;
 ```
 
 * Count executed SQL by machine
