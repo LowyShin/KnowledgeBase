@@ -165,4 +165,51 @@ order by PARENT_ID, ID
 * Lock mode description
   * (ja) https://www.shift-the-oracle.com/lock-event-enqueue/table-lock-matrix.html
 
+### free buffer waits 
+
+* https://www.ex-em.co.jp/oracle-k/oracle-event-%E8%A7%A3%E8%AA%AC/1266/free-buffer-waits/
+* https://magnusjohanssontuning.wordpress.com/2017/09/05/free-buffer-waits/
+
+```sql
+select filetype_name, asynch_io, count(1)
+from v$iostat_file
+group by  filetype_name, asynch_io;
+```
+
+* https://oracle-base.com/articles/misc/direct-and-asynchronous-io
+
+```sql
+SHOW PARAMETER FILESYSTEMIO_OPTIONS
+
+ALTER SYSTEM SET FILESYSTEMIO_OPTIONS=SETALL SCOPE=SPFILE;
+SHUTDOWN IMMEDIATE
+STARTUP
+
+show parameter db_cache_size;
+-- db_cache_size                        big integer 0
+```
+
+* http://www.nazmulhuda.info/buffer-cache-tuning
+```sql
+select name,value
+from v$sysstat where name='free buffer inspected';
+
+/*
+select event,total_waits
+from v$system_event
+where event in ('buffer busy waits');
+*/
+
+show parameter sga;
+
+SHOW PARAMETER buffer
+-- log_buffer                           integer     9322496
+-- alter system set log_buffer = 20M
+
+select event, total_waits, time_waited
+from v$session_event
+where sid = (select sid from v$mystat where rownum = 1)
+order by 3 desc;
+
+```
 
