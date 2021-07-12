@@ -46,6 +46,14 @@ whereis -l
 whereis mysql
 ```
 
+## memory cache clear
+* https://www.shift-the-oracle.com/linux/utility/flush-buffer-cache.html
+```sh
+echo 1 > /proc/sys/vm/drop_caches
+echo 2 > /proc/sys/vm/drop_caches
+echo 3 > /proc/sys/vm/drop_caches
+```
+warning : This command is very dangerous that is memory clear physically.
 
 ## Links
 
