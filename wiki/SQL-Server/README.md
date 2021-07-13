@@ -29,3 +29,6 @@ where
 
 * How to Create a MongoDB Collection Directly from SQL Server
   * https://studio3t.com/knowledge-base/articles/create-mongodb-collection-from-sql-server/
+
+* SQL Server Monitoring tool
+  * https://talklowykr.blogspot.com/2020/09/sql-server.html
