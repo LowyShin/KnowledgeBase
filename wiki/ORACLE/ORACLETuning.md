@@ -8,8 +8,6 @@
 
 ## Referral SQL
 
-### 20210616SQL
-
 * Locking SQL text
 ```sql
 SELECT
@@ -46,6 +44,48 @@ WHERE s.PREV_HASH_VALUE = a.hash_value
 group by s.machine
 order by count(1) desc, s.machine
 ;
+```
+
+```sql
+SELECT
+      sample_time
+      ,session_id
+      ,session_serial#
+      ,seq#
+      ,user_id
+      ,sql_id
+      ,top_level_sql_id
+      ,event
+      ,session_state
+      ,program
+      ,machine
+      ,pga_allocated
+  FROM
+      dba_hist_active_sess_history
+   WHERE
+     sample_time > sysdate - 1
+;
+
+SELECT
+      count(1)
+  FROM
+      dba_hist_active_sess_history
+   WHERE
+     sample_time > sysdate - 1
+;
+
+      to_timestamp (SYS, 'YY-MM-DD HH24:MI:SS')
+                  AND to_timestamp ('17-03-09 14:10:00', 'YY-MM-DD HH24:MI:SS')
+  ORDER BY 1
+ ;
+
+select a.value, s.username, s.sid, s.serial#
+
+select count(1)
+from v$sesstat a, v$statname b, v$session s
+where a.statistic# = b.statistic#  and s.sid=a.sid
+and b.name = 'opened cursors current';
+
 ```
 
 * Count executed SQL by SQL_TEXT
