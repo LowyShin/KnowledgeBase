@@ -1,5 +1,8 @@
-## OS Version
+## Hardware Information
 
+* [CentOS　ハードウェア情報の取得](https://ex1.m-yabe.com/archives/1881)
+
+* OS info
 ```
 cat /etc/redhat-release 
 cat /etc/issue
