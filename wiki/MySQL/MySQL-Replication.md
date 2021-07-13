@@ -148,6 +148,9 @@ show slave status;
 
 ```
 
+* [what-is-the-best-way-to-recover-from-a-mysql-replication-fail](https://dba.stackexchange.com/questions/45487/what-is-the-best-way-to-recover-from-a-mysql-replication-fail)
+
+
 ### Ref
 
 * Knowledgebase
