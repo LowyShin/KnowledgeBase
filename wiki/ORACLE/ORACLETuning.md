@@ -253,3 +253,13 @@ order by 3 desc;
 
 ```
 
+* ulimit change
+  * https://alpha-netzilla.blogspot.com/2012/12/parameter-user.html
+  * see all : ulimit -a
+  * change : ulimit -l unlimited -> max locked memory
+  * /etc/security/limits.conf
+
+* [ORACLE tablespace defragmentation](https://blog.toadworld.com/tablespaces_-_defragmenting)
+* [[SQL] '%'や'_'をLIKE検索する](https://oracle.programmer-reference.com/sql-like-percent-underbar/)
+
+
