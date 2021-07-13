@@ -26,3 +26,6 @@ where
 
 * [SQL Server JSON select update delete](https://docs.microsoft.com/ja-jp/sql/t-sql/functions/json-modify-transact-sql?view=sql-server-ver15)
 * [sql server openjson compatible level change](https://database.guide/how-to-fix-invalid-object-name-openjson-in-sql-server/)
+
+* How to Create a MongoDB Collection Directly from SQL Server
+  * https://studio3t.com/knowledge-base/articles/create-mongodb-collection-from-sql-server/
