@@ -1,3 +1,5 @@
+* https://talklowykr.blogspot.com/2020/09/aws.html
+
 * [aws mysql connection spec](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Performance.html)
 
 * MySQL AWS는 5.6부터 지원
@@ -6,3 +8,4 @@
 
 * [aws aurora benchmark](https://aws-ref.s3.amazonaws.com/aurora/Amazon+Aurora.pdf)
 
+* ELB limit : https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/application/load-balancer-limits.html
