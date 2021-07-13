@@ -55,6 +55,14 @@ git push -u --force origin master
 ### make branch
 
 * https://qiita.com/TetsuTaka/items/5ab227a8bd2cd7106833
+* git branch make
+  * https://qiita.com/hinatades/items/d47dec72a87c5fed50f7
+  * https://techacademy.jp/magazine/10264
+
+* git history clear(reinit)
+  *  https://gist.github.com/stephenhardy/5470814
+
+
 
 ## Markdown
 
