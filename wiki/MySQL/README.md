@@ -141,4 +141,7 @@ on duplicate key update FIELDA02 = FIELDB04
 * Federated table - mysql
   * https://winashwin.wordpress.com/2012/08/22/mysql-federated-table/
 
+* [mysql purge](https://www.mk-mode.com/blog/2012/05/23/23002009/)
+  * `PURGE MASTER LOGS BEFORE now() - 15;`
+
 
