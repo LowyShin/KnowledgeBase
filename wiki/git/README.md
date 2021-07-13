@@ -67,3 +67,5 @@ git push -u --force origin master
     * `git update-git-for-windows`
   * reset windows auth
     * https://cpoint-lab.co.jp/article/201804/2137/
+* [git credential problem(password change, initialize)](https://www.zunouissiki.com/entry/git-credential-manager-for-windows/)
+
