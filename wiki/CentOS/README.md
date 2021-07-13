@@ -68,6 +68,15 @@ warning : This command is very dangerous that is memory clear physically.
 * ジャーナル保存領域の場所を指定する方法(-D <ジャーナル保存領域の場所>)
   * https://qiita.com/hana_shin/items/96095571b7bf1b721255
 
+### configuration
+
+* does not use tcp_tw_recycle : https://qiita.com/tmshn/items/b49f1b51bfc472968b30
+* centos7 ip change(add) on cli : https://i-think-it.net/centos7-ip-setting/
+
+### Tools
+
+* ASCII Code changer : http://web-apps.nbookmark.com/ascii-converter/
+
 ## Links
 
 * [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
