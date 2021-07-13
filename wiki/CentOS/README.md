@@ -62,6 +62,10 @@ warning : This command is very dangerous that is memory clear physically.
 
 * [Systemdを使ってさくっと自作コマンドをサービス化してみる](https://qiita.com/DQNEO/items/0b5d0bc5d3cf407cb7ff)
 
+## Journal
+
+* [journalctl コマンドの使い方](https://qiita.com/hana_shin/items/96095571b7bf1b721255)
+
 ## Links
 
 * [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
