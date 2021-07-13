@@ -8,11 +8,11 @@
 
 * [MachineLearning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
-* [ORACLE](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE)
+* ORACLE
   * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
   * [Installation](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLEInstallTips)
   * [DDL](https://talklowy-jp.blogspot.com/2020/10/oracle-ddl-lowy-knowledgebase.html)
-  * [ORACLETuning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORACLETuning.md)
+  * [ORACLETuning](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
   * [Merge Into/Update Join](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/MERGE.md)
   * [Useful SQL](https://talklowy-jp.blogspot.com/2020/10/oracle-useful-sql.html)
   * [TableSpaceManagement](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/tablespace.md)
@@ -20,7 +20,6 @@
   * [Flashback](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORAFlashback.md)
   * [BackupRestore](https://talklowy-jp.blogspot.com/2021/02/oracle-backup-and-restore-lowy.html)
   * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
-  * [Configuration](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/initora.md)
 * [MySQL](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
   * [my.cnf](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/my.cnf)
   * [Replication](https://talklowykr.blogspot.com/2021/03/mysql-replication.html)
@@ -30,7 +29,7 @@
 * [Mongodb](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mongodb)
 * [Apache-Drill](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Apache-Drill)
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/A5MK2)
-* [BI](BI)
+* [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
 * [Referrals](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Referrals)
 
 
@@ -39,10 +38,12 @@
 * [DataVisual](https://observablehq.com/@d3/gallery)
 * [Python](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Python)
 * [Classic ASP](https://github.com/LowyShin/KB-ClassicASP/wiki)
-* [wsf](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
+* [wsf/vbs/vba](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
 * [WMI](WMI)
 * [HTML](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/HTML)
   * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
+* [Chatbot](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/Chatbot.md)
+* [PHP](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/PHP/README.md)
 
 ### Tools
 
@@ -55,6 +56,9 @@
 * [VPN](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/VPN)
 * [Note Tool](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Note-Tool)
 * [Blog](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Blog)
+* [google news alert](https://www.google.com/alerts#)
+* [Online PDF to JPG](https://pdftoimage.com/ja/)
+* [LoadTest](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Tools/LoadTest.md)
 
 ### Management
 
@@ -78,15 +82,26 @@
 ### Hardware
 
 * [Xeon CPU](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Xeon-CPU)
-* [Paloalto FW Lineup](https://www.techmatrix.co.jp/product/paloalto/spec_lineup.html)
+* [Paloalto FW](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Paloalto.md)
+* [Cisco](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Cisco.md)
+* [Dell](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Dell.md)
+
 
 ### Business
 
-* [Startup checkpoint(jp)](StartupChkJP)
+* [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
+* [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
+* [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
 
 ### Hobby
 
+* [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
+* [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
 * [Electronic goods](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Electronic-goods)
+
+### Lifestyle
+
+* [Share House](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/Sharehouse.md)
 
 ## Giip(RPA Engine)
 
