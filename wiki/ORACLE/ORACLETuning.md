@@ -283,3 +283,10 @@ order by 3 desc;
 * [oracle - instr](https://www.shift-the-oracle.com/sql/functions/instr.html)
 * [oracle - regex substr](https://www.shift-the-oracle.com/sql/functions/regexp_substr.html)
 
+* [書式モデル(数値)](https://www.shift-the-oracle.com/sql/number-format-element.html)
+* [group by rollup, cube](https://qiita.com/q1701/items/2321b9a8674d9796af5b)
+* [Oracle DDL Script List](https://oracle-base.com/dba/scripts)
+  * [oracle - user ddl script](https://oracle-base.com/dba/script?category=script_creation&file=user_ddl.sql)
+  * [oracle - trigger ddl script](https://oracle-base.com/dba/script?category=script_creation&file=table_triggers_ddl.sql)
+  * [oracle - table constraint ddl script](https://oracle-base.com/dba/script?category=script_creation&file=table_constraints_ddl.sql)
+* [oracle - tnsnames.ora sample](https://qiita.com/tajihiro/items/13322c89ac5904d0ce2f)
