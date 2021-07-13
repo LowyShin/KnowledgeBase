@@ -262,4 +262,24 @@ order by 3 desc;
 * [ORACLE tablespace defragmentation](https://blog.toadworld.com/tablespaces_-_defragmenting)
 * [[SQL] '%'や'_'をLIKE検索する](https://oracle.programmer-reference.com/sql-like-percent-underbar/)
 
+* [Oracle DataPump](https://qiita.com/plusultra/items/0510587dc052ac4c0875)
+* Oracle expdp:ORA-31634: job already exists
+  * https://www.twblogs.net/a/5c237063bd9eee16b3db454f
+  * https://www.code-lab.net/?p=21850
+* [Oracle expdp usage](https://sql-oracle.com/?p=183)
+* [ORACLE rman example script](https://qiita.com/shione/items/adcc6b9730e4b4f6f640)
+* [oracle archive log activate](https://www.sql-dbtips.com/architecture/log_mode/)
+  * `select log_mode from v$database;`
+* [rman incremental tablespace backup and restore redundant server](https://zatoima.github.io/oracle-jpoug-migration-database.html)
+* [rman move tablespace](https://cosol.jp/techdb/2019/12/love_rman_jpoug_advent_calendar_2019_1st_day/)
+* [rman duplicate active database](https://qiita.com/tlokweng/items/a041394e1011434eca06)
+* [rman backup incremental](https://cosol.jp/techdb/2019/12/love_rman2_ultra_fast_oracle_recovery/)
+* [rman archive log delete command](https://it-memo.info/?p=1413)
+* [drill down rman backup and schedule](https://www.slideshare.net/oracle4engineer/rman-44068359)
+* [rman example script](https://qiita.com/shione/items/adcc6b9730e4b4f6f640)
+* [ORACLE awr report](https://hackaday.hatenablog.com/entry/2019/12/14/082747)
+* [ORACLE DDL](https://siguniang.wordpress.com/2013/09/04/oracle-dbms_metadata-get_ddl-fetch-ddl-for-tables/)
+* [ORACLE DDL PACKAGE](https://qiita.com/Papageno/items/5b3159ec1a3b0e9db9ed)
+* [oracle - instr](https://www.shift-the-oracle.com/sql/functions/instr.html)
+* [oracle - regex substr](https://www.shift-the-oracle.com/sql/functions/regexp_substr.html)
 
