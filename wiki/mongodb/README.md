@@ -1,3 +1,7 @@
+## Install
+
+* Basic, install : https://qiita.com/Brutus/items/8a67a4db0fdc5a33d549
+
 ## Tuning
 
 * Limitance
