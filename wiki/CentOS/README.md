@@ -55,6 +55,10 @@ echo 3 > /proc/sys/vm/drop_caches
 ```
 warning : This command is very dangerous that is memory clear physically.
 
+## Register to service custom process
+
+* [Systemdを使ってさくっと自作コマンドをサービス化してみる](https://qiita.com/DQNEO/items/0b5d0bc5d3cf407cb7ff)
+
 ## Links
 
 * [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
