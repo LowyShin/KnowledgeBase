@@ -65,6 +65,8 @@ warning : This command is very dangerous that is memory clear physically.
 ## Journal
 
 * [journalctl コマンドの使い方](https://qiita.com/hana_shin/items/96095571b7bf1b721255)
+* ジャーナル保存領域の場所を指定する方法(-D <ジャーナル保存領域の場所>)
+  * https://qiita.com/hana_shin/items/96095571b7bf1b721255
 
 ## Links
 
