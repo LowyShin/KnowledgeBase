@@ -84,3 +84,4 @@ SELECT * FROM DBA_OPTSTAT_OPERATIONS;
 SELECT * FROM DBA_TAB_STATS_HISTORY;
 ```
 * http://www.doppo1.net/oracle/script/statistics.html
+* https://shimi-dai.com/oracledb-gather-statistics/
