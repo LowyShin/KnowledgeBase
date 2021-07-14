@@ -6,3 +6,5 @@
 
 * [4種類のRMAN DUPLICATEでそれぞれ実際にデータベースをコピーする](https://qiita.com/tlokweng/items/a041394e1011434eca06)
 * [Duplicate from Active database](https://qiita.com/plusultra/items/51f661836828b3765d4b)
+
+* [DataGuard構築後に使うSQLコマンドまとめ（逆引き）](https://www.ashisuto.co.jp/db_blog/article/20160831_dataguard_sql.html)
