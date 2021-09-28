@@ -150,3 +150,5 @@ on duplicate key update FIELDA02 = FIELDB04
 * [MySQL の max_connections, table_open_cache, open_files_limit の関係](https://tmtms.hatenablog.com/entry/2017/10/12/mysql-max-connections)
 * [How to set memory limit in my.cnf file](https://stackoverflow.com/questions/12104185/how-to-set-memory-limit-in-my-cnf-file)
 * [ySQLのメモリ使用量の調整](https://tyablog.net/2020/02/22/adjust-mysqld-memory-usage/)
+* [mysqldump_single-transaction](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html#option_mysqldump_single-transaction)
+* [テーブルロックを発生させずにmysqldumpを実行する](https://hodalog.com/mysqldump-without-locking-tables/)
