@@ -2,7 +2,7 @@
 
 ## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBaseHome/wiki)
 
-* [Markdown](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Markdown)
+* [Markdown](https://github.com/LowyShin/KnowledgeBase/wiki/Markdown)
 
 ### Data(DBMS, NoSQL)
 
