@@ -204,3 +204,5 @@ NLS_LANG=Japanese_Japan.JA16EUC
   * http://system3support.jp/pdf/oracle_knowledge/architecture/p114.pdf
 * slow query finder
   * https://jmkjb.tistory.com/131
+
+* [セッションの一覧を取得し、不要なセッションを強制終了する（ALTER SYSTEM KILL SESSION）](https://www.projectgroup.info/tips/Oracle/SQL/SQL000028.html)
