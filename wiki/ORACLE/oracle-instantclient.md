@@ -50,7 +50,7 @@ sqlplus LOGON/PASSWD@192.168.11.51:1521/INSTANCENAME
 * [ORACLE](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
   * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
   * [Installation](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLEInstallTips)
-  * [InstantClient](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/oracle-instantclient.md)
+  * [InstantClient](https://talklowy-jp.blogspot.com/2021/10/oracle-linuxcentos-instant-client.html)
   * [DDL](https://talklowy-jp.blogspot.com/2020/10/oracle-ddl-lowy-knowledgebase.html)
   * [ORACLETuning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORACLETuning.md)
   * [Merge Into/Update Join](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/MERGE.md)
