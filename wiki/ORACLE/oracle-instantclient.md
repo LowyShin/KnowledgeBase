@@ -1,5 +1,10 @@
 # ORACLE INSTANT CLIENT
 
+Instant client 19.3バージョンは11.2以後のバージョンのORACLEに接続できます。 その以前のバージョンなら専用のクライアントをダウンロードする必要があります。
+
+https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html
+
+
 ## ORACLE instant client inatall on CentOS using yum
 
 1. Update yum repository
