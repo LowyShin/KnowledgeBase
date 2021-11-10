@@ -15,10 +15,23 @@
   * https://codeday.me/jp/qa/20190213/271235.html - jp
 
 * Binlog(Binary Log)
-  * https://www.ritolab.com/entry/98
-    * managing binary log
-  * https://www.percona.com/blog/2015/07/30/why-base64-outputdecode-rows-does-not-print-row-events-in-mysql-binary-logs/
-    * Decode binary log
+  * delete bin-log
+    * https://www.skyarch.net/blog/?p=1096
+    * on sql prompt
+    ```sql
+    show global variables like ‘expire_logs_days’;
+    set global expire_logs_days = 7;
+    show global variables like ‘expire_logs_days’;
+    ```
+    * my.cnf
+    ```conf
+    [mysqld]
+    expire_logs_days = 7
+    ```
+  * managing binary log
+    * https://www.ritolab.com/entry/98
+  * Decode binary log
+    * https://www.percona.com/blog/2015/07/30/why-base64-outputdecode-rows-does-not-print-row-events-in-mysql-binary-logs/
 
 * Start option
   * Official : https://dev.mysql.com/doc/refman/5.6/en/mysql-command-options.html
