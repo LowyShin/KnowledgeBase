@@ -464,3 +464,5 @@ semaphore max value = 32767
   * lognchunksize 1024 : 오른쪽 글자 잘림을 막아줌(linesize가 있어도 잘리는 경우 이것까지 넣으니까 다음줄로 * 안넘어가고 옆으로 잘 붙어준다.)
   * spool filename.sql : filename.sql 파일로 출력해준다. 
   * Ref : https://talklowykr.blogspot.com/2020/07/oracle.html
+
+* [Oracle 12c環境下でのDataGuard構築](https://udonsoba.hatenablog.com/entry/2016/06/28/172736)

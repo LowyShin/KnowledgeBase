@@ -2,7 +2,7 @@
 
 ## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBaseHome/wiki)
 
-* [Markdown](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Markdown)
+* [Markdown](https://github.com/LowyShin/KnowledgeBase/wiki/Markdown)
 
 ### Data(DBMS, NoSQL)
 
@@ -49,6 +49,8 @@
 
 * [git](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
 * [GoogleSheet](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/GSheet)
+  * [Currency Calculator](https://www.howtogeek.com/449986/how-to-convert-currency-in-google-sheets/)
+    * [Currency Code](https://www.xe.com/iso4217.php)
 * [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
 * [WinAutomation(official)](https://docs.winautomation.com/V9_0/en/winautomation.html)
 * [Excel](https://github.com/LowyShin/KB-KnowledgeBaseHome/wiki/Excel)

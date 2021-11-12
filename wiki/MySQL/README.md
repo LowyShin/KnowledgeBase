@@ -15,10 +15,23 @@
   * https://codeday.me/jp/qa/20190213/271235.html - jp
 
 * Binlog(Binary Log)
-  * https://www.ritolab.com/entry/98
-    * managing binary log
-  * https://www.percona.com/blog/2015/07/30/why-base64-outputdecode-rows-does-not-print-row-events-in-mysql-binary-logs/
-    * Decode binary log
+  * delete bin-log
+    * https://www.skyarch.net/blog/?p=1096
+    * on sql prompt
+    ```sql
+    show global variables like ‘expire_logs_days’;
+    set global expire_logs_days = 7;
+    show global variables like ‘expire_logs_days’;
+    ```
+    * my.cnf
+    ```conf
+    [mysqld]
+    expire_logs_days = 7
+    ```
+  * managing binary log
+    * https://www.ritolab.com/entry/98
+  * Decode binary log
+    * https://www.percona.com/blog/2015/07/30/why-base64-outputdecode-rows-does-not-print-row-events-in-mysql-binary-logs/
 
 * Start option
   * Official : https://dev.mysql.com/doc/refman/5.6/en/mysql-command-options.html
@@ -145,3 +158,10 @@ on duplicate key update FIELDA02 = FIELDB04
   * `PURGE MASTER LOGS BEFORE now() - 15;`
 
 
+## Ref
+
+* [MySQL の max_connections, table_open_cache, open_files_limit の関係](https://tmtms.hatenablog.com/entry/2017/10/12/mysql-max-connections)
+* [How to set memory limit in my.cnf file](https://stackoverflow.com/questions/12104185/how-to-set-memory-limit-in-my-cnf-file)
+* [ySQLのメモリ使用量の調整](https://tyablog.net/2020/02/22/adjust-mysqld-memory-usage/)
+* [mysqldump_single-transaction](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html#option_mysqldump_single-transaction)
+* [テーブルロックを発生させずにmysqldumpを実行する](https://hodalog.com/mysqldump-without-locking-tables/)
