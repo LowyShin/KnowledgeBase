@@ -2,6 +2,8 @@
 
 * Create database link using tnsnames.ora file
 ```sql
+select * from ALL_DB_LINKS ;
+
 create [public] database link GIIPDB connect to GIIPADMIN identified by "GIIPPWD" using 'GIIPDBTNS';
 ```
 * tnsnames.ora
