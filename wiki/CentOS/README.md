@@ -8,6 +8,18 @@ cat /etc/redhat-release
 cat /etc/issue
 ```
 
+## Configuration
+
+### LoginProfile
+
+* Change directory color on ssh
+  * cp /etc/DIR_COLORS ~/.dircolors
+  * vi ~/.dircolors
+   ```vim
+   DIR 01;36       # directory
+   LINK 36;01      # symbolic link 
+   ```
+
 ## Trouble shooting
 
 * Cannot connect internet
