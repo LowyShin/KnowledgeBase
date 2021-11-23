@@ -33,7 +33,8 @@ hostnamectl set-hostname <HOSTNAME>
     * if not returned, check `vi /etc/sysconfig/network-scripts/ifcfg-eth0`
   * `cat /etc/resolv.conf`
     * check DNS configuration. If is not set, put `nameserver 8.8.8.8` (Google DNS)
-    * if change resolve.conf, execute `systemctl restart systemd-hostnamed`
+    * if change resolve.conf, execute 
+      * `systemctl restart systemd-hostnamed`
 * ssh start fail
   ```
   Job for sshd.service failed because a configured resource limit was exceeded. See "systemctl status sshd.service" \"journalctl -xe" for details.
