@@ -20,6 +20,12 @@ cat /etc/issue
    LINK 36;01      # symbolic link 
    ```
 
+### Change hostname
+
+```sh
+hostnamectl set-hostname <HOSTNAME>
+```
+
 ## Trouble shooting
 
 * Cannot connect internet
