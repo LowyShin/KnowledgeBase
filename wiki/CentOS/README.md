@@ -26,6 +26,31 @@ cat /etc/issue
 hostnamectl set-hostname <HOSTNAME>
 ```
 
+### firewalld
+
+* Centos7
+```sh
+# Check enable firewall daemon
+systemctl is-enabled firewalld
+
+# Show status firewall daemon
+systemctl status firewalld
+
+# Stop firewall daemon
+systemctl stop firewalld
+
+# Start firewall daemon
+systemctl start firewalld
+
+# Disable firewall daemon
+systemctl disable firewalld
+
+# Enable firewall daemon
+systemctl enable firewalld
+
+```
+
+
 ## Trouble shooting
 
 * Cannot connect internet
