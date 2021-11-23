@@ -36,4 +36,7 @@
 ## Mining
 
 * [Nicehash Mining Calculator](https://www.nicehash.com/profitability-calculator)
-* [GPU Performance Table](https://github.com/LowyShin/KnowledgeBase/blob/master/images/tech/GPU-performance_table.png)
+
+* GPU Performance Table
+![GPU Performance Table](https://github.com/LowyShin/KnowledgeBase/blob/master/images/tech/GPU-performance_table.png)
+by [Tsukumo](https://shop.tsukumo.co.jp/)
