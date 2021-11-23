@@ -100,6 +100,7 @@ SHOW STATUS LIKE 'Qcache%';
   * resolve to recreate user using grant command
     * https://talklowy-jp.blogspot.com/2020/06/mysql-grant.html
 * [データベースの破損をチェックする方法](https://docs.moodle.org/3x/ja/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E7%A0%B4%E6%90%8D%E3%82%92%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95)
+* [How to repair MySQL databases and tables](https://www.a2hosting.com/kb/developer-corner/mysql/repairing-mysql-databases-and-tables)
 
 ## Useful SQL
 
