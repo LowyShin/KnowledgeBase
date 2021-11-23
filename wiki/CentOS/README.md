@@ -28,6 +28,10 @@ cat /etc/issue
 hostnamectl set-hostname <HOSTNAME>
 ```
 
+### SSHD
+
+* [CentOS7でSSHのポート番号を変更する](https://qiita.com/fk_2000/items/019b62818e34be973227)
+
 ### firewalld
 
 * Centos7
