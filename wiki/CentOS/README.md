@@ -20,6 +20,8 @@ cat /etc/issue
    LINK 36;01      # symbolic link 
    ```
 
+* [How to Add User to root Group on CentOS 5/CentOS 6](https://webhostinggeeks.com/howto/how-to-add-user-to-root-group-on-centos-5-7/)
+
 ### Change hostname
 
 ```sh
