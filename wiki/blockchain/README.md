@@ -37,6 +37,4 @@
 
 * [Nicehash Mining Calculator](https://www.nicehash.com/profitability-calculator)
 
-* GPU Performance Table
-![GPU Performance Table](https://github.com/LowyShin/KnowledgeBase/blob/master/images/tech/GPU-performance_table.png)
-by [Tsukumo](https://shop.tsukumo.co.jp/)
+* [GeForce RTX3060TI Benchmark](https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+3060+Ti&id=4318)
