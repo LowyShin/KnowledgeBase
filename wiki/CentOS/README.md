@@ -8,6 +8,55 @@ cat /etc/redhat-release
 cat /etc/issue
 ```
 
+## Configuration
+
+### LoginProfile
+
+* Change directory color on ssh
+  * cp /etc/DIR_COLORS ~/.dircolors
+  * vi ~/.dircolors
+   ```vim
+   DIR 01;36       # directory
+   LINK 36;01      # symbolic link 
+   ```
+
+* [How to Add User to root Group on CentOS 5/CentOS 6](https://webhostinggeeks.com/howto/how-to-add-user-to-root-group-on-centos-5-7/)
+
+### Change hostname
+
+```sh
+hostnamectl set-hostname <HOSTNAME>
+```
+
+### SSHD
+
+* [CentOS7でSSHのポート番号を変更する](https://qiita.com/fk_2000/items/019b62818e34be973227)
+
+### firewalld
+
+* Centos7
+```sh
+# Check enable firewall daemon
+systemctl is-enabled firewalld
+
+# Show status firewall daemon
+systemctl status firewalld
+
+# Stop firewall daemon
+systemctl stop firewalld
+
+# Start firewall daemon
+systemctl start firewalld
+
+# Disable firewall daemon
+systemctl disable firewalld
+
+# Enable firewall daemon
+systemctl enable firewalld
+
+```
+
+
 ## Trouble shooting
 
 * Cannot connect internet
@@ -15,7 +64,8 @@ cat /etc/issue
     * if not returned, check `vi /etc/sysconfig/network-scripts/ifcfg-eth0`
   * `cat /etc/resolv.conf`
     * check DNS configuration. If is not set, put `nameserver 8.8.8.8` (Google DNS)
-    * if change resolve.conf, execute `systemctl restart systemd-hostnamed`
+    * if change resolve.conf, execute 
+      * `systemctl restart systemd-hostnamed`
 * ssh start fail
   ```
   Job for sshd.service failed because a configured resource limit was exceeded. See "systemctl status sshd.service" \"journalctl -xe" for details.
