@@ -1,3 +1,5 @@
+* [[GitHub] SSHの鍵を登録しパスワード入力を不要にする](https://blog.katsubemakito.net/git/github-ssh-keys)
+
 * VS Codeを利用した同期の管理
   * https://talklowy-jp.blogspot.com/2019/12/vs-codemicrosoft-visualstudio.html
 
