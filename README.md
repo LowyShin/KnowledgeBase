@@ -63,7 +63,7 @@
 * [GoogleSheet](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
 * [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
 * [WinAutomation(official)](https://docs.winautomation.com/V9_0/en/winautomation.html)
-* [Excel](https://github.com/LowyShin/KnowledgeBase/wiki/Excel)
+* [Excel](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/excel)
 * [VNC](https://github.com/LowyShin/KnowledgeBase/wiki/VNC)
 * [VPN](https://github.com/LowyShin/KnowledgeBase/wiki/VPN)
 * [Note Tool](https://github.com/LowyShin/KnowledgeBase/wiki/Note-Tool)
