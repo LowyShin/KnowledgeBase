@@ -206,3 +206,16 @@ NLS_LANG=Japanese_Japan.JA16EUC
   * https://jmkjb.tistory.com/131
 
 * [セッションの一覧を取得し、不要なセッションを強制終了する（ALTER SYSTEM KILL SESSION）](https://www.projectgroup.info/tips/Oracle/SQL/SQL000028.html)
+
+
+* [基本からわかる！高性能×高可用性データベースシステムの作り方　第7回 バックアップ/リカバリ(2)RMANの基本](https://blogs.oracle.com/otnjp/post/kusakabe-007)
+* [Active Database Duplicateで静的リスナーが不要になっていた件](https://qiita.com/tlokweng/items/1e2cd7d293e5dde5a4b2)
+* [Build a Secure Node.js App with SQL Server](https://developer.okta.com/blog/2019/03/11/node-sql-server)
+* [Backup and Recovery User's Guide](https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/rman-backup-concepts.html#GUID-B3380142-ABCD-437F-9E06-B219D74E6738)
+* [19c Upgrade를 위해서 11g ADG 구성](https://files.slack.com/files-pri/TMAK63B3R-F02P11GHP6Z/11g_asm_mig_for_upgrade-4.txt)
+* [asm_migration video](https://files.slack.com/files-tmb/TMAK63B3R-F02PGJELH09-cfc6fe38e2/01.asm_migration.mp4)
+* [Recovery Manager](https://slack-files.com/files-pri-safe/TMAK63B3R-F02PGKFFVK3/rman_knt_goodusdata.pdf?c=1638576463-022e053d602155b0)
+* [dataguard](https://files.slack.com/files-pri/TMAK63B3R-F02P12J2AE9/adg_knt_goodusdata_new.pdf)
+* [Active duplication](https://files.slack.com/files-pri/TMAK63B3R-F02P420KSNP/image.png)
+* [오라클 메모리 관련 정리](https://positivemh.tistory.com/493)
+
