@@ -59,6 +59,8 @@
 
 ### Tools
 
+* [color code table](https://www.colordic.org/)
+* [Canva - free Online Design tool](https://www.canva.com/)
 * [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
 * [git](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
 * [GoogleSheet](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
