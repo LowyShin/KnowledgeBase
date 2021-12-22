@@ -218,4 +218,5 @@ NLS_LANG=Japanese_Japan.JA16EUC
 * [dataguard](https://files.slack.com/files-pri/TMAK63B3R-F02P12J2AE9/adg_knt_goodusdata_new.pdf)
 * [Active duplication](https://files.slack.com/files-pri/TMAK63B3R-F02P420KSNP/image.png)
 * [오라클 메모리 관련 정리](https://positivemh.tistory.com/493)
+* [ORACLE 11 to 19c Migration](https://blog.serverworks.co.jp/best-practices-for-upgrading-amazon-rds-for-oracle-db-instances-from-11-2-0-4-to-19c)
 
