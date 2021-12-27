@@ -1,4 +1,4 @@
-* [find available zone](https://aws.amazon.com/jp/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
+* [find available zone](https://aws.amazon.com/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
 
 * [AWS - AWS VPC와 Onpremise VPN 연결(Untangle IPsec)](https://galid1.tistory.com/431)
 
