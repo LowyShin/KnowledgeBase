@@ -1,3 +1,7 @@
+* [find available zone](https://aws.amazon.com/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
+
+* [AWS - AWS VPC와 Onpremise VPN 연결(Untangle IPsec)](https://galid1.tistory.com/431)
+
 * https://talklowykr.blogspot.com/2020/09/aws.html
 
 * [aws mysql connection spec](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Performance.html)

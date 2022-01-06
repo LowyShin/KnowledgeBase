@@ -127,6 +127,20 @@ warning : This command is very dangerous that is memory clear physically.
 
 * ASCII Code changer : http://web-apps.nbookmark.com/ascii-converter/
 
+* [firewall-cmd](https://qiita.com/kenjjiijjii/items/1057af2dddc34022b09e)
+* [CentOS6.6にOpenSwanでIPsec](http://kumakake.com/linux/3475)
+* [【 ip 】コマンド（基礎編）――ネットワークデバイスのIPアドレスを表示する](https://atmarkit.itmedia.co.jp/ait/articles/1709/22/news019.html)
+* [Linux(CentOS 6) - yum installコマンドでtracerouteパッケージをインストールする](https://nobuneko.com/blog/archives/2013/05/linux_centos_6_yum_install_traceroute.html)
+* [静的ルーティングの設定 - Linux](https://qiita.com/kooohei/items/b0931ae210911cc52adc)
+* [RHEL 7でスタティック（静的）ルートを追加する4つの方法](https://minory.org/linux-static-route.html)
+* [IP コマンドでの静的ルートの設定](https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/7/html/networking_guide/sec-configuring_static_routes_with_ip_commands)
+* cp /etc/DIR_COLORS ~/.dircolors
+  ```vim
+  DIR 01;36       # directory
+  LINK 36;01      # symbolic link 
+  ```
+
+
 ## Links
 
 * [giip Knowledgebase](https://github.com/LowyShin/KnowledgeBase/wiki)
