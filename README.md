@@ -124,3 +124,21 @@
 
 * [giip docs](https://github.com/LowyShin/giip)
 * [giip website](https://giipasp.azurewebsites.net)
+
+
+* [基本からわかる！高性能×高可用性データベースシステムの作り方　第7回 バックアップ/リカバリ(2)RMANの基本](https://blogs.oracle.com/otnjp/post/kusakabe-007)
+* [firewall-cmd](https://qiita.com/kenjjiijjii/items/1057af2dddc34022b09e)
+* [PHP Get Site URL Protocol - http vs https](https://stackoverflow.com/questions/4503135/php-get-site-url-protocol-http-vs-https)
+* [[GitHub] SSHの鍵を登録しパスワード入力を不要にする](https://blog.katsubemakito.net/git/github-ssh-keys)
+* [Markdown 表Tableの基本記法](https://notepm.jp/help/markdown-table)
+* [【図解】Excelでカーソル移動できない⁉︎ 対処法と便利な移動テクを徹底ガイド](https://mainichi.doda.jp/article/2019/10/28/1733.html#%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%AB%E3%82%92%E7%A7%BB%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E7%94%BB%E9%9D%A2%E3%81%8C%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%95%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E5%AF%BE%E5%87%A6%E6%B3%95)
+* [CentOS6.6にOpenSwanでIPsec](http://kumakake.com/linux/3475)
+* [【 ip 】コマンド（基礎編）――ネットワークデバイスのIPアドレスを表示する](https://atmarkit.itmedia.co.jp/ait/articles/1709/22/news019.html)
+* [Linux(CentOS 6) - yum installコマンドでtracerouteパッケージをインストールする](https://nobuneko.com/blog/archives/2013/05/linux_centos_6_yum_install_traceroute.html)
+
+* [Flutter theme](https://flutterawesome.com/a-flutter-app-used-as-patient-monitoring-such-as-medicine-intake-reminder-and-schedulled-activities/)
+
+* [node.js html内のjsファイルの読み込み](https://www.naka-sys.okinawa/nodejs-html-include/)
+* [ゼロからはじめるExpress + Node.jsを使ったアプリ開発](https://qiita.com/nkjm/items/723990c518acfee6e473)
+* [Node.js入門](https://www.tohoho-web.com/ex/nodejs.html#hello_web)
+* [오라클 메모리 관련 정리](https://positivemh.tistory.com/493) 
