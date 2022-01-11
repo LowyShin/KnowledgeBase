@@ -84,6 +84,7 @@
 * [Windows(DOS) batch](https://github.com/LowyShin/KnowledgeBase/wiki/WinBatch)
 * [Wscript/wsf](https://github.com/LowyShin/KnowledgeBase/wiki/Wscript)
 * [AWS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/AWS)
+  * [アベイラビリティーゾーンを使用できるかを確認する](https://aws.amazon.com/jp/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
 * [Azure](https://github.com/LowyShin/KnowledgeBase/wiki/Azure)
   * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
 * [File Sync](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
