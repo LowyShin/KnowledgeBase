@@ -59,6 +59,7 @@
 
 ### Tools
 
+* [Juliaの自動微分パッケージ Zygote の紹介](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/04/12/220015)
 * [color code table](https://www.colordic.org/)
 * [Canva - free Online Design tool](https://www.canva.com/)
 * [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
