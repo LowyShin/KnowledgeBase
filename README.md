@@ -85,6 +85,7 @@
 * [Wscript/wsf](https://github.com/LowyShin/KnowledgeBase/wiki/Wscript)
 * [AWS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/AWS)
 * [Azure](https://github.com/LowyShin/KnowledgeBase/wiki/Azure)
+  * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
 * [File Sync](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
 * [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
