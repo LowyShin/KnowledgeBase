@@ -122,6 +122,7 @@ warning : This command is very dangerous that is memory clear physically.
 
 * does not use tcp_tw_recycle : https://qiita.com/tmshn/items/b49f1b51bfc472968b30
 * centos7 ip change(add) on cli : https://i-think-it.net/centos7-ip-setting/
+* [CentOS6からの複数IP（secondary）設定方法](https://www.server-memo.net/centos-settings/network/nic-secondary.html)
 
 ### Tools
 
