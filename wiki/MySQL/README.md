@@ -162,6 +162,9 @@ on duplicate key update FIELDA02 = FIELDB04
 * [mysql purge](https://www.mk-mode.com/blog/2012/05/23/23002009/)
   * `PURGE MASTER LOGS BEFORE now() - 15;`
 
+## Data handling
+
+" [ LOAD DATA LOCAL INFILE でCSVをインポート](https://agohack.com/import-csv-files-load-data-local-infile/)
 
 ## Ref
 
