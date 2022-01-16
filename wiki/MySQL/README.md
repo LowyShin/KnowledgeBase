@@ -47,6 +47,7 @@
 ## Tuning
 
 * [DBの負荷分散手法](https://www.engineer-memo.net/20200305-5241)
+* [Azure Database for MySQL での読み取りワークロードのスケールアウト](https://azure.microsoft.com/ja-jp/blog/scaling-out-read-workloads-in-azure-database-for-mysql/)
 
 ### Innodb
 
