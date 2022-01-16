@@ -46,6 +46,8 @@
 
 ## Tuning
 
+* [DBの負荷分散手法](https://www.engineer-memo.net/20200305-5241)
+
 ### Innodb
 
 * Check tuning point using mysqltuner
