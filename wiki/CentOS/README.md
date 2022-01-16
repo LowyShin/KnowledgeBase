@@ -141,6 +141,10 @@ warning : This command is very dangerous that is memory clear physically.
   LINK 36;01      # symbolic link 
   ```
 
+### Ref Documents
+
+* [centosでrawデバイスを使用する](https://qiita.com/kuritayu/items/c8af2b15f98f9679c2d9)
+* [一般ユーザでもroot権限が必要なコマンドを実行できるようにする方法](https://qiita.com/hana_shin/items/fe077d8910dba449b840)
 
 ## Links
 
