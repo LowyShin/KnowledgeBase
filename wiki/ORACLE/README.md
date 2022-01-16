@@ -71,6 +71,8 @@ from v$diag_alert_ext
 
 * [Oracle Backup and Restore](ORACLE-BackupRestore)
 
+* [Active Duplicate](ORA-ActiveDuplicate.md)
+
 ## Tuning
 
   * https://github.com/LowyShin/KnowledgeBase/wiki/ORACLETuning
