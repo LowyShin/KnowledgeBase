@@ -75,6 +75,7 @@
 * [google news alert](https://www.google.com/alerts#)
 * [Online PDF to JPG](https://pdftoimage.com/ja/)
 * [LoadTest](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Tools/LoadTest.md)
+" [putty](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/putty)
 
 ### Management
 
