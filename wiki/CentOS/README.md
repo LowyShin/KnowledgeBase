@@ -56,6 +56,9 @@ systemctl enable firewalld
 
 ```
 
+### Network
+
+* [Linuxのネットワークチーミング(Bonding)の設定【RHEL 6/CentOS 6】](https://tech-mmmm.blogspot.com/2016/05/linuxbonding.html)
 
 ## Trouble shooting
 
