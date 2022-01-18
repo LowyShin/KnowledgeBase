@@ -59,6 +59,11 @@ systemctl enable firewalld
 
 ## Trouble shooting
 
+* See easy Network status
+```
+iftop
+```
+
 * Cannot connect internet
   * `ping <gateway IP>`
     * if not returned, check `vi /etc/sysconfig/network-scripts/ifcfg-eth0`
