@@ -6,6 +6,7 @@
 
 ### Data(DBMS, NoSQL)
 
+* [CLoud RDBMS比較](https://cloud-textbook.com/50/)
 * [MachineLearning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
 * [ORACLE](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
