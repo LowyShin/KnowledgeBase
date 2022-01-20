@@ -26,3 +26,5 @@
   SELECT PROCESS,STATUS FROM V$MANAGED_STANDBY WHERE PROCESS LIKE 'MRP%';
   ```
 
+
+* [RESTORE AND RECOVER STANDBY DATABASE FROM NETWORK SERVICE  ](https://oracledbatr.blogspot.com/2019/01/12c-new-feature-restore-and-recover.html)
