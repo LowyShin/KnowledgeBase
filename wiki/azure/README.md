@@ -22,8 +22,12 @@
   * https://azure.microsoft.com/pricing/details/app-service/windows/
 
 
-## components
+## Azure Database
 
 * [MariaDB Enterprise Cluster® on Azure](https://azure.microsoft.com/ja-jp/blog/mariadb-enterprise-cluster-on-azure/)
+* [Azure Database for MySQL - フレキシブル サーバー](https://docs.microsoft.com/ja-jp/azure/mysql/flexible-server/overview)
+  * 10台の読み取りレプリカが自動スケール(Auto scale)されるサービス
+
+
 
 
