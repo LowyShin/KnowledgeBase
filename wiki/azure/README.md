@@ -27,6 +27,8 @@
 * [MariaDB Enterprise Cluster® on Azure](https://azure.microsoft.com/ja-jp/blog/mariadb-enterprise-cluster-on-azure/)
 * [Azure Database for MySQL - フレキシブル サーバー](https://docs.microsoft.com/ja-jp/azure/mysql/flexible-server/overview)
   * 10台の読み取りレプリカが自動スケール(Auto scale)されるサービス
+* [リストア時の「Access denied; you need (at least one of) the SUPER privilege(s) for this operation」エラー](https://next4us-ti.hatenablog.com/entry/2019/03/30/100627)
+* [[MySQL] ERROR 1227 (42000) at line 18: Access denied; you need (at least one of) the SUPER privilege(s) for this operation](https://qiita.com/jesus_isao/items/16da16885e0c3a2aec4c)
 
 
 
