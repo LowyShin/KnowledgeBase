@@ -1,4 +1,28 @@
-* [[GitHub] SSHの鍵を登録しパスワード入力を不要にする](https://blog.katsubemakito.net/git/github-ssh-keys)
+## Account
+
+### [GitHub] SSHの鍵を登録しパスワード入力を不要にする
+
+1. ssh-keygenでキーファイルを作成
+```
+ssh-keygen -t rsa -b 4096 -C 'giip@myclient01'
+
+cat ~/.ssh/id_rsa.pub
+# copy to clipboard id_rsa.pub text
+```
+2. Login to github
+3. Account > Setting > SSH and GPG Keys
+4. Click New SSH Key
+5. Paste from clipboard id_rsa.pub text
+6. Clic Add SSH Key
+
+then you can use git command by ssh
+
+```sh
+git clone git@github.com:LowyShin/Knowledgebase.git
+```
+
+
+## tips
 
 * VS Codeを利用した同期の管理
   * https://talklowy-jp.blogspot.com/2019/12/vs-codemicrosoft-visualstudio.html
