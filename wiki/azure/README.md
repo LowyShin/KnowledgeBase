@@ -10,6 +10,10 @@
 * Django Web App
   * https://docs.microsoft.com/ko-kr/azure/app-service/containers/tutorial-python-postgresql-app
 
+## Azure AD(Active Directory)
+
+* [Azure portal を使用して Azure ロールを割り当てる](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal?tabs=current)
+
 ## Trouble Shooting
 
 * [Azure VM 上でローカルの Linux パスワードをリセットする方法](https://docs.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/reset-password)
