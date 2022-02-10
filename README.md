@@ -65,7 +65,7 @@
 * [color code table](https://www.colordic.org/)
 * [Canva - free Online Design tool](https://www.canva.com/)
 * [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
-* [git](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
+* [git(github)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
 * [GoogleSheet](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
 * [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
 * [WinAutomation(official)](https://docs.winautomation.com/V9_0/en/winautomation.html)
