@@ -90,7 +90,7 @@
   * [アベイラビリティーゾーンを使用できるかを確認する](https://aws.amazon.com/jp/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
 * [Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/README.md)
   * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
-* [File Sync](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
+* [File Sync(rsync, scp...)](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
 * [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
 ### OS
