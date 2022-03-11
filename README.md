@@ -61,6 +61,7 @@
 
 ### Tools
 
+* [ezis - DBパフォーマンス分析ツール(日本語公式)](https://github.com/LowyShin/ezis-jp)
 * [Juliaの自動微分パッケージ Zygote の紹介](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/04/12/220015)
 * [color code table](https://www.colordic.org/)
 * [Canva - free Online Design tool](https://www.canva.com/)
