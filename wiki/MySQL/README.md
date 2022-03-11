@@ -166,6 +166,32 @@ on duplicate key update FIELDA02 = FIELDB04
 
 " [ LOAD DATA LOCAL INFILE でCSVをインポート](https://agohack.com/import-csv-files-load-data-local-infile/)
 
+## Change Collation
+
+* Character set 
+  * utf8 : multi lingual character set
+  * utf8mb4 : mulit lingual character set included Japanese emoji
+* Collation 
+  * utf8mb4_unicode_ci : utf8 + mb4(Japanese emoji) + unicode + Character insensitive(大小文字区別しない)
+  * utf8mb4_bin :  utf8 + mb4(日本語絵文字) + binary(全てをバイナリーコードで記録するので文字化けしないかつ全角半角区別する・カナ区別する・大小文字区別する)
+
+Changing collation database:
+```sql
+ALTER DATABASE <database_name> CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+Changing collation per table:
+```sql
+ALTER TABLE <table_name> CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+Changing collation for a specific column:
+
+```sql
+ALTER TABLE <table_name> MODIFY <column_name> VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+
 ## Ref
 
 * [MySQL の max_connections, table_open_cache, open_files_limit の関係](https://tmtms.hatenablog.com/entry/2017/10/12/mysql-max-connections)
