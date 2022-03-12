@@ -43,3 +43,6 @@
 * [Nicehash Mining Calculator](https://www.nicehash.com/profitability-calculator)
 
 * [GeForce RTX3060TI Benchmark](https://www.videocardbenchmark.net/gpu.php?gpu=GeForce+RTX+3060+Ti&id=4318)
+
+* [Why should you not power USB risers with SATA power connectors?](https://www.nicehash.com/blog/post/why-should-you-not-power-usb-risers-with-sata-power-connectors)
+
