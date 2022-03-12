@@ -1,6 +1,9 @@
 
 ## Oculus Quest 2
 
+* [自分のOculus画面をPCにシェア](https://oculus.com/casting)
+  * 簡単にWebブラウザーでシェア可能
+
 * [VRに作業環境を移行してみた【プログラミング・ブログ】](https://hayatofolio.com/switch-workspace-to-vr/)
   * Oculustをモニタとして使う方法など説明
 
