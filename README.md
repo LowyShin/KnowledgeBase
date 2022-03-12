@@ -4,7 +4,7 @@
 
 * [Markdown](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Markdown)
 
-### Data(DBMS, NoSQL)
+### Data(DBMS, NoSQL, Datascience)
 
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
 * [MachineLearning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
