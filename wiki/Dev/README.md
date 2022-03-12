@@ -40,3 +40,8 @@ RubyとかFortranなどなど、現在も使われているケースがありま
   * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
 * [Chatbot](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/Chatbot.md)
 * [PHP](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/PHP/README.md)
+
+
+----
+
+* [Edit this page](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Dev)
