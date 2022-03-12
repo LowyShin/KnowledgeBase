@@ -60,6 +60,21 @@
 * [Chatbot](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/Chatbot.md)
 * [PHP](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/PHP/README.md)
 
+### RPA(Robotic Process Automation)
+
+* [WWF(Windows Workflow Foundation)](https://docs.microsoft.com/ja-jp/dotnet/framework/windows-workflow-foundation/)
+  * 2005年9月に開催されたPDC（Professional Developers Conference）で発表されたマイクロソフトの次世代ワークフロー基盤のことである。
+  * UiPath, AkabotなどにRPAエンジンを提供している。
+* [Power Automate](https://powerautomate.microsoft.com/ja-jp/desktop/)
+  * Microsoft社が提供するパソコン向けのRPAツール
+* [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
+  * WWFをベースに500億以上投資を受けて全世界に急激に拡張している海外ソリューション
+* [Akabot](https://akabot.com/)
+  * UiPathと同じくWWFをベースにしたのでUiPathと全く同じUIを持っているソリューション。ベトナムのFPT社が開発
+* [Automation Anywhere](https://www.automationanywhere.com/jp/)
+* [Win Actor](https://winactor.com/)
+  * NTTアドバンステクノロジ株式会社の日本専用RPAツール
+
 ### Tools
 
 * [ezis - DBパフォーマンス分析ツール(日本語公式)](https://github.com/LowyShin/ezis-jp)
@@ -69,7 +84,6 @@
 * [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
 * [git(github)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
 * [GoogleSheet](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
-* [UiPath(RPA)](https://github.com/LowyShin/lwrpa-uip-study-ja/wiki)
 * [WinAutomation(official)](https://docs.winautomation.com/V9_0/en/winautomation.html)
 * [Excel](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/excel)
 * [VNC](https://github.com/LowyShin/KnowledgeBase/wiki/VNC)
