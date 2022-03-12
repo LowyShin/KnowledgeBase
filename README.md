@@ -46,7 +46,7 @@
 * [Wallets](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain#wallets)
 * [Mining](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/README.md#mining)
 
-### Development
+### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
 * [nodejs](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nodejs)
 * [Flutter](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/flutter)
