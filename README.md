@@ -122,7 +122,7 @@
 * [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
 * [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
 * [Electronic goods](https://github.com/LowyShin/KnowledgeBase/wiki/Electronic-goods)
-* [mining](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/mining)
+* [mining](https://github.com/LowyShin/KnowledgeBase/blob/5ce774cd7201f67db385bbc4355047f3b1b235e5/wiki/blockchain/README.md)
 
 ### Lifestyle
 
