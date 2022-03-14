@@ -131,6 +131,7 @@
 * [スタートアップ企業リスト](https://startup-db.com/companies)
 * [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
 * [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
+* [BINDupホームページ自動作成](https://bindup.jp/plan/)
 
 ### Hobby
 
