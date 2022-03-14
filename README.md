@@ -9,7 +9,9 @@
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
 * [MachineLearning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
+  * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。
 * [ORACLE](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
+  * 同時10000Transaction以上・無限にユーザーを増加させたいならORACLEより強いDBMSはありません。しかしその分十分なDBMS知識なしでは逆効果になるので自身があったらおすすめします。
   * [ORACLE Active Duplicate](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORA-ActiveDuplicate.md)
   * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
   * [Installation](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLEInstallTips)
@@ -25,14 +27,18 @@
   * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
   * [DBMS STAT](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORADBMSSTAT.md)
 * [MySQL](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
+  * 同時4000トランザクション未満の3GB未満データでは一番軽く早いDBMSです。しかし容量と同時接続が増えるほど設計能力がパフォーマンスに直結するため拡張を考えるなら真剣に拡張設計から考慮することを推奨します。
   * [my.cnf](https://github.com/LowyShin/KnowledgeBase/wiki/my.cnf)
   * [Replication](https://talklowykr.blogspot.com/2021/03/mysql-replication.html)
   * [backup](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
   * [MMM-MultiMaster](https://talklowy-jp.blogspot.com/2014/08/mysql-mmm-multi-master-ha.html)
   * [semaphore bug](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/semaphorebug.md)
-* [mariadh](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/mariadb)
+* [mariadb](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/mariadb)
+  * MySQLエンジンを使って分離されたDBMSですが、今はエンジンもかなり異なっておりスピードより拡張を考慮して発展し続いているDBMSです。4台以上の分散が必要な場合分散及び管理がより簡単にできますが、台数が増えても性能は上がることではないので分散設計は人の力に依存します。
 * [Redis with MySQL](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Redis/README.md)
+  * DBMSのIO負荷を下げる中間DBMSとしてよく使われておりますが、KVS(Key Value Store)構造のメモリ保管モジュールなので色んな役割で使いこなすとすごい力になると思います。しかし、単純にCluster DB Cacheなどの意味で使ってしまうと逆に同期の問題で性能があまり出ないこともあるので十分知ってから使うことを推奨します。
 * [Mongodb](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mongodb)
+  * ドキュメントデータベースとかに言われたりするHadoopと共にNoSQLの代表になりましたが、RDBMSではないのでRDBMSみたいにJoinをかけたりすると一般RDBMSよりもパフォーマンスが出ないこともあります。なのでNoSQLに入れるべきUnstructured(非構造)データを非正規化していかに高性能に使うかを考慮して設計しないと普通の大量テキストストレージになってしまうのでご注意を！
 * [Apache-Drill](https://github.com/LowyShin/KnowledgeBase/wiki/Apache-Drill)
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KnowledgeBase/wiki/A5MK2)
 * [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
