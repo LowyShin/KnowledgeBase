@@ -142,6 +142,7 @@
 ### Hobby
 
 * [VR(VirutualReality)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/vr)
+  * Oculus Quest 2
 * [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
 * [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
 * [Electronic goods](https://github.com/LowyShin/KnowledgeBase/wiki/Electronic-goods)
