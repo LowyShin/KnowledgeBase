@@ -13,6 +13,12 @@
   * マウスが認識できない場合
     * メニュー（左コントローラーのメニューボタン）を開いてComputerの「Monitor Input」が「ON」になっていることを確認（デフォルトはOFF）
 
+* [How To Use Infinite Office On Oculus Quest 2](https://uploadvr.com/how-to-use-infinite-office-oculus-quest-2/)
+  * Bring your desk function
+  * iOS Notifications In-VR
+
+
+
 
 
 
