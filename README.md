@@ -146,6 +146,7 @@
 * [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
 * [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
 * [Electronic goods](https://github.com/LowyShin/KnowledgeBase/wiki/Electronic-goods)
+* [キズの付いたCDを修復する方法](https://www.wikihow.jp/%E3%82%AD%E3%82%BA%E3%81%AE%E4%BB%98%E3%81%84%E3%81%9FCD%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B)
 
 ### Lifestyle
 
