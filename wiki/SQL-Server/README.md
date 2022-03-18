@@ -35,6 +35,10 @@ where
 * SQL Server Monitoring tool
   * https://talklowykr.blogspot.com/2020/09/sql-server.html
 
+## Functions
+
+* [CONVERT(MS Official)](https://docs.microsoft.com/ja-jp/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15)
+
 ## Replication
 
 * [AWS RDS for sqlserver Replication](https://aws.amazon.com/jp/blogs/news/how-to-migrate-to-amazon-rds-for-sql-server-using-transactional-replication/)
