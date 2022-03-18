@@ -144,6 +144,10 @@
 * [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
 * [BINDupホームページ自動作成](https://bindup.jp/plan/)
 
+### Job&Hire
+
+* [Lancers(jp)](https://www.lancers.jp)
+
 ### Hobby
 
 * [VR(VirutualReality)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/vr)
