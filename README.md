@@ -85,17 +85,26 @@
 * [Automation Anywhere](https://www.automationanywhere.com/jp/)
 * [Win Actor](https://winactor.com/)
   * NTTアドバンステクノロジ株式会社の日本専用RPAツール
+* [WinAutomation(official)](https://docs.winautomation.com/V9_0/en/winautomation.html)
+
 
 ### Tools
 
 * [ezis - DBパフォーマンス分析ツール(日本語公式)](https://github.com/LowyShin/ezis-jp)
+  * RDBMS(ORACLE, SQL Server, MySQL, Mariadb, PostgreSQL)のエンジンからデータを取得し、強力なパフォーマンス情報が収集できて過去時点に戻って原因分析などができるツール
+* [wappalyzer - Analysis dev environment bu URL ](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg/related)
+  * Chrome Add-onでWebサイトに接続して実行すると開発環境をすべて分析してくれる
 * [Juliaの自動微分パッケージ Zygote の紹介](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/04/12/220015)
 * [color code table](https://www.colordic.org/)
+  * HTML Color Code
 * [Canva - free Online Design tool](https://www.canva.com/)
+  * Photoshopと同じくらいのイメージリタッチなどができるツール
 * [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
+  * Microsoft社から提供する強力な無料開発ツール。様々な言語の開発及びDBへの接続・モバイル仮想端末の起動・管理などこれ一本できるほど多いadd-onがある。
 * [git(github)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
+  * git・github関連のTip
 * [GoogleSheet](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
-* [WinAutomation(official)](https://docs.winautomation.com/V9_0/en/winautomation.html)
+  * Google Sheet利用に便利な内容
 * [Excel](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/excel)
 * [VNC](https://github.com/LowyShin/KnowledgeBase/wiki/VNC)
 * [VPN](https://github.com/LowyShin/KnowledgeBase/wiki/VPN)
@@ -151,6 +160,7 @@
 ### Job&Hire
 
 * [Lancers(jp)](https://www.lancers.jp)
+  * 日本国内最大のフリーランサーが集まって仕事を依頼・受注するサービス。
 
 ### Hobby
 
