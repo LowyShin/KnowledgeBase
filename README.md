@@ -61,9 +61,14 @@
 
 * [nodejs](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nodejs)
 * [Flutter](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/flutter)
+  * nodesjからインストールできるWeb/Android/iOSを一気に開発できるツール。コードの修正があまりいらなくnodejsからの様々な追加機能の活用ができる。
+* [Google Apps Script](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/google/google-apps-script.md)
+  * Google SheetまたはGoogle Appsをスクリプトでプログラミングができる。
 * [DataVisual](https://observablehq.com/@d3/gallery)
 * [Python](https://github.com/LowyShin/KnowledgeBase/wiki/Python)
 * [Classic ASP](https://github.com/LowyShin/ClassicASP/wiki)
+  * MicrosoftからC#の拡散のために強制サポート中止されて軽いVBベースのWeb用スクリプト言語。
+  * 軽くて簡単なので今でも使っているサービスが多い
 * [wsf/vbs/vba](https://github.com/LowyShin/ClassicASP/wiki/wsf)
 * [WMI](WMI)
 * [HTML](https://github.com/LowyShin/KnowledgeBase/wiki/HTML)
