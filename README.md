@@ -179,6 +179,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 * [Lancers(jp)](https://www.lancers.jp)
   * 日本国内最大のフリーランサーが集まって仕事を依頼・受注するサービス。
+* [Yahoo! 副業](https://sidejob.yahoo.co.jp/jobs)
 
 ### Hobby
 
