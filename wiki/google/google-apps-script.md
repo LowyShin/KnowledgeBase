@@ -38,6 +38,26 @@ console.log("Hour Diff : " + lwHourDiff);
 console.log("Minute Diff : " + lwMinuteDiff);
 ```
 
+### Post to Slack
+
+```ga
+function postSlackMessage(text) {
+  var data = {
+    text: text
+  };
+  var options = {
+    'method' : 'post',
+    'contentType': 'application/json',
+    'payload' : JSON.stringify(data) // Convert the JavaScript object to a JSON string.
+  };
+  
+  UrlFetchApp.fetch(
+    PropertiesService.getScriptProperties().getProperties().SLACK_URL,
+    options
+  );
+}
+```
+
 
 ## Links
 
