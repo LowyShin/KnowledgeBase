@@ -41,21 +41,16 @@ console.log("Minute Diff : " + lwMinuteDiff);
 ### Post to Slack
 
 ```ga
-function postSlackMessage(text) {
-  var data = {
-    text: text
-  };
+function postSlack(text){
+  var url = "Slack Post URL";//WebhookURL
   var options = {
-    'method' : 'post',
-    'contentType': 'application/json',
-    'payload' : JSON.stringify(data) // Convert the JavaScript object to a JSON string.
+    "method" : "POST",
+    "headers": {"Content-type": "application/json"},
+    "payload" : '{"text":"' + text + '"}'
   };
-  
-  UrlFetchApp.fetch(
-    PropertiesService.getScriptProperties().getProperties().SLACK_URL,
-    options
-  );
+  UrlFetchApp.fetch(url, options);
 }
+
 ```
 
 ### Custom Property
