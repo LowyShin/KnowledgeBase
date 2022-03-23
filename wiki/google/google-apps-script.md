@@ -58,6 +58,9 @@ function postSlackMessage(text) {
 }
 ```
 
+### Custom Property
+
+* [GoogleAppsScript　スクリプトのプロパティの超簡単な使い方](https://qiita.com/0Delta/items/7d8303eebbff4062069e)
 
 ## Links
 
