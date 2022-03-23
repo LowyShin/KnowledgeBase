@@ -75,7 +75,7 @@
 * [Classic ASP](https://github.com/LowyShin/KB-ClassicASP/blob/master/README.md)
   * MicrosoftからC#の拡散のために強制サポート中止されて軽いVBベースのWeb用スクリプト言語。
   * 軽くて簡単なので今でも使っているサービスが多い
-* [wsf/vbs/vba](https://github.com/LowyShin/KB-ClassicASP/blob/master/wsf)
+* [wsf/vbs/vba](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
 * [WMI](WMI)
 * [HTML](https://github.com/LowyShin/KnowledgeBase/wiki/HTML)
   * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
