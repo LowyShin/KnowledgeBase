@@ -209,6 +209,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 ### Lifestyle
 
 * [Share House](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/Sharehouse.md)
+* [一人お引越し - クロネコヤマト](https://www.008008.jp/moving/single/)
 
 ## Giip(RPA Engine)
 
