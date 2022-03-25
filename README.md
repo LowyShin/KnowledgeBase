@@ -56,12 +56,18 @@
 * [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
 
 ### [BlockChain](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain)
-* [BitCoin](https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3)
-  * [Source](https://github.com/bitcoin/bitcoin)
-* [Ethereum](https://en.wikipedia.org/wiki/Ethereum)
-  * [Source](https://github.com/ethereum)
+
+* [仮想通貨(Crypto Currency)]
+  * [BitCoin](https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3)
+    * [Source](https://github.com/bitcoin/bitcoin)
+  * [Ethereum](https://en.wikipedia.org/wiki/Ethereum)
+    * [Source](https://github.com/ethereum)
 * [Wallets](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain#wallets)
 * [Mining](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/README.md#mining)
+* [Exchanges()取引所]
+  * [GMO Coin Z](https://coin.z.com/)
+  * [Huobi](https://www.huobi.co.jp/)
+  * [Liquid](https://www.liquid.com/)
 
 ### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
