@@ -208,6 +208,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### Lifestyle
 
+* [賃貸](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Lifestyle)
 * [Share House](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/Sharehouse.md)
 * [一人お引越し - クロネコヤマト](https://www.008008.jp/moving/single/)
   * 福岡から東京まで引っ越しした場合相場が20万円ほどです（1人の場合）。クロネコヤマトのパレットに自分で詰め込めば4万円程でお引越しができます！
