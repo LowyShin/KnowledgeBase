@@ -13,3 +13,9 @@
 * [シェアハウス](Sharehouse.md)
 * [賃貸](rentalhouse.md)
 
+## Education
+
+* [LittleBrown](http://www.littlebrown.jp)
+  * 横浜本牧にある英語プリスクール・英会話教室。100％英語による少人数制の本格レッスンが評判
+  * 関連キーワード：横浜 本牧英会話,横浜 英会話,横浜 英語プリスクール,横浜 英会話教室
+
