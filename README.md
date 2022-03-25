@@ -68,6 +68,7 @@
   * [GMO Coin Z](https://coin.z.com/)
   * [Huobi](https://www.huobi.co.jp/)
   * [Liquid](https://www.liquid.com/)
+* [コピートレードに気をつけろ！](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/copytrade.md)
 
 ### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
