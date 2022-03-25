@@ -221,6 +221,15 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [キズの付いたCDを修復する方法](https://www.wikihow.jp/%E3%82%AD%E3%82%BA%E3%81%AE%E4%BB%98%E3%81%84%E3%81%9FCD%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B)
 * [プラスチックについた傷を消す方法](https://www.wikihow.jp/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%9F%E5%82%B7%E3%82%92%E6%B6%88%E3%81%99)
 
+### Crowd Funding
+
+* [MAKUAKE](https://www.makuake.com/)
+  * これまで世の中になかった新しい製品やサービスが毎日登場！作り手や担い手の想いを知り、応援の気持ちを込めた購入体験ができるサービスです。
+* [CAPMFIRE](https://camp-fire.jp/)
+  * 国内最大のクラウドファンディング。テクノロジー、ソーシャルグッド、ファッション、ローカル、飲食、音楽、アート、映画、ゲーム、アニメなど、掲載件数は42,000件以上。
+* [READYFOR](https://readyfor.jp/)
+  * READYFOR, レディーフォー, クラウドファンディング, ソーシャルファンディング, 資金調達, 米良はるか, クリエーター
+
 ### [Lifestyle](wiki/Lifestyle)
 
 * [賃貸](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/rentalhouse.md)
