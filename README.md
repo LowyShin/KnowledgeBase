@@ -180,14 +180,19 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### Business
 
-* [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
-* [スタートアップ企業リスト](https://startup-db.com/companies)
-* [中小企業向け補助金・総合支援サイト - ミラサポPlus - 経済産業省](https://mirasapo-plus.go.jp/subsidy/ithojo/)
-  * IT導入補助金を活用して安くITを導入しましょう！
-* [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
-* [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
-* [BINDupホームページ自動作成](https://bindup.jp/plan/)
-* [for Korean](kr)
+* global
+  * https://angel.co/
+    * Remote Job and Startup Job Search | AngelList Talent
+  * [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
+* jp
+  * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
+  * [スタートアップ企業リスト](https://startup-db.com/companies)
+  * [中小企業向け補助金・総合支援サイト - ミラサポPlus - 経済産業省](https://mirasapo-plus.go.jp/subsidy/ithojo/)
+    * IT導入補助金を活用して安くITを導入しましょう！
+  * [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
+  * [BINDupホームページ自動作成](https://bindup.jp/plan/)
+* kr
+  * [for Korean](kr)
 
 ### Job&Hire
 
