@@ -213,6 +213,8 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [Share House](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/Sharehouse.md)
 * [一人お引越し - クロネコヤマト](https://www.008008.jp/moving/single/)
   * 福岡から東京まで引っ越しした場合相場が20万円ほどです（1人の場合）。クロネコヤマトのパレットに自分で詰め込めば4万円程でお引越しができます！
+* [国際郵便マイページサービス](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do)
+  * 国際郵便の送り状登録及び印刷が簡単にできる郵便局公式サービス
 
 ## Giip(RPA Engine)
 
