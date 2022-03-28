@@ -26,6 +26,10 @@ where
 ```
 * https://docs.microsoft.com/ja-jp/sql/t-sql/functions/json-modify-transact-sql?view=sql-server-ver15
 
+* JSONをテーブルのように使う
+  * https://docs.microsoft.com/ja-jp/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15
+
+
 * [SQL Server JSON select update delete](https://docs.microsoft.com/ja-jp/sql/t-sql/functions/json-modify-transact-sql?view=sql-server-ver15)
 * [sql server openjson compatible level change](https://database.guide/how-to-fix-invalid-object-name-openjson-in-sql-server/)
 
