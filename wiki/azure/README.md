@@ -14,6 +14,8 @@
 
 * [Azure LogAnalyticsワークスペースへのApacheログの取り込み](https://cloud.ebisuda.com/2021/07/05/azure-loganalytics%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%B8%E3%81%AEapache%E3%83%AD%E3%82%B0%E3%81%AE%E5%8F%96%E3%82%8A%E8%BE%BC%E3%81%BF/)
 
+* [App Serviceからのログ取り込み](https://cloud.ebisuda.com/2021/07/11/app-service%E3%81%8B%E3%82%89%E3%81%AE%E3%83%AD%E3%82%B0%E5%8F%96%E3%82%8A%E8%BE%BC%E3%81%BF/)
+
 ## Azure AD(Active Directory)
 
 * [Azure portal を使用して Azure ロールを割り当てる](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal?tabs=current)
