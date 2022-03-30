@@ -107,6 +107,10 @@ whereis -l
 whereis mysql
 ```
 
+### apache(httpd)
+
+* [Apache logrotateによるログローテーションの設定](https://itsakura.com/centos-apache-log)
+
 ## memory cache clear
 * https://www.shift-the-oracle.com/linux/utility/flush-buffer-cache.html
 ```sh
