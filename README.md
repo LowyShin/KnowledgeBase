@@ -11,7 +11,7 @@
 ### Data(DBMS, NoSQL, Datascience)
 
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
-* [MachineLearning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
+* [MachineLearning(ML/AI)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
   * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
