@@ -111,6 +111,7 @@ whereis mysql
 
 * [Apache logrotateによるログローテーションの設定](https://itsakura.com/centos-apache-log)
 * [Apache ログファイルの詳細・解析](https://httpd.apache.org/docs/2.4/ja/logs.html)
+* [apacheのaccess_logをjson化しtd-agentで集約サーバへ収集する](https://ogugu.hateblo.jp/entry/2018/08/03/153930)
 
 ## memory cache clear
 * https://www.shift-the-oracle.com/linux/utility/flush-buffer-cache.html
