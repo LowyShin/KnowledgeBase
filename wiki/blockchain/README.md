@@ -29,6 +29,7 @@
 * [Alchemy - Blockchain API and Node Service | Ethereum, Polygon, Flow, Crypto.org + More](https://www.alchemy.com/)
 * [Develop a Full Stack Serverless NFT Application with Amazon Managed Blockchain – Part 1](https://aws.amazon.com/jp/blogs/database/part-1-develop-a-full-stack-serverless-nft-application-with-amazon-managed-blockchain/)
 * [NFT関連技術 − IPFSのデータストアにAmazon S3を使う](https://recruit.gmo.jp/engineer/jisedai/blog/ipfs-s3/)
+* [Amazon Managed Blockchain for Ethereum pricing](https://aws.amazon.com/jp/managed-blockchain/pricing/ethereum/)
 
 ## Exchangers
 
