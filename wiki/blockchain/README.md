@@ -28,6 +28,7 @@
 * [AWS Hyper Ledger Tutorial](https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/managed-blockchain-get-started-tutorial.html)
 * [Alchemy - Blockchain API and Node Service | Ethereum, Polygon, Flow, Crypto.org + More](https://www.alchemy.com/)
 * [Develop a Full Stack Serverless NFT Application with Amazon Managed Blockchain – Part 1](https://aws.amazon.com/jp/blogs/database/part-1-develop-a-full-stack-serverless-nft-application-with-amazon-managed-blockchain/)
+* [NFT関連技術 − IPFSのデータストアにAmazon S3を使う](https://recruit.gmo.jp/engineer/jisedai/blog/ipfs-s3/)
 
 ## Exchangers
 
