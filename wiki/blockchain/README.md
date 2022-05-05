@@ -31,6 +31,7 @@
 * [NFT関連技術 − IPFSのデータストアにAmazon S3を使う](https://recruit.gmo.jp/engineer/jisedai/blog/ipfs-s3/)
 * [Amazon Managed Blockchain for Ethereum pricing](https://aws.amazon.com/jp/managed-blockchain/pricing/ethereum/)
   * [Step 7: Install and Run Chaincode](https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/get-started-chaincode.html)
+* [Deploy NFT on Ethereum using Amazon Managed Blockchain - github](https://github.com/aws-samples/nft-deployment-amazon-managed-blockchain)
 
 ## Exchangers
 
