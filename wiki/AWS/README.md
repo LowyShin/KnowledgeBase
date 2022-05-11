@@ -3,7 +3,7 @@
 
 ### PrivateLink
 
-* [AWS PrivateLink の説明](https://www.megaport.com/ja/blog/aws-privatelink-explained/)
+* [AWS PrivateLink の説明(megaport)](https://www.megaport.com/ja/blog/aws-privatelink-explained/)
 * [Securely Access Services Over AWS PrivateLink(PDF)](https://d1.awsstatic.com/whitepapers/aws-privatelink.pdf)
 
 ## Links
