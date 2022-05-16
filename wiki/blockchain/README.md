@@ -47,3 +47,9 @@
 ## Mining
 
 * [Mining Tips](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mining/README.md)
+
+## Laws
+
+### Japan
+
+* [改正資金決済法における「暗号資産（仮想通貨）」に該当するICOトークンを日本国内の居住者に対して販売する場合は、金融庁に対して「暗号資産交換業」の登録を行わなければなりません（自社が販売の主体となる場合）](https://www.businesslawyers.jp/practices/865)
