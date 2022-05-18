@@ -13,4 +13,4 @@
   * ユーザーをグループに整理することを強くお勧めします。
 * [プロジェクトを使用したコンテンツへのアクセスの管理](https://help.tableau.com/current/server/ja-jp/projects.htm)
 * [Tableauで閲覧ユーザごとに権限管理](https://blog.truestar.co.jp/tableau/20180503/1507/)
-* 
+* [ Excel等のユーザリストを用いたユーザーフィルタ](https://newssdx.kcme.jp/tableautips-userfilter-security/)
