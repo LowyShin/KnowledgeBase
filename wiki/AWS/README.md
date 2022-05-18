@@ -5,6 +5,8 @@
 
 * [AWS PrivateLink の説明(megaport)](https://www.megaport.com/ja/blog/aws-privatelink-explained/)
 * [Securely Access Services Over AWS PrivateLink(PDF)](https://d1.awsstatic.com/whitepapers/aws-privatelink.pdf)
+* [PrivateLinkの特徴](https://dev.classmethod.jp/articles/usecases-about-privatelink-vpc-endpoint/)
+* [拠点間（リージョン間）及びアカウント間Privatelink接続可能](https://toshioshimo.hatenablog.com/entry/2019/12/17/215004)
 
 ## Links
 
