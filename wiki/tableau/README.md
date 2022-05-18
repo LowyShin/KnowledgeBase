@@ -1,5 +1,9 @@
 ## Official Help
 
+### Local Network
+
+* Internet연결 안하면 ATR서버에 접속 안됨.
+
 ### Contents Permission Management
 
 * [コンテンツ プロジェクト、グループ、パーミッションの構造作成](https://help.tableau.com/current/guides/everybody-install/ja-jp/everybody_admin_permissions.htm)
