@@ -17,6 +17,8 @@
   *  Tableau Server または Tableau Online は Tableau でホストされる実行承認 (ATR) サービスに連絡して Tableau Desktop クライアントがアクティブ化を許可されていることを確認します。
 ![Local install](https://help.tableau.com/current/server/ja-jp/Img/virtual_desktop_server_lblm.png)
 
+* [Tableau サービス マネージャーのポート](https://help.tableau.com/current/server/ja-jp/ports.htm)
+
 ### Contents Permission Management
 
 * [コンテンツ プロジェクト、グループ、パーミッションの構造作成](https://help.tableau.com/current/guides/everybody-install/ja-jp/everybody_admin_permissions.htm)
