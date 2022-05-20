@@ -1,8 +1,20 @@
 ## Official Help
 
+### DesktopとServerのバージョン違いの場合
+
+* 任意のバージョンの Tableau Desktop で作成されたワークブックは、サポートされている任意のバージョンの Tableau Server に接続できます。ただし、接続すると、実行するアクションによっては、使用しているバージョンによって互換性が問題となる場合があります。
+  * https://help.tableau.com/current/desktopdeploy/ja-jp/desktop_deploy_compatibility.htm
+
+
+
 ### Local Network
 
-* Internet연결 안하면 ATR서버에 접속 안됨.
+* Tableau Desktop や Tableau Prep Builder は、インターネットにアクセスして操作するよう設計されました。たとえば、Tableau では、マップ ビューの読み込みやダッシュボードの Web ページの読み込み、およびライセンス リクエストの要求を処理するため、インターネット アクセスが必要です。
+  * https://help.tableau.com/current/desktopdeploy/ja-jp/desktop_deploy_proxy.htm
+
+* ネットワーク構成などの公式参考
+  * https://help.tableau.com/current/server/ja-jp/license_lblm.htm
+![Local install](https://help.tableau.com/current/server/ja-jp/Img/virtual_desktop_server_lblm.png)
 
 ### Contents Permission Management
 
