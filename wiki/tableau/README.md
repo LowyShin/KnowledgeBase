@@ -17,3 +17,9 @@
 * [ Excel等のユーザリストを用いたユーザーフィルタ](https://newssdx.kcme.jp/tableautips-userfilter-security/)
   * お勧め：グループを作成してユーザーを入れる⇒グループごとにサブプロジェクトを割り当てる
   * Excelで権限の統合管理可能。
+
+### Performance
+
+* [Tableau Server へのアップロード時間の減少](https://help.tableau.com/current/pro/desktop/ja-jp/perf_reduce_upload_times.htm)
+  * ワークブック (.twb ファイル) とデータ ソースを一緒にパッケージドワークブック (.twbx ファイル) としてパブリッシュするのではなく、別々にパブリッシュするのがベスト プラクティスです。
+  * 
