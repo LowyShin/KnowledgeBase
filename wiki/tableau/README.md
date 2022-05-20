@@ -14,6 +14,7 @@
 
 * ネットワーク構成などの公式参考
   * https://help.tableau.com/current/server/ja-jp/license_lblm.htm
+  *  Tableau Server または Tableau Online は Tableau でホストされる実行承認 (ATR) サービスに連絡して Tableau Desktop クライアントがアクティブ化を許可されていることを確認します。
 ![Local install](https://help.tableau.com/current/server/ja-jp/Img/virtual_desktop_server_lblm.png)
 
 ### Contents Permission Management
