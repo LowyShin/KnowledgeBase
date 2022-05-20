@@ -32,3 +32,4 @@
   * ableau Prep Conductor を使用すると、Tableau Server で利用可能なスケジュール調整機能および追跡機能を活用して、フローを自動的に実行してフロー出力を更新できます。
   * Tableau Prep Conductor は、Tableau Server バージョン 2019.1 で導入された Tableau Data Management Add-on の一部であり、フローの実行をスケジュールするために有効にする必要があります。
   * 注: バージョン 2020.4 以降では、スケジュールに従ってフローを実行する場合にのみ Data Management アドオン が必要になります。フローをパブリッシュして、Web 上で手動で実行したり、Creator としてサーバー上で直接フローを作成および編集したりする場合、Data Management アドオン は不要になりました。
+  * Tableau Prep Builder で作成されたフローは、その実行をスケジュールする前に Tableau Server にパブリッシュする必要があります。
