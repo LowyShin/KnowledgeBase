@@ -25,3 +25,9 @@
 * [データの更新または自動更新の一時停止](https://help.tableau.com/current/pro/desktop/ja-jp/refresh.htm)
 * [Tableau Server または Tableau Online へのフローのパブリッシュ](https://help.tableau.com/current/prep/ja-jp/prep_conductor_publish_flow.htm)
   * Tableau Prep conductorなどを利用してデータ自動アップロードのフローを作成・管理可能
+
+### Tableau Prep Conductor
+
+* [Tableau Prep Conductor](https://help.tableau.com/current/server/ja-jp/prep_publishserver_overview.htm)
+  * ableau Prep Conductor を使用すると、Tableau Server で利用可能なスケジュール調整機能および追跡機能を活用して、フローを自動的に実行してフロー出力を更新できます。
+  * Tableau Prep Conductor は、Tableau Server バージョン 2019.1 で導入された Tableau Data Management Add-on の一部であり、フローの実行をスケジュールするために有効にする必要があります。
