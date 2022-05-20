@@ -22,4 +22,5 @@
 
 * [Tableau Server へのアップロード時間の減少](https://help.tableau.com/current/pro/desktop/ja-jp/perf_reduce_upload_times.htm)
   * ワークブック (.twb ファイル) とデータ ソースを一緒にパッケージドワークブック (.twbx ファイル) としてパブリッシュするのではなく、別々にパブリッシュするのがベスト プラクティスです。
-  * 
+* [データの更新または自動更新の一時停止](https://help.tableau.com/current/pro/desktop/ja-jp/refresh.htm)
+* 
