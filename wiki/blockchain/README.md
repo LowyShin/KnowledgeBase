@@ -33,6 +33,8 @@
   * [Step 7: Install and Run Chaincode](https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/get-started-chaincode.html)
 * [Deploy NFT on Ethereum using Amazon Managed Blockchain - github](https://github.com/aws-samples/nft-deployment-amazon-managed-blockchain)
 * [Building your first NFT on blockchain [REPEAT] - Awsstatic](https://d1.awsstatic.com/events/reinvent/2021/Zero_to_hero_Building_your_first_NFT_on_blockchain_REPEAT_BLC301-R2.pdf)
+* [Hyperledger Fabric Developer Guide](https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/managed-blockchain-get-started-tutorial.html)
+
 
 ## Exchangers
 
