@@ -42,3 +42,7 @@ left number of 2198 devide 5
 
 * excel 時間計算
   * https://www.tipsfound.com/excel/02207
+
+### Macro
+
+* [VBA CSV ファイルの読み込み (Workbooks.OpenText 関数を使う)](https://www.tipsfound.com/vba/18015)
