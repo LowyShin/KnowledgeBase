@@ -46,3 +46,4 @@ left number of 2198 devide 5
 ### Macro
 
 * [VBA CSV ファイルの読み込み (Workbooks.OpenText 関数を使う)](https://www.tipsfound.com/vba/18015)
+* [【VBA】UsedRangeの範囲から最終行など取得【UsedRange.Rows.Countなど】](https://daitaideit.com/vba-usedrange/)
