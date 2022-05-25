@@ -43,7 +43,7 @@ left number of 2198 devide 5
 * excel 時間計算
   * https://www.tipsfound.com/excel/02207
 
-### Macro
+### Macro(VBA)
 
 * [VBA CSV ファイルの読み込み (Workbooks.OpenText 関数を使う)](https://www.tipsfound.com/vba/18015)
 * [【VBA】UsedRangeの範囲から最終行など取得【UsedRange.Rows.Countなど】](https://daitaideit.com/vba-usedrange/)
