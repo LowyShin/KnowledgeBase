@@ -204,6 +204,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   * [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
   * [BINDupホームページ自動作成](https://bindup.jp/plan/)
   * [日本法人検索(中小機構)](https://tdb.smrj.go.jp/corpinfo/corporate/search#o)
+  * [WeWork Japan](https://ultimate-setsuko.com/business/wework/)
 * kr
   * [for Korean](kr)
 
