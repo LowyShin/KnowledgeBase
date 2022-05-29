@@ -239,6 +239,10 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [READYFOR](https://readyfor.jp/)
   * READYFOR, レディーフォー, クラウドファンディング, ソーシャルファンディング, 資金調達, 米良はるか, クリエーター
 
+### TED
+
+* [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+
 ### [Lifestyle](wiki/Lifestyle)
 
 * [賃貸](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/rentalhouse.md)
