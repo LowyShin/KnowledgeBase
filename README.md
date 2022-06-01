@@ -224,6 +224,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [AR - A glimpse of the future through an augmented reality headset - Meron Gribetz](https://www.ted.com/talks/meron_gribetz_a_glimpse_of_the_future_through_an_augmented_reality_headset?language=en)
 * [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
 * [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
+* [Fountain Pen ink cartridge guide](https://unsharpen.com/fountain-pen-cartridge-guide/)
 * [住宅も3Dプリンターで価格革命](https://youtu.be/kTeysI5U-xw)
 * [ロングセラー確実！？「iPhone SE」（第3世代）は買って損なしの圧倒的な安心感が魅力](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/iphonese20220325.md)
 * [Electronic goods](https://github.com/LowyShin/KnowledgeBase/wiki/Electronic-goods)
