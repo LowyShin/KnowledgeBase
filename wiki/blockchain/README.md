@@ -16,7 +16,9 @@
 ## NFT Tokens
 
 * [Definition of NFT(Non-Fungible Token)](https://en.wikipedia.org/wiki/Non-fungible_token)
-* [ERC721](https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/)
+* [ERC721(Crypto Kitty Sample)](https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/)
+* [OpenZepplin-ERC721 Dev](https://docs.openzeppelin.com/contracts/3.x/erc721)
+
 
 ## Wallets
 
