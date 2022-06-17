@@ -52,7 +52,7 @@
 * [Apache-Drill](https://github.com/LowyShin/KnowledgeBase/wiki/Apache-Drill)
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KnowledgeBase/wiki/A5MK2)
 * [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
-  * Tableau and BI, data visualization tools
+  * Tableau, Google Data Portal, Redash and BI, data visualization tools
 * [Referrals](https://github.com/LowyShin/KnowledgeBase/wiki/Referrals)
 * [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
 
