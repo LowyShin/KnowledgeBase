@@ -197,6 +197,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   * https://angel.co/
     * Remote Job and Startup Job Search | AngelList Talent
   * [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
+  * [flywire - easy payment gateway](https://www.flywire.com/)
 * jp
   * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
   * [スタートアップ企業リスト](https://startup-db.com/companies)
