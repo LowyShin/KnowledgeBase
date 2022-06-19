@@ -23,3 +23,22 @@
 * BERT
   * https://en.wikipedia.org/wiki/BERT_(language_model)
 
+### AWS SageMaker
+
+* [Amazon SageMaker 이론]
+  * 모델 훈련 소개: https://lnkd.in/dNZ4yGS4
+  * 모델 배포 소개: https://lnkd.in/dHdBDEG8
+  * ML 파이프라인 소개: https://lnkd.in/dRMmVNYT
+* [Amazon SageMaker 실습]
+  * 전체 실습 소개: https://lnkd.in/dq3YKzh6
+  * 모델 훈련 실습: https://lnkd.in/dAg-2rKa
+  * 모델 배포 실습: https://lnkd.in/dsz6sAZU
+  * ML 파이프라인 실습: https://lnkd.in/dfM22PNJ
+  * 웨비나 실습: https://lnkd.in/dk_bw4Ch
+* [Amazon Personalize 이론 및 실습]
+  * 소개: https://lnkd.in/d8Z-5yYB
+  * 개인화 추천 모델 훈련: https://lnkd.in/dCgvH_3d
+  * 실시간 추천: https://lnkd.in/dV5zsyM7
+  * 배치 추천: https://lnkd.in/duCjnHDw
+  * Wrap up: https://lnkd.in/d-mNz_KN
+  * 웨비나 실습: https://lnkd.in/dNuuV_fM
