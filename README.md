@@ -13,7 +13,7 @@
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
 * [MachineLearning(ML/AI)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
-  * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。
+  * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。Azure SQLを使うと自動チューニング機能があってオンしておくと勝手にIndex Tuningを行います。（勝手にIndexがなくなったり作成されたり）データのアクセスパターンによって同じデータセットだとしても使うユーザーのパターンによってチューニングが変わるのでDBMSに詳しくない場合でも十分なパフォーマンスが保たれます。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
 
 * [ORACLE](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
@@ -50,6 +50,7 @@
 * [Mongodb](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mongodb)
   * ドキュメントデータベースとかに言われたりするHadoopと共にNoSQLの代表になりましたが、RDBMSではないのでRDBMSみたいにJoinをかけたりすると一般RDBMSよりもパフォーマンスが出ないこともあります。なのでNoSQLに入れるべきUnstructured(非構造)データを非正規化していかに高性能に使うかを考慮して設計しないと普通の大量テキストストレージになってしまうのでご注意を！
 * [Apache-Drill](https://github.com/LowyShin/KnowledgeBase/wiki/Apache-Drill)
+  * Apache財団から推しているデータ抽出ツールでRDBMSとNoSQL、CSVなどのファイルデータなどをすべて一つのSQLで抽出できる強力なツールです。しかしインストールされたOSの言語とデータのCharactersetによって文字化けが多いので十分な工夫が必要です。NoSQLなどの非定型データとRDBMSのJoinが楽なのでデータ変換に時間をかけている場合は検討を推奨します。
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KnowledgeBase/wiki/A5MK2)
 * [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
   * Tableau, Google Data Portal, Redash and BI, data visualization tools
