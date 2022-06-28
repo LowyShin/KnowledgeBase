@@ -51,6 +51,7 @@
   * ドキュメントデータベースとかに言われたりするHadoopと共にNoSQLの代表になりましたが、RDBMSではないのでRDBMSみたいにJoinをかけたりすると一般RDBMSよりもパフォーマンスが出ないこともあります。なのでNoSQLに入れるべきUnstructured(非構造)データを非正規化していかに高性能に使うかを考慮して設計しないと普通の大量テキストストレージになってしまうのでご注意を！
 * [Apache-Drill](https://github.com/LowyShin/KnowledgeBase/wiki/Apache-Drill)
   * Apache財団から推しているデータ抽出ツールでRDBMSとNoSQL、CSVなどのファイルデータなどをすべて一つのSQLで抽出できる強力なツールです。しかしインストールされたOSの言語とデータのCharactersetによって文字化けが多いので十分な工夫が必要です。NoSQLなどの非定型データとRDBMSのJoinが楽なのでデータ変換に時間をかけている場合は検討を推奨します。
+  * Visualization機能がないのでもしレポート・グラフなどのビジュアル系が好みだったら[Tableau](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/tableau)をお勧めします。TableauはNoSQLとRDBMSのJoinまではできませんが、ある程度処理（Preparation, プレパレーションツール）をしたデータの分析及びグラフ出力には優れたツールです。
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KnowledgeBase/wiki/A5MK2)
 * [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
   * Tableau, Google Data Portal, Redash and BI, data visualization tools
