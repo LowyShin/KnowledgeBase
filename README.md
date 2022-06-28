@@ -200,6 +200,8 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   * [flywire - easy payment gateway](https://www.flywire.com/)
 * jp
   * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
+  * [バーコード検索：JANコードの基礎知識から検索の仕方まで徹底解説](https://orange-operation.jp/pos/16452.html)
+    * 日本の製品情報をバーコードで検索する方法とサイトの紹介
   * [スタートアップ企業リスト](https://startup-db.com/companies)
   * [中小企業向け補助金・総合支援サイト - ミラサポPlus - 経済産業省](https://mirasapo-plus.go.jp/subsidy/ithojo/)
     * IT導入補助金を活用して安くITを導入しましょう！
