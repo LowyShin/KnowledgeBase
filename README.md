@@ -193,7 +193,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [Paloalto FW](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Paloalto.md)
 * [Cisco](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Cisco.md)
 * [Dell](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Dell.md)
-
+* [Rosetta 2のx86からarm64への変換はどのように動作するのか](https://www.infoq.com/jp/news/2021/01/rosetta-2-translation/)
 
 ### Business
 
@@ -272,6 +272,8 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 ## Dictionary
 
 * [BigEndian(ビッグエンディアン)](dic/b/bigendian.md)
+
+
 
 ## etc
 
