@@ -269,6 +269,12 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [giip website](https://giipasp.azurewebsites.net)
 
 
+## Dictionary
+
+* [BigEndian(ビッグエンディアン)](dic/b/bigendian.md)
+
+## etc
+
 * [基本からわかる！高性能×高可用性データベースシステムの作り方　第7回 バックアップ/リカバリ(2)RMANの基本](https://blogs.oracle.com/otnjp/post/kusakabe-007)
 * [firewall-cmd](https://qiita.com/kenjjiijjii/items/1057af2dddc34022b09e)
 * [PHP Get Site URL Protocol - http vs https](https://stackoverflow.com/questions/4503135/php-get-site-url-protocol-http-vs-https)
