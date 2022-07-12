@@ -66,7 +66,7 @@
   * [Ethereum](https://en.wikipedia.org/wiki/Ethereum)
     * [Source](https://github.com/ethereum)
 * [Wallets](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain#wallets)
-* [Mining](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/README.md#mining)
+* [Mining](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mining/README.md)
 * [Exchanges()取引所]
   * [GMO Coin Z](https://coin.z.com/)
   * [Huobi](https://www.huobi.co.jp/)
