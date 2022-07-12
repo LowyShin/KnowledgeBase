@@ -136,6 +136,8 @@
 * [Online PDF to JPG](https://pdftoimage.com/ja/)
 * [LoadTest](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Tools/LoadTest.md)
 " [putty](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/putty)
+* [VirtualBox](https://www.virtualbox.org/)
+  * [MacOSでの新バージョンVirtual Box実行時mac verr_vm_driver_not_installed (-1908)回避](https://www.nemotos.net/?p=3707)
 
 ### Management
 
