@@ -3,12 +3,6 @@
 * MSDTCを動作させるために必要な設定について
   * https://blogs.technet.microsoft.com/jpiis/2018/02/05/msdtc-settings/
 
-## Functions
-
-* `DATEADD(type, interval, sourcedate)`
-* `CONVERT(varchar(20), getdate(), 120)` 
-  * https://talklowy-jp.blogspot.com/2020/06/sql-server-convert-datetime.html
-
 ## JSON Query
 
 JSON Query can be used over sql server 2015(?).
@@ -39,8 +33,26 @@ where
 * SQL Server Monitoring tool
   * https://talklowykr.blogspot.com/2020/09/sql-server.html
 
+### Rank
+
+```sql
+SELECT i.ProductID, p.Name, i.LocationID, i.Quantity  
+    ,RANK() OVER   
+    (PARTITION BY i.LocationID ORDER BY i.Quantity DESC) AS Rank  
+FROM Production.ProductInventory AS i   
+INNER JOIN Production.Product AS p   
+    ON i.ProductID = p.ProductID  
+WHERE i.LocationID BETWEEN 3 AND 4  
+ORDER BY i.LocationID;  
+```
+https://docs.microsoft.com/ja-jp/sql/t-sql/functions/rank-transact-sql?view=sql-server-ver16
+
+
 ## Functions
 
+* `DATEADD(type, interval, sourcedate)`
+* `CONVERT(varchar(20), getdate(), 120)` 
+  * https://talklowy-jp.blogspot.com/2020/06/sql-server-convert-datetime.html
 * [CONVERT(MS Official)](https://docs.microsoft.com/ja-jp/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15)
 
 ## Replication
