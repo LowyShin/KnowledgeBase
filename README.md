@@ -33,6 +33,8 @@
   * [BackupRestore](https://talklowy-jp.blogspot.com/2021/02/oracle-backup-and-restore-lowy.html)
   * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
   * [DBMS STAT](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORADBMSSTAT.md)
+  * [dbvisitを利用したAWS上のRoacle Cluster](https://cosol.jp/techdb/2020/08/oracle-se2-multi-az-deploy-on-aws-ec2-using-dbvisit-standby/)
+
 * [MySQL](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
   * 同時4000トランザクション未満の3GB未満データでは一番軽く早いDBMSです。しかし容量と同時接続が増えるほど設計能力がパフォーマンスに直結するため拡張を考えるなら真剣に拡張設計から考慮することを推奨します。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
