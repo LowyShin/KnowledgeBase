@@ -195,7 +195,10 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [Paloalto FW](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Paloalto.md)
 * [Cisco](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Cisco.md)
 * [Dell](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Dell.md)
+* [Apple M2 vs Intel Core i9-12900K](https://www.cpu-monkey.com/ja/compare_cpu-apple_m2-vs-intel_core_i9_12900k)
 * [Rosetta 2のx86からarm64への変換はどのように動作するのか](https://www.infoq.com/jp/news/2021/01/rosetta-2-translation/)
+* [[ARMv8-A](https://developer.arm.com/documentation/den0024/a/ARMv8-Models/ARMv8-A-Foundation-Platform)](https://developer.arm.com/documentation/den0024/a/ARMv8-Models/ARMv8-A-Foundation-Platform)
+![ARMv8-A](blob:https://developer.arm.com/7f0193c9-f8d8-4a74-b988-18eb75a42eaa)
 
 ### Business
 
