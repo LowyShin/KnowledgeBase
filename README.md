@@ -162,6 +162,7 @@
 
 ### Storage
 
+* [GFS(Google File System) Architecture](https://medium.com/geekculture/google-file-system-architecture-cdeabef3f1ea)
 * [alluxio](https://www.alluxio.io/)
 * [Ceph](https://ceph.io/)
 * [apache cloudstack](https://cloudstack.apache.org/)
