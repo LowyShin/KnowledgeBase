@@ -1,0 +1,504 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="620.46336" height="440.48928" viewBox="0 0 465.347 330.367" xml:space="preserve" color-interpolation-filters="sRGB" class="st21" version="1.1">
+	
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:butt;stroke-width:0.5}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-dasharray:4,2;stroke-linecap:butt;stroke-width:0.5}
+		.st3 {fill:#000000;font-family:Arial,Helvetica,sans-serif;font-size:0.666664em}
+		.st4 {fill:#ffffff;visibility:hidden}
+		.st5 {stroke:#000000;stroke-linecap:butt;stroke-width:0.5}
+		.st6 {fill:none;visibility:hidden}
+		.st7 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.5}
+		.st8 {marker-end:url(#mrkr4-24);marker-start:url(#mrkr4-22);stroke:#000000;stroke-linecap:butt;stroke-width:1.5}
+		.st9 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.45454545454545}
+		.st10 {fill:#1f477d;visibility:hidden}
+		.st11 {font-size:1em}
+		.st12 {stroke:#000000;stroke-linecap:butt;stroke-width:1.5}
+		.st13 {marker-end:url(#mrkr4-24);stroke:#000000;stroke-linecap:butt;stroke-width:1.5}
+		.st14 {stroke:#000000;stroke-linecap:butt;stroke-width:0.72}
+		.st15 {marker-start:url(#mrkr4-152);stroke:#000000;stroke-linecap:butt;stroke-width:0.72}
+		.st16 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28571428571429}
+		.st17 {marker-end:url(#mrkr4-201);stroke:#000000;stroke-linecap:butt;stroke-width:0.72}
+		.st18 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:0.5}
+		.st19 {stroke:#000000;stroke-dasharray:4,2;stroke-linecap:butt;stroke-width:0.5}
+		.st20 {marker-start:url(#mrkr4-22);stroke:#000000;stroke-linecap:butt;stroke-width:1.5}
+		.st21 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L -0 0 L 2 -1 L 2 1 " style="stroke:none" />
+		</g>
+		<marker overflow="visible" id="mrkr4-22" class="st9" orient="auto">
+			<use xlink:href="#lend4" transform="scale(2.2) " />
+		</marker>
+		<marker overflow="visible" id="mrkr4-24" class="st9" orient="auto">
+			<use xlink:href="#lend4" transform="scale(-2.2,-2.2) " />
+		</marker>
+		<marker overflow="visible" id="mrkr4-152" class="st16" orient="auto">
+			<use xlink:href="#lend4" transform="scale(3.5) " />
+		</marker>
+		<marker overflow="visible" id="mrkr4-201" class="st16" orient="auto">
+			<use xlink:href="#lend4" transform="scale(-3.5,-3.5) " />
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		
+		
+		<g id="shape66-1" transform="translate(261.287,-62.3278)">
+			<title>Block.66</title>
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st1" />
+		</g>
+		<g id="shape16-3" transform="translate(229.398,-245.91)">
+			<title>Sheet.16</title>
+			<desc>Cortex-A7</desc>
+			
+			
+			<path d="M0 330.37 L63.78 330.37 L63.78 275.09 L0 275.09 L0 330.37 Z" class="st2" />
+			<text x="13.88" y="305.13" class="st3">Cortex-A7</text>		</g>
+		<g id="shape20-6" transform="translate(204.594,-218.233)">
+			<title>Procedure.20</title>
+			
+			<rect x="0" y="231.155" width="102.047" height="99.2126" class="st4" />
+			<rect x="0" y="231.155" width="102.047" height="99.2126" class="st5" />
+		</g>
+		<g id="shape22-9" transform="translate(147.902,-155.871)">
+			<title>Procedure.22</title>
+			<desc>Non-secure</desc>
+			
+			
+			
+			<rect x="0" y="310.525" width="102.047" height="19.8425" class="st6" />
+			<rect x="0" y="310.525" width="102.047" height="19.8425" class="st5" />
+			<text x="31.46" y="322.85" class="st3">Non-secure</text>		</g>
+		<g id="shape34-13" transform="translate(221.804,-316.363)">
+			<title>Sheet.34</title>
+			<desc>Processor cluster</desc>
+			
+			
+			<rect x="0" y="316.863" width="67.6277" height="13.5039" class="st7" />
+			<text x="2.92" y="326.02" class="st3">Processor cluster</text>		</g>
+		<g id="shape2-16" transform="translate(364.043,357.462) rotate(180)">
+			<title>Bus 3.2</title>
+			<path d="M6.24 330.37 L6.6 330.37 L51.51 330.37" class="st8" />
+		</g>
+		<g id="shape3-25" transform="translate(0.5,-53.8239)">
+			<title>Procedure.3</title>
+			
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st10" />
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st5" />
+		</g>
+		<g id="shape4-28" transform="translate(4.75197,-99.1782)">
+			<title>Procedure.4</title>
+			<desc>PL011_0</desc>
+			
+			
+			
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st10" />
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st5" />
+			<text x="7.37" y="327.1" class="st3">PL011_0</text>		</g>
+		<g id="shape7-32" transform="translate(364.043,-286.265)">
+			<title>Procedure.7</title>
+			<desc>Timers</desc>
+			
+			
+			
+			<rect x="0" y="296.351" width="72.2835" height="34.0157" class="st10" />
+			<rect x="0" y="296.351" width="72.2835" height="34.0157" class="st5" />
+			<text x="23.92" y="315.76" class="st3">Timers</text>		</g>
+		<g id="shape8-36" transform="translate(394.516,-97.7609)">
+			<title>Procedure.8</title>
+			<desc>Secure RAM</desc>
+			
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st10" />
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st5" />
+			<text x="2.84" y="315.76" class="st3">Secure RAM</text>		</g>
+		<g id="shape9-40" transform="translate(4.75197,-85.005)">
+			<title>Procedure.9</title>
+			<desc>PL011_1</desc>
+			
+			
+			
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st10" />
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st5" />
+			<text x="7.37" y="327.1" class="st3">PL011_1</text>		</g>
+		<g id="shape10-44" transform="translate(4.75197,-70.8317)">
+			<title>Procedure.10</title>
+			<desc>PL011_2</desc>
+			
+			
+			
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st10" />
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st5" />
+			<text x="7.37" y="327.1" class="st3">PL011_2</text>		</g>
+		<g id="shape11-48" transform="translate(4.75197,-56.6585)">
+			<title>Procedure.11</title>
+			<desc>PL011_3</desc>
+			
+			
+			
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st10" />
+			<rect x="0" y="319.029" width="46.7717" height="11.3386" class="st5" />
+			<text x="7.37" y="327.1" class="st3">PL011_3</text>		</g>
+		<g id="shape15-52" transform="translate(224.437,-240.241)">
+			<title>Sheet.15</title>
+			<desc>Cortex-A7</desc>
+			
+			
+			<path d="M0 330.37 L63.78 330.37 L63.78 275.09 L0 275.09 L0 330.37 Z" class="st2" />
+			<text x="13.88" y="305.13" class="st3">Cortex-A7</text>		</g>
+		<g id="shape14-55" transform="translate(218.768,-235.281)">
+			<title>Sheet.14</title>
+			<desc>Cortex-A7</desc>
+			
+			
+			<path d="M0 330.37 L63.78 330.37 L63.78 275.09 L0 275.09 L0 330.37 Z" class="st2" />
+			<text x="13.88" y="305.13" class="st3">Cortex-A7</text>		</g>
+		<g id="shape12-58" transform="translate(214.516,-230.32)">
+			<title>Sheet.12</title>
+			<desc>Core 1</desc>
+			
+			
+			<rect x="0" y="275.092" width="63.7795" height="55.2756" class="st1" />
+			<text x="19.88" y="305.13" class="st3">Core 1</text>		</g>
+		<g id="shape1-61" transform="translate(317.98,-102.013)">
+			<title>Procedure.1</title>
+			<desc>GIC</desc>
+			
+			
+			
+			<rect x="0" y="296.351" width="65.1969" height="34.0157" class="st10" />
+			<rect x="0" y="296.351" width="65.1969" height="34.0157" class="st5" />
+			<text x="25.49" y="315.76" class="st3">GIC</text>		</g>
+		<g id="shape18-65" transform="translate(11.8386,-119.021)">
+			<title>Sheet.18</title>
+			<desc>UARTs</desc>
+			
+			
+			<rect x="0" y="319.029" width="31.1811" height="11.3386" class="st7" />
+			<text x="2.7" y="327.1" class="st3">UARTs</text>		</g>
+		<g id="shape19-68" transform="translate(62.8622,-53.8239)">
+			<title>Procedure.19</title>
+			<desc>Networking</desc>
+			
+			
+			
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st10" />
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st5" />
+			<text x="9.76" y="291.66" class="st3">Networking</text>		</g>
+		<g id="shape21-72" transform="translate(125.224,-53.8239)">
+			<title>Procedure.21</title>
+			<desc>Virtio devices</desc>
+			
+			
+			
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st10" />
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st5" />
+			<text x="5.98" y="291.66" class="st3">Virtio devices</text>		</g>
+		<g id="shape23-76" transform="translate(189.004,-53.8239)">
+			<title>Procedure.23</title>
+			<desc>System Controller</desc>
+			
+			
+			
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st10" />
+			<rect x="0" y="248.162" width="59.5276" height="82.2047" class="st5" />
+			<text x="16.43" y="286.86" class="st3">System <tspan x="12.42" dy="9.5999616" class="st11">Controller</tspan></text>		</g>
+		<g id="shape6-81" transform="translate(387.429,-50.9892)">
+			<title>Procedure.6</title>
+			
+			<rect x="0" y="245.328" width="65.1969" height="85.0394" class="st10" />
+			<rect x="0" y="245.328" width="65.1969" height="85.0394" class="st5" />
+		</g>
+		<g id="shape13-84" transform="translate(391.681,-155.871)">
+			<title>Procedure.13</title>
+			<desc>Secure</desc>
+			
+			
+			
+			<rect x="0" y="310.525" width="56.6929" height="19.8425" class="st6" />
+			<rect x="0" y="310.525" width="56.6929" height="19.8425" class="st5" />
+			<text x="16.78" y="322.85" class="st3">Secure</text>		</g>
+		<g id="shape24-88" transform="translate(281.13,511.95) rotate(180)">
+			<title>Bus 3.24</title>
+			<path d="M0 330.37 L250.87 330.37" class="st12" />
+		</g>
+		<g id="shape25-91" transform="translate(360.631,181.583) rotate(90)">
+			<title>Bus 3.25</title>
+			<path d="M0 330.37 L6.16 330.37" class="st13" />
+		</g>
+		<g id="shape27-96" transform="translate(485.355,181.583) rotate(90)">
+			<title>Bus 3.27</title>
+			<path d="M0 330.37 L6.16 330.37" class="st13" />
+		</g>
+		<g id="shape28-101" transform="translate(549.135,181.583) rotate(90)">
+			<title>Bus 3.28</title>
+			<path d="M0 330.37 L6.16 330.37" class="st13" />
+		</g>
+		<g id="shape30-106" transform="translate(529.292,174.496) rotate(90)">
+			<title>Bus 3.30</title>
+			<path d="M0 330.37 L7.09 330.37" class="st12" />
+		</g>
+		<g id="shape31-109" transform="translate(420.028,468.013) rotate(180)">
+			<title>Bus 3.31</title>
+			<path d="M0 330.37 L221.1 330.37" class="st12" />
+		</g>
+		<g id="shape35-112" transform="translate(529.292,137.646) rotate(90)">
+			<title>Bus 3.35</title>
+			<path d="M0 330.37 L10.41 330.37" class="st13" />
+		</g>
+		<g id="shape36-117" transform="translate(750.395,137.646) rotate(90)">
+			<title>Bus 3.36</title>
+			<path d="M0 330.37 L10.41 330.37" class="st13" />
+		</g>
+		<g id="shape40-122" transform="translate(255.618,-99.1782)">
+			<title>Procedure.40</title>
+			<desc>Non-Secure RAM</desc>
+			
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st10" />
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st5" />
+			<text x="4.17" y="310.96" class="st3">Non-Secure <tspan x="16.62" dy="9.5999616" class="st11">RAM</tspan></text>		</g>
+		<g id="shape41-127" transform="translate(252.783,-53.8239)">
+			<title>Procedure.41</title>
+			
+			<rect x="0" y="248.162" width="62.3622" height="82.2047" class="st10" />
+			<rect x="0" y="248.162" width="62.3622" height="82.2047" class="st5" />
+		</g>
+		<g id="shape26-130" transform="translate(422.993,181.583) rotate(90)">
+			<title>Bus 3.26</title>
+			<path d="M0 330.37 L6.16 330.37" class="st13" />
+		</g>
+		<g id="shape5-135" transform="translate(360.631,276.543) rotate(90)">
+			<title>Bus 3.5</title>
+			<path d="M0 330.37 L48.19 330.37" class="st14" />
+		</g>
+		<g id="shape17-138" transform="translate(422.993,276.543) rotate(90)">
+			<title>Bus 3.17</title>
+			<path d="M0 330.37 L42.52 330.37" class="st14" />
+		</g>
+		<g id="shape32-141" transform="translate(485.355,276.543) rotate(90)">
+			<title>Bus 3.32</title>
+			<path d="M0 330.37 L36.85 330.37" class="st14" />
+		</g>
+		<g id="shape33-144" transform="translate(549.135,276.543) rotate(90)">
+			<title>Bus 3.33</title>
+			<path d="M0 330.37 L31.18 330.37" class="st14" />
+		</g>
+		<g id="shape44-147" transform="translate(690.867,228.354) rotate(90)">
+			<title>Bus 3.44</title>
+			<path d="M4.68 330.37 L5.04 330.37 L96.38 330.37" class="st15" />
+		</g>
+		<g id="shape45-153" transform="translate(668.19,228.354) rotate(90)">
+			<title>Bus 3.45</title>
+			<path d="M4.68 330.37 L5.04 330.37 L79.37 330.37" class="st15" />
+		</g>
+		<g id="shape46-158" transform="translate(673.859,228.354) rotate(90)">
+			<title>Bus 3.46</title>
+			<path d="M4.68 330.37 L5.04 330.37 L85.04 330.37" class="st15" />
+		</g>
+		<g id="shape47-163" transform="translate(679.508,232.008) rotate(90.6336)">
+			<title>Bus 3.47</title>
+			<path d="M4.68 330.37 L5.04 330.37 L90.71 330.37" class="st15" />
+		</g>
+		<g id="shape50-168" transform="translate(685.198,228.354) rotate(90)">
+			<title>Bus 3.50</title>
+			<path d="M4.68 330.37 L5.04 330.37 L96.38 330.37" class="st15" />
+		</g>
+		<g id="shape51-173" transform="translate(459.713,655.099) rotate(180)">
+			<title>Bus 3.51</title>
+			<path d="M0 330.37 L99.21 330.37" class="st14" />
+		</g>
+		<g id="shape53-176" transform="translate(337.823,638.092) rotate(180)">
+			<title>Bus 3.53</title>
+			<path d="M0 330.37 L119.06 330.37" class="st14" />
+		</g>
+		<g id="shape54-179" transform="translate(343.492,643.761) rotate(180)">
+			<title>Bus 3.54</title>
+			<path d="M0 330.37 L188.5 330.37" class="st14" />
+		</g>
+		<g id="shape55-182" transform="translate(348.158,649.43) rotate(180)">
+			<title>Bus 3.55</title>
+			<path d="M0 330.37 L255.53 330.37" class="st14" />
+		</g>
+		<g id="shape56-185" transform="translate(354.831,655.099) rotate(180)">
+			<title>Bus 3.56</title>
+			<path d="M0 330.37 L324.57 330.37" class="st14" />
+		</g>
+		<g id="shape59-188" transform="translate(61.4449,-150.202)">
+			<title>Sheet.59</title>
+			<desc>Memory bus</desc>
+			
+			
+			<rect x="0" y="319.029" width="82.2047" height="11.3386" class="st7" />
+			<text x="19.1" y="327.1" class="st3">Memory bus</text>		</g>
+		<g id="shape61-191" transform="translate(750.395,174.496) rotate(90)">
+			<title>Bus 3.61</title>
+			<path d="M0 330.37 L13.24 330.37" class="st13" />
+		</g>
+		<g id="shape43-196" transform="translate(459.713,357.462) rotate(180)">
+			<title>Bus 3.43</title>
+			<path d="M0 330.37 L18.35 330.37" class="st17" />
+		</g>
+		<g id="shape48-202" transform="translate(790.08,27.0945) rotate(90)">
+			<title>Bus 3.48</title>
+			<path d="M0 330.37 L297.64 330.37" class="st14" />
+		</g>
+		<g id="shape49-205" transform="translate(366.169,-22.6428)">
+			<title>Block</title>
+			<desc>Interrupts</desc>
+			
+			
+			
+			
+			<rect x="0" y="319.029" width="39.685" height="11.3386" class="st18" />
+			<text x="2.95" y="327.1" class="st3">Interrupts</text>		</g>
+		<g id="shape52-208" transform="translate(232.941,-25.4774)">
+			<title>Block.52</title>
+			<desc>Interrupts</desc>
+			
+			
+			
+			
+			<rect x="0" y="319.029" width="56.6929" height="11.3386" class="st18" />
+			<text x="11.45" y="327.1" class="st3">Interrupts</text>		</g>
+		<g id="shape29-211" transform="translate(349.87,392.895) rotate(180)">
+			<title>Bus 3.29</title>
+			<path d="M0 330.37 L36.63 330.37" class="st13" />
+		</g>
+		<g id="shape57-216" transform="translate(680.232,60.7514) rotate(89.692)">
+			<title>Bus 3.57</title>
+			<path d="M0 330.37 L125.21 330.37" class="st13" />
+		</g>
+		<g id="shape58-221" transform="translate(144.5,-153.036)">
+			<title>Procedure.58</title>
+			
+			<path d="M0 330.37 L306.71 330.37 L306.71 286.43 L0 286.43 L0 330.37" class="st19" />
+		</g>
+		<g id="shape60-224" transform="translate(270.049,-167.983)">
+			<title>Sheet.60</title>
+			<desc>Address decoding</desc>
+			
+			
+			<rect x="0" y="319.029" width="82.2047" height="11.3386" class="st7" />
+			<text x="9.08" y="327.1" class="st3">Address decoding</text>		</g>
+		<g id="group62-227" transform="translate(77.0354,-192.722)">
+			<title>Sheet.62</title>
+			<g id="shape37-228" transform="translate(508.241,304.855) rotate(90)">
+				<title>Bus 3.37</title>
+				<path d="M6.24 330.37 L6.6 330.37 L25.51 330.37" class="st20" />
+			</g>
+			<g id="shape38-233" transform="translate(-1.9984E-014,-4.25197)">
+				<title>Procedure.38</title>
+				<desc>Image loader</desc>
+				
+				
+				
+				<rect x="0" y="310.525" width="56.6929" height="19.8425" class="st6" />
+				<rect x="0" y="310.525" width="56.6929" height="19.8425" class="st5" />
+				<text x="5" y="322.85" class="st3">Image loader</text>			</g>
+			<g id="shape39-237" transform="translate(177.874,646.561) rotate(180)">
+				<title>Bus 3.39</title>
+				<path d="M6.24 330.37 L6.6 330.37 L121.18 330.37" class="st20" />
+			</g>
+		</g>
+		<g id="shape63-242" transform="translate(258.453,-59.4932)">
+			<title>Block.63</title>
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st1" />
+		</g>
+		<g id="shape65-244" transform="translate(255.618,-56.6585)">
+			<title>Block.65</title>
+			<desc>Non-Secure peripheral</desc>
+			
+			
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st1" />
+			<text x="4.17" y="310.96" class="st3">Non-Secure <tspan x="7.72" dy="9.5999616" class="st11">peripheral</tspan></text>		</g>
+		<g id="shape67-248" transform="translate(293.886,-47.3815)">
+			<title>Sheet.67</title>
+			<path d="M0 321.09 L0 330.37 L26.93 330.37 L26.93 280.78" class="st17" />
+		</g>
+		<g id="shape68-253" transform="translate(281.13,-42.4853)">
+			<title>Sheet.68</title>
+			<path d="M0 318.46 L0 330.37 L45.35 330.37 L45.35 275.88" class="st17" />
+		</g>
+		<g id="shape69-258" transform="translate(598.741,273.709) rotate(90)">
+			<title>Sheet.69</title>
+			<path d="M0 330.37 L17.01 330.37" class="st14" />
+		</g>
+		<g id="shape70-261" transform="translate(268.374,-39.6506)">
+			<title>Sheet.70</title>
+			<path d="M0 330.37 L63.78 330.37 L63.78 273.04" class="st17" />
+		</g>
+		<g id="shape71-266" transform="translate(397.35,-59.4932)">
+			<title>Block.71</title>
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st1" />
+		</g>
+		<g id="shape72-268" transform="translate(394.516,-56.6585)">
+			<title>Block.72</title>
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st1" />
+		</g>
+		<g id="shape73-270" transform="translate(391.681,-53.8239)">
+			<title>Block.73</title>
+			<desc>Secure peripheral</desc>
+			
+			
+			
+			
+			<rect x="0" y="296.351" width="51.0236" height="34.0157" class="st1" />
+			<text x="12.84" y="310.96" class="st3">Secure <tspan x="7.72" dy="9.5999616" class="st11">peripheral</tspan></text>		</g>
+		<g id="shape75-274" transform="translate(373.256,-39.6506)">
+			<title>Sheet.75</title>
+			<path d="M43.94 316.51 L43.94 330.37 L0 330.37 L0 273.04" class="st17" />
+		</g>
+		<g id="shape76-279" transform="translate(366.169,-36.816)">
+			<title>Sheet.76</title>
+			<path d="M63.78 313.36 L63.78 330.37 L0 330.37 L0 270.21" class="st17" />
+		</g>
+		<g id="shape42-284" transform="translate(611.497,181.583) rotate(90)">
+			<title>Bus 3.42</title>
+			<path d="M0 330.37 L6.16 330.37" class="st13" />
+		</g>
+		<g id="shape64-289" transform="translate(-49.2373,279.378) rotate(-90)">
+			<title>Sheet.64</title>
+			<path d="M0 330.37 L5.67 330.37" class="st14" />
+		</g>
+		<g id="shape74-292" transform="translate(380.343,-42.4853)">
+			<title>Sheet.74</title>
+			<path d="M24.09 319.03 L24.09 330.37 L0 330.37 L0 275.88" class="st17" />
+		</g>
+		<g id="shape77-297" transform="translate(128.059,-102.013)">
+			<title>Block.77</title>
+			<desc>Block storage</desc>
+			
+			
+			
+			
+			<rect x="0" y="302.021" width="53.8583" height="28.3465" class="st1" />
+			<text x="2.69" y="318.59" class="st3">Block storage</text>		</g>
+		<g id="shape78-300" transform="translate(128.059,-59.4932)">
+			<title>Block.78</title>
+			<desc>Host filesystem</desc>
+			
+			
+			
+			
+			<rect x="0" y="302.021" width="53.8583" height="28.3465" class="st1" />
+			<text x="18.7" y="313.79" class="st3">Host <tspan x="9.15" dy="9.5999616" class="st11">filesystem</tspan></text>		</g>
+	</g>
+</svg>
