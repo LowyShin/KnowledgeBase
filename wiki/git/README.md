@@ -1,3 +1,43 @@
+## Initialize
+
+* サーバーに接続した場合最初設定手順
+
+1. サーバーにAccount登録
+```sh
+echo "machine github.com">~/.netrc
+echo "login <githubLoginName>">>~/.netrc
+echo "password <password>">>~/.netrc
+```
+
+2. git config設定
+```sh
+git config --global user.email "LowyAI@GIIP.com"
+git config --global user.name "LowyAI"
+```
+
+3. サーバーのRSAキー作成
+```sh
+ssh-keygen -t rsa -b 4096 -C 'giip@thismachinename'
+```
+
+4. githubにRSAキー登録
+  * githubホームページの右上の自分のアカウント画像クリック
+  * Settings
+  * SSH and GPG Key
+  * New SSH Key
+  ```sh
+  cat ~/.ssh/id_rsa.pub
+  ```
+  * id_rsa.pubファイルの内容を記入して登録
+
+5. FreeBSDなどhttp通信できない場合
+  * FreeBSD等の一部のOSでは4番までやっても「no matching mac found」とはじかれるケースがあるのでその場合は次に従う
+  * Settings > Developer Settings > Personal Access Tokens > Generate New Token 
+  * Repository関連だけチェックを入れて作成
+  * 現在作業しているサーバーのターミナルから`vi .git/config`で設定を開く
+  * `git@github.com~~~`の部分の前のgitを作成したキーに入れ替える
+    * 例 : `https://ghp_nnsj1ShqSXXXXXXXXXVAiTQfzXXXXxeP2@github.com/LowyShin/myrepo.git`
+
 ## Account
 
 ### [GitHub] SSHの鍵を登録しパスワード入力を不要にする
