@@ -82,6 +82,8 @@
   * nodesjからインストールできるWeb/Android/iOSを一気に開発できるツール。コードの修正があまりいらなくnodejsからの様々な追加機能の活用ができる。
 * [GAS(Google Apps Script)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/google/google-apps-script.md)
   * Google SheetまたはGoogle Appsをスクリプトでプログラミングができる。
+* [Reactに有利なベンチマークを作ってみた](https://qiita.com/uhyo/items/35cb243557df5e1a87fc)
+  * Reactが高負荷状態でのレンダリングスピードが速いため複雑な開発が必要な場合には向いてるとのこと
 * [DataVisual](https://observablehq.com/@d3/gallery)
 * [Python](https://github.com/LowyShin/KnowledgeBase/wiki/Python)
 * [Classic ASP](https://github.com/LowyShin/KB-ClassicASP/blob/master/README.md)
