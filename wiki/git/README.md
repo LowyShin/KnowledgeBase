@@ -3,31 +3,31 @@
 * サーバーに接続した場合最初設定手順
 
 1. サーバーにAccount登録
-```sh
-echo "machine github.com">~/.netrc
-echo "login <githubLoginName>">>~/.netrc
-echo "password <password>">>~/.netrc
-```
+    ```sh
+    echo "machine github.com">~/.netrc
+    echo "login <githubLoginName>">>~/.netrc
+    echo "password <password>">>~/.netrc
+    ```
 
 2. git config設定
-```sh
-git config --global user.email "LowyAI@GIIP.com"
-git config --global user.name "LowyAI"
-```
+    ```sh
+    git config --global user.email "LowyAI@GIIP.com"
+    git config --global user.name "LowyAI"
+    ```
 
 3. サーバーのRSAキー作成
-```sh
-ssh-keygen -t rsa -b 4096 -C 'giip@thismachinename'
-```
+    ```sh
+    ssh-keygen -t rsa -b 4096 -C 'giip@thismachinename'
+    ```
 
 4. githubにRSAキー登録
-  * githubホームページの右上の自分のアカウント画像クリック
-  * Settings
-  * SSH and GPG Key
-  * New SSH Key
-  ```sh
-  cat ~/.ssh/id_rsa.pub
-  ```
+    * githubホームページの右上の自分のアカウント画像クリック
+    * Settings
+    * SSH and GPG Key
+    * New SSH Key
+    ```sh
+    cat ~/.ssh/id_rsa.pub
+    ```
   * id_rsa.pubファイルの内容を記入して登録
 
 5. FreeBSDなどhttp通信できない場合
