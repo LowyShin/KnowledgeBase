@@ -28,15 +28,15 @@
     ```sh
     cat ~/.ssh/id_rsa.pub
     ```
-  * id_rsa.pubファイルの内容を記入して登録
+    * id_rsa.pubファイルの内容を記入して登録
 
 5. FreeBSDなどhttp通信できない場合
-  * FreeBSD等の一部のOSでは4番までやっても「no matching mac found」とはじかれるケースがあるのでその場合は次に従う
-  * Settings > Developer Settings > Personal Access Tokens > Generate New Token 
-  * Repository関連だけチェックを入れて作成
-  * 現在作業しているサーバーのターミナルから`vi .git/config`で設定を開く
-  * `git@github.com~~~`の部分の前のgitを作成したキーに入れ替える
-    * 例 : `https://ghp_nnsj1ShqSXXXXXXXXXVAiTQfzXXXXxeP2@github.com/LowyShin/myrepo.git`
+    * FreeBSD等の一部のOSでは4番までやっても「no matching mac found」とはじかれるケースがあるのでその場合は次に従う
+    * Settings > Developer Settings > Personal Access Tokens > Generate New Token 
+    * Repository関連だけチェックを入れて作成
+    * 現在作業しているサーバーのターミナルから`vi .git/config`で設定を開く
+    * `git@github.com~~~`の部分の前のgitを作成したキーに入れ替える
+      * 例 : `https://ghp_nnsj1ShqSXXXXXXXXXVAiTQfzXXXXxeP2@github.com/LowyShin/myrepo.git`
 
 ## Account
 
