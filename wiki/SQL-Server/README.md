@@ -61,5 +61,15 @@ https://docs.microsoft.com/ja-jp/sql/t-sql/functions/rank-transact-sql?view=sql-
 * [AWS RDS for sqlserver Read Replica(Enterprise Edition)](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/SQLServer.ReadReplicas.html)
 
 
+## Datatype
+
+データ型 | Range | ストレージ
+--|--|--
+bigint | -2^63 (-9,223,372,036,854,775,808) ～ 2^63-1 (9,223,372,036,854,775,807) | 8 バイト
+int | -2^31 (-2,147,483,648) ～ 2^31-1 (2,147,483,647) | 4 バイト
+smallint | -2^15 (-32,768) ～ 2^15-1 (32,767) | 2 バイト
+tinyint | 0 ～ 255 | 1 バイト
+
+* https://docs.microsoft.com/ja-jp/sql/t-sql/data-types/int-bigint-smallint-and-tinyint-transact-sql?view=sql-server-ver16
 
 
