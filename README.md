@@ -147,7 +147,7 @@
 
 * [Shell/bash](https://github.com/LowyShin/KnowledgeBase/wiki/Shell)
 * [crontab](https://github.com/LowyShin/KnowledgeBase/wiki/crontab)
-* [PowerShell](https://github.com/LowyShin/KnowledgeBase/wiki/PowerShell)
+* [Windows PowerShell](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ps1)
 * [Windows(DOS) batch](https://github.com/LowyShin/KnowledgeBase/wiki/WinBatch)
 * [Wscript/wsf](https://github.com/LowyShin/KnowledgeBase/wiki/Wscript)
 * [AWS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/AWS)
