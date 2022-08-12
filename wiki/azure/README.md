@@ -44,5 +44,11 @@
 
 * [Running an optimized MariaDB (MySQL) cluster on Azure](https://sabbour.me/running-a-mariadb-cluster-on-azure/)
 
+## Connection
+
+### Azure Bastion
+
+* [Azure Bastion とは(Azure official)](https://docs.microsoft.com/ja-jp/azure/bastion/bastion-overview)
+![bastion](https://docs.microsoft.com/ja-jp/azure/bastion/media/bastion-overview/architecture.png)
 
 
