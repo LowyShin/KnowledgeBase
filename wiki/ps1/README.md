@@ -94,4 +94,7 @@ sample
 $num = [Math]::Round(1.4999, -2);
 ```
 
+## Tools
 
+* [CPU Stress(load) Test](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/CPUStressTest.ps1)
+* [Memory Stress(load) Test](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/MemoryStressTest.ps1)
