@@ -8,7 +8,7 @@
 * Basic execute command : `powershell -C "myshell.ps1"`
 
 * Permission control
-  * `Get-ExcutionPolicy`
+  * `Get-ExecutionPolicy`
   * `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned -Force`
     * If you see permission error, then execute above once.
     * It can be executed when download ps1 script
