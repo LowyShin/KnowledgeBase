@@ -13,7 +13,7 @@
 
 今回は以下のステップで進めていきましょう。
 
-![![image](https://user-images.githubusercontent.com/49302727/186832371-13f6194f-0c59-48f1-b673-572fb21890b4.png))
+![image](https://user-images.githubusercontent.com/49302727/186832371-13f6194f-0c59-48f1-b673-572fb21890b4.png)
 
 **実行対象と配置先を決める**
 
