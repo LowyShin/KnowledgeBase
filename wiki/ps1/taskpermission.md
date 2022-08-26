@@ -58,7 +58,9 @@ CreateEventSource.ps1
 なおPowerShellのコンソールから直接このサンプルを実行する場合、[System.Environment]::Exit()の部分でPowerShellが終了してしまうので、試しに実行したい場合はコメントアウトしたり Return で置き換えてください。
 
 C:\Temp\OutputSecurityLogs.ps1
-（画像２）
+（スクロール画像）
+
+![https://www.intellilink.co.jp/-/media/ndil/ndil-jp/column/ms/2022/063000/figure0003.png）
 
 **タスクを作成する**
 
