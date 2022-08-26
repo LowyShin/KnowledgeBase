@@ -39,7 +39,7 @@
 
 タスクスケジューラで設定する項目は以下の通りです。
 
-![2022-08-26 (2)](https://user-images.githubusercontent.com/49302727/186834447-a70656e2-0823-4afb-8be4-1c13ba813a1f.png)
+![2022-08-26 (4)](https://user-images.githubusercontent.com/49302727/186835208-57776156-5b1b-4660-844e-acbe452b2a03.png)
 
 
 **イベントソースを作成する**
@@ -48,7 +48,8 @@
 作成には New-EventLog、削除はRemove-EventLogコマンドレットを使用します。
 
 CreateEventSource.ps1
-（画像）
+
+![2022-08-26 (5)](https://user-images.githubusercontent.com/49302727/186835423-f3b08260-9283-43ed-ac88-67445e7d48ff.png)
 
 **実行対象を配置する**
 
