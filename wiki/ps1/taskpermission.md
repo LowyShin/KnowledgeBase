@@ -60,7 +60,8 @@ CreateEventSource.ps1
 C:\Temp\OutputSecurityLogs.ps1
 （スクロール画像）
 
-![https://www.intellilink.co.jp/-/media/ndil/ndil-jp/column/ms/2022/063000/figure0003.png）
+![image](https://user-images.githubusercontent.com/49302727/186836217-1bc3b107-222b-4d78-aea9-7d02d38f29ac.png)
+
 
 **タスクを作成する**
 
@@ -70,56 +71,68 @@ C:\Temp\OutputSecurityLogs.ps1
 **GUIでタスク作成**
 
 全般タブの「タスクの実行時に使うユーザーアカウント」は SYSTEM とするのが一番単純なので、今回はこれを採用しています。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836266-528d6963-86c8-4ffa-a9de-d072a7017f19.png)
 
 もし特定のユーザーを指定する場合はパスワードの記録が必要となります。一方、エクスポートしたXMLにはパスワードは含まれません。インポートやそれを確定するときに必要になります。
 「トリガー」には、ユーザーに発行させるイベントの情報を設定します。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836321-cb101572-f894-48c0-816b-c782d71af598.png)
+
 
 「操作」は実行対象を指定します。今回はPowerShell.exeとスクリプトファイルです。引数の方に実行対象となるスクリプトを指定します。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836355-59b591fb-5c3d-4c13-975b-a86e6b7c5372.png)
 
 タスクの「条件」タブですが、特に重たい処理をするのでなければ「電源」の項目のチェックを外しておくとよいでしょう。
 在宅だとケーブルが抜けていたり、本体に差しているType-Cケーブルが正規の電源につながっていないために電流が足りなかったりといった状態はよくあります。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836415-76d3fd65-1241-4ef1-b4e0-97e3589bb1af.png)
 
 最後にOKを押せば確定。個別のユーザーを実行アカウントに指定していた場合はパスワードの入力が求められます。
 
 **タスクXMLのエクスポート**
 
 出来上がったタスクをエクスポートします。一台だけで使用するならこの手順は不要です。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836443-7d333a2b-cd2e-4037-8188-19fa021c6cab.png)
 
 **XMLの編集**
 
 その後、必要に応じて保存されたXMLを編集します。
 作成者をユーザー名にしたくないなら「Author」を修正。ユーザーを個別で指定した場合SIDが使用されますが、ローカルアカウントの場合これが端末ごとに不一致になるので「UserId」をユーザー名に修正したりします。保存の際にUTF-16とするのを忘れずに。今回はビルトインアカウント「SYSTEM」を使うのでSIDのままでもよいでしょう。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836493-24bb7d30-9d56-471c-a05f-fbf51ba74ce6.png)
 
 **タスクXMLのインポート**
 
 タスクスケジューラのGUIを使用してXMLをインポートする場合は右ペインの「タスクのインポート」でインポートします。「タスクXMLに、書式設定が正しくない値または範囲外の値が含まれています。」というエラーが出る場合は「ユーザーまたはグループの変更」で同じユーザーアカウントを指定します。今回はOutputSecurityLogs.xmlを指定します。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186836526-89e683bc-3c98-4955-837f-a41dd4a7781a.png)
 
 PowerShellであれば以下のように登録します。今回のようにSYSTEMアカウントなどパスワード不要な場合、UserとPasswordの指定は不要です。フォルダ配下なら TaskPath パラメータを追加してください。
 
 RegisterTask.ps1
-（画像）
+
+![2022-08-26 (7)](https://user-images.githubusercontent.com/49302727/186836711-c32ea883-012a-484a-94d5-beafbc68e166.png)
 
 **ユーザーから実行する**
 
 **イベントログに書き込む**
 
 標準ユーザーからイベントログを書き出します。PowerShellを開いて以下のように発行します。
-（画像）
+
+![2022-08-26 (8)](https://user-images.githubusercontent.com/49302727/186836967-7611d3db-e24b-4ac7-9dd2-cbd29342712d.png)
 
 その後イベントログが出ているか確認しましょう。ログはGet-EventLogまたはGet-WinEventで取得できます。
-（画像）
+
+![2022-08-26 (9)](https://user-images.githubusercontent.com/49302727/186837149-4c16dc19-9e99-4285-acac-fc4e48426010.png)
 
 Get-EventLog と Get-WinEvent はオプションや扱えるイベントログの種類などが違います。evtxファイルとなっているログを扱えるかどうかや検索条件などの違いもあるので、適したものを選択してください。
 
 さて。うまくいけば、ID(Get-WinEventの場合は InstanceId)が1001のログが見つかります。メッセージに書かれたCSVを開けば、システムアカウントで実行された結果の書かれたCSVが確認できるはずです。
-（画像）
+
+![image](https://user-images.githubusercontent.com/49302727/186837195-1a0c5a7f-94aa-4082-8cd3-e57d69b47ee3.png)
 
 ところでエンドユーザーにPowerShellを操作してもらうのは大変なので、ダブルクリックで動くバッチをTIPSとサンプルとして作成しました。サンプルの GetSecurityLogs.bat を実行すると、イベントログを発行してタスクの完了を待ち、結果を表示します。
 
