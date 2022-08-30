@@ -64,6 +64,20 @@ git clone git@github.com:LowyShin/Knowledgebase.git
 
 ## tips
 
+* fork原本レポジトリーから自分のレポジトリーに同期
+```git
+# add origin repogitory
+git remote add upstream git@github.com/lowyshin/myrepo.git
+# add my repository
+git remote add origin git@github.com/childaccount/myrepo.git
+
+git pull upstream main
+git add .
+git commit -m "my sync"
+git push origin main
+
+```
+
 * VS Codeを利用した同期の管理
   * https://talklowy-jp.blogspot.com/2019/12/vs-codemicrosoft-visualstudio.html
 
