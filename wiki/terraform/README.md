@@ -7,6 +7,9 @@ official home page : https://www.terraform.io/
 ### Adopt
 Compose infrastructure as code in a Terraform file using HCL to provision resources from any infrastructure provider.
 
+### Installation
+* https://learn.hashicorp.com/tutorials/terraform/install-cli
+
 ### Build
 Infrastructure automation workflow used to compose, collaborate, reuse, and provision infrastructure as code across IT operations and teams of developers.
 
