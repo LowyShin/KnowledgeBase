@@ -9,6 +9,7 @@ Compose infrastructure as code in a Terraform file using HCL to provision resour
 
 ### Installation
 * https://learn.hashicorp.com/tutorials/terraform/install-cli
+* [poser shell install script](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/terraform/terraforminstall.ps1)
 
 ### Build
 Infrastructure automation workflow used to compose, collaborate, reuse, and provision infrastructure as code across IT operations and teams of developers.
