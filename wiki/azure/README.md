@@ -52,3 +52,9 @@
 ![bastion](https://docs.microsoft.com/ja-jp/azure/bastion/media/bastion-overview/architecture.png)
 
 
+## Azure Cli
+
+* get signed id information
+```az
+az ad signed-in-user show
+```
