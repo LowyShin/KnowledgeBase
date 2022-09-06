@@ -54,6 +54,15 @@
 
 ## Azure Cli
 
+* [Official Reference](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)
+* login
+```
+az login
+```
+* set subscription
+```
+az account set --subscription="SUBSCRIPTION_ID"
+```
 * get signed id information
 ```az
 az ad signed-in-user show
