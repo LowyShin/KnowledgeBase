@@ -48,6 +48,14 @@ view rawPS7ISE.ps1 hosted with ❤ by GitHub
 ```
 - https://dev.classmethod.jp/articles/using-powershell-core-in-the-windows-powershell-ise/
 
+## Azure
+
+- install az module
+```ps1
+Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
+```
+- https://learn.microsoft.com/ja-jp/powershell/azure/install-az-ps?view=azps-8.3.0
+
 ## Advanced tips
 
 * Export-Csv
