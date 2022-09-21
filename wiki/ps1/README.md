@@ -64,6 +64,10 @@ Update-Module Az
 
 ## Advanced tips
 
+* フォーマットの変更
+    * Format-Table などを利用した結果を変数に入れてしまうと変数がテキストになってしまいフィールド名で抽出が不可能になるので変数に入れるときは「Format-*」系のオプションは入れないこと
+    * データが見れない場合はConvertTo-JSONなどで表示してみると項目名とかデータのフォーマットの間違いが見やすくなるので積極的に活用することをお勧め
+
 * Export-Csv
   * ex :  ``Get-EventLog system | Export-Csv -path syslog.csv -Encoding UTF8 -NoTypeInformation -Delimiter `t ``
     * `-path` : export path
