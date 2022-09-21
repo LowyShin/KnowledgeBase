@@ -50,20 +50,7 @@ $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.Add("Switch to Windows PowerShel
 ```
 - https://dev.classmethod.jp/articles/using-powershell-core-in-the-windows-powershell-ise/
 
-## Azure
-
-- install az module
-```ps1
-Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
-```
-- https://learn.microsoft.com/ja-jp/powershell/azure/install-az-ps?view=azps-8.3.0
-
-
-- update az module
-```ps1
-Update-Module Az
-```
-- https://github.com/Azure/azure-powershell
+## [powershell for Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/ps-azure.md)
 
 ## Advanced tips
 
