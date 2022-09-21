@@ -78,6 +78,8 @@ Format-List
 Format-Table
 Format-Wide
 ```
+- [Using Format-Wide for Single-Item Output](https://learn.microsoft.com/ja-jp/powershell/scripting/samples/using-format-commands-to-change-output-view?view=powershell-7.2)
+
 
 * Export-Csv
   * ex :  ``Get-EventLog system | Export-Csv -path syslog.csv -Encoding UTF8 -NoTypeInformation -Delimiter `t ``
