@@ -44,7 +44,6 @@ $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.Add("Switch to Windows PowerShel
     $Child | ForEach-Object { Stop-Process -Id $_.ProcessId }
 
 }, "ALT+F6") | Out-Null
-view rawPS7ISE.ps1 hosted with ❤ by GitHub
 ```
 - https://dev.classmethod.jp/articles/using-powershell-core-in-the-windows-powershell-ise/
 
