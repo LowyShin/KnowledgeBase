@@ -14,6 +14,40 @@
     * It can be executed when download ps1 script
   * Ref : https://github.com/LowyShin/giipdoc-ko/wiki/Powershell-%EA%B6%8C%ED%95%9C-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0
 
+### Upgrade Powershell ISE
+- Rund below and press "ALT+F5"
+```ps1
+
+$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.Clear()
+$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.Add("Switch to PowerShell 7", { 
+        function New-OutOfProcRunspace {
+            param($ProcessId)
+
+            $ci = New-Object -TypeName System.Management.Automation.Runspaces.NamedPipeConnectionInfo -ArgumentList @($ProcessId)
+            $tt = [System.Management.Automation.Runspaces.TypeTable]::LoadDefaultTypeFiles()
+
+            $Runspace = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspace($ci, $Host, $tt)
+
+            $Runspace.Open()
+            $Runspace
+        }
+
+        $PowerShell = Start-Process PWSH -ArgumentList @("-NoExit") -PassThru -WindowStyle Hidden
+        $Runspace = New-OutOfProcRunspace -ProcessId $PowerShell.Id
+        $Host.PushRunspace($Runspace)
+}, "ALT+F5") | Out-Null
+
+$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.Add("Switch to Windows PowerShell", { 
+    $Host.PopRunspace()
+
+    $Child = Get-CimInstance -ClassName win32_process | where {$_.ParentProcessId -eq $Pid}
+    $Child | ForEach-Object { Stop-Process -Id $_.ProcessId }
+
+}, "ALT+F6") | Out-Null
+view rawPS7ISE.ps1 hosted with ❤ by GitHub
+```
+- https://dev.classmethod.jp/articles/using-powershell-core-in-the-windows-powershell-ise/
+
 ## Advanced tips
 
 * Export-Csv
