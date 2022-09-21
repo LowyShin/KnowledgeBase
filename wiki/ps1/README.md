@@ -15,7 +15,10 @@
   * Ref : https://github.com/LowyShin/giipdoc-ko/wiki/Powershell-%EA%B6%8C%ED%95%9C-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0
 
 ### Upgrade Powershell ISE
+- Powershell ISEは7はサポートしてないためPowershell 7をインストールしてpwshなどのコマンドで実行してPowershell上にまたPowershell7を立ち上げる方にする。
+
 - Rund below and press "ALT+F5"
+    - Powershell ISEでは下記のコードを実行してALT-F5を押すとコマンドプロンプトのPSバージョンが一時的に上がる。（exitまたはISEを立ち上げると元のバージョンに戻る）
 ```ps1
 
 $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.Clear()
