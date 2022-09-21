@@ -97,6 +97,7 @@ $cputotal
 # Write-Host "CPU Detail : "
 # $cpuinfo
 ```
+
 * Split files by line
 ```ps1
 # Read parent CSV
@@ -129,6 +130,13 @@ while ($line -le $InputFilename.Length) {
 }
 ```
   * https://www.spjeff.com/2017/06/02/powershell-split-csv-in-1000-line-batches/
+
+### Convert
+
+- Integerに変更
+```ps1
+$val1 = [int]$str1
+```
 
 ### File handling
 
