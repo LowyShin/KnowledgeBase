@@ -1,4 +1,6 @@
 
+## [Powershell for azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/ps-azure.md)
+
 ## Deployment
 
 * Simple management source and service by Github + Azure App Service
