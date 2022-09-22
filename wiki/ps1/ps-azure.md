@@ -44,5 +44,35 @@ Update-Module Az
 ```ps1
 $vm_name = "myvm"
 # get rules filtered name by alert*myvm 
+Write-Output "Type your operation. Rule enable[ E/e ], Rule disable[ D/d ]"
+$ans = Read-Host
+
+if (($ans -eq 'E') -or ($ans -eq 'e')) {
+    $user_op = "enable"
+}
+elseif (($ans -eq 'D') -or ($ans -eq 'd')) {
+    $user_op = "disable"
+}
+
 $az_rule_list = Get-AzScheduledQueryRule | Select Name, Enabled | Where-Object {$_.Name -like "alert*(${vm_name})*"}
+foreach ($az_rule_row in $az_rule_list){
+    $az_rule_row_name = $az_rule_list[$rowsn].Name
+    $az_rule_row_status = $az_rule_list[$rowsn].Enabled
+
+    if ($az_rule_row_name -ne ""){
+        if ($user_op -eq "enable"){
+            Write-Output "Update-AzScheduledQueryRule -ResourceGroupName ""${rg_name}"" -Name ""$az_rule_row_name"" -Enabled $true"
+            Update-AzScheduledQueryRule -ResourceGroupName "${rg_name}" -Name "$az_rule_row_name" -Enabled $true
+            Write-Output "... Done!"
+        }elseif ($user_op -eq "disable"){
+            Write-Output "Update-AzScheduledQueryRule -ResourceGroupName ""${rg_name}"" -Name ""$az_rule_row_name"" -Enabled $false"
+            Update-AzScheduledQueryRule -ResourceGroupName "${rg_name}" -Name "$az_rule_row_name" -Enabled $false
+            Write-Output "... Done!"
+        }
+    }
+    $rowsn++
+}
+
+Write-Output "... Result ...!"
+Get-AzScheduledQueryRule | Select Name, Enabled | Where-Object {$_.Name -like "alert*(${vm_name})*"}
 ```
