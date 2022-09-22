@@ -147,6 +147,7 @@
 ### Management
 
 * [Automate Infrastructure on Any Cloud - TerraForm](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/terraform)
+    - Easy to mass deploy tool on Azure, AWS, GCE
 * [Shell/bash](https://github.com/LowyShin/KnowledgeBase/wiki/Shell)
 * [crontab](https://github.com/LowyShin/KnowledgeBase/wiki/crontab)
 * [Windows PowerShell](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ps1)
