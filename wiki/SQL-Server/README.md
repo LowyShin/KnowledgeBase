@@ -47,6 +47,18 @@ ORDER BY i.LocationID;
 ```
 https://docs.microsoft.com/ja-jp/sql/t-sql/functions/rank-transact-sql?view=sql-server-ver16
 
+### Accumulated field
+
+- Monthly accumulated amount
+```sql
+SELECT A1.Month
+      ,A1.Amount
+      ,A2.Amount
+FROM   WORK_DATA A1
+INNER JOIN WORK_DATA A2
+ON  A1.Month >= A2.Month
+ORDER BY A1.Month
+```
 
 ## Functions
 
