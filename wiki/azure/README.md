@@ -34,7 +34,7 @@
   * https://azure.microsoft.com/pricing/calculator/
 * App Service Pricing
   * https://azure.microsoft.com/pricing/details/app-service/windows/
-
+* [自動化を使用したコストの管理](https://learn.microsoft.com/ja-jp/azure/cost-management-billing/costs/manage-automation?source=recommendations)
 
 ## Azure Database
 
@@ -73,3 +73,9 @@ az ad signed-in-user show
 ## Documentation
 
 - 各画面でJSON表示ができてそのJSONをファイルに落としてからExcelから読み取ってテーブル変換などの工夫によってそのまま使えるテーブルが作成できる。
+
+
+## Microsoft Ignite
+
+- [Microsoft Ignite 質問応答のエクスポート/インポート/更新](https://learn.microsoft.com/ja-jp/azure/cognitive-services/language-service/question-answering/how-to/export-import-refresh)
+- [Microsoft Excel にインポートされた Azure Data Explorer Kusto クエリを使用してデータを視覚化する](https://learn.microsoft.com/ja-jp/azure/data-explorer/excel-blank-query)
