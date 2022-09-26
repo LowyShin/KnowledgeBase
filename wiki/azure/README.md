@@ -46,6 +46,10 @@
 
 * [Running an optimized MariaDB (MySQL) cluster on Azure](https://sabbour.me/running-a-mariadb-cluster-on-azure/)
 
+## Integration
+
+- [Export CSV by Powershell](https://www.sanganakauthority.com/2015/05/export-to-excel-microsoft-azure-vm-list.html)
+
 ## Connection
 
 ### Azure Bastion
