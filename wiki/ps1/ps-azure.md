@@ -23,6 +23,14 @@ $myvm_name = $myvm.name
 ```
 - if you see command not recognize messeges, you must upgrate az module and powershell version over 7.2
 
+- [Microsoft Azure – Retrieve Azure Virtual Machine Admin User Name](https://www.geeksforgeeks.org/microsoft-azure-retrieve-azure-virtual-machine-admin-user-name/)
+```ps1
+Get-AZVM `
+-Name "Provide_the_Azure_VM_Name_Here" `
+-ResourceGroup "Provide_Resource_Group_Name_Here" `
+| Select-Object -ExpandProperty OSProfile
+```
+
 ## install and update az module
 ```ps1
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
