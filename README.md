@@ -75,6 +75,14 @@
   * [Liquid](https://www.liquid.com/)
 * [コピートレードに気をつけろ！](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/copytrade.md)
 
+### AI(Artifical Intelligence)
+
+* [Generate video from text you written - makeavideo](https://makeavideo.studio/)
+* [DALL·E](https://en.wikipedia.org/wiki/DALL-E)
+* [Generate Photo from text you written - craiyon](https://www.craiyon.com/)
+* [Imagen](https://imagen.research.google/)
+* [Midjourney](https://www.midjourney.com/home/) 
+
 ### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
 * [nodejs](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nodejs)
