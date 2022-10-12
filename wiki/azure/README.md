@@ -1,5 +1,23 @@
+## Introduce
 
-## [Powershell for azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/ps-azure.md)
+AzureはMSで作ったサービスなのでExcelから管理しやすくなっているのが長所でAzureのデータストアに入れたままExcelに表示したり、Azureの設定などをJSONに吐き出してExcelに取り込んなりするといちいち管理台帳を手動で作らなくても管理がしやすいです。
+
+そしてazコマンドがPowershellで使えるのでインフラ管理をPowershellを利用して自動化するのが便利です。
+
+さらにTerraformなどの外部ツールを利用すると一括管理・適用ができて大規模インフラの統合管理及び操作履歴管理など体系的に管理ができます。
+
+App Serviceなどを利用するとサーバーレスで今までのサーバーの管理手間が省いてさらにスケーラブルなインフラ管理が自動で管理できます。App Serviceはnodejs、PHP、.Netなど様々は開発環境を提供するためOS上に環境をインストールする必要がなく冗長構成も要りません。
+
+Windows VMを使うときはWindowsライセンスが無料なのでAWSより安く使えます。
+
+SQL Serverの場合もAWSより安いサーバーレスモデルを提供するので2千円からライセンス込みで利用することができます。
+
+
+## Use more powerful
+
+* [Powershell for azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/ps-azure.md)
+    * Azure login using az command
+    * change subscription or component control
 
 ## Deployment
 
