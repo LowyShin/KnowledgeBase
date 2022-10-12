@@ -18,6 +18,8 @@ SQL Serverの場合もAWSより安いサーバーレスモデルを提供する�
 
 azureにはトポロジー機能があって今までネットワーク構成図を手動で描いてたらこれからはトポロジーをスクショを撮るだけで最新のネットワーク構成図の管理ができちゃいます。
 
+AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだけでDBMS専門家が要らない程のリアルタイムチューニングを行います。SQLのパターンを分析してパフォーマンスに応じてインデクスを作成または削除しながらパフォーマンスを保ってくれます。
+
 ## Use more powerful
 
 * [Powershell for azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/ps-azure.md)
