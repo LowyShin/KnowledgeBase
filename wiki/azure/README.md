@@ -12,6 +12,10 @@ Windows VMを使うときはWindowsライセンスが無料なのでAWSより安
 
 SQL Serverの場合もAWSより安いサーバーレスモデルを提供するので2千円からライセンス込みで利用することができます。
 
+簡単な設定でLinuxとWindowsのシステムからシステムログなどが収集できてLog Analyticsから統合して確認することができるので時系列の異常分析にも役に立ちます。
+
+さらにDBMS分析ツールの[Ezis](https://github.com/LowyShin/ezis-jp)を利用するとより詳しくパフォーマンス分析ができます。
+
 
 ## Use more powerful
 
