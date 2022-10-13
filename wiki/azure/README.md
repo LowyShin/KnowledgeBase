@@ -112,3 +112,10 @@ az ad signed-in-user show
 
 - [Microsoft Ignite 質問応答のエクスポート/インポート/更新](https://learn.microsoft.com/ja-jp/azure/cognitive-services/language-service/question-answering/how-to/export-import-refresh)
 - [Microsoft Excel にインポートされた Azure Data Explorer Kusto クエリを使用してデータを視覚化する](https://learn.microsoft.com/ja-jp/azure/data-explorer/excel-blank-query)
+
+## Links
+
+- [Terrafomr for Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/terraform/tfazure.md)
+
+
+
