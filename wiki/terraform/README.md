@@ -33,6 +33,7 @@ Infrastructure automation workflow extending to all teams in the organization wi
 
 ## Links
 
+* [Terraform on Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/terraform/tfazure.md)
 * [Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/README.md)
     - [Powershell for Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/ps-azure.md)
 - [AWS - Amazon Web Service](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/AWS)
