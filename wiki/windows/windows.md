@@ -1,4 +1,8 @@
-# Windows 10
+## Windows Common
+
+- [SenseNDR.exe、例外コード:0xc0000005](sensendr.md)
+
+## Windows 10
 
 * Official download
   * https://www.microsoft.com/ko-kr/software-download/windows10
