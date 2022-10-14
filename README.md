@@ -235,17 +235,18 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   * [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
   * [flywire - easy payment gateway](https://www.flywire.com/)
 * jp
-  * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
-  * [バーコード検索：JANコードの基礎知識から検索の仕方まで徹底解説](https://orange-operation.jp/pos/16452.html)
-    * 日本の製品情報をバーコードで検索する方法とサイトの紹介
-  * [スタートアップ企業リスト](https://startup-db.com/companies)
-  * [中小企業向け補助金・総合支援サイト - ミラサポPlus - 経済産業省](https://mirasapo-plus.go.jp/subsidy/ithojo/)
-    * IT導入補助金を活用して安くITを導入しましょう！
-  * [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
-  * [BINDupホームページ自動作成](https://bindup.jp/plan/)
-  * [日本法人検索(中小機構)](https://tdb.smrj.go.jp/corpinfo/corporate/search#o)
-  * [法人関連オンライン簡単申請サービス - GVA](https://corporate.ai-con.lawyer/)
-  * [WeWork Japan](https://ultimate-setsuko.com/business/wework/)
+    * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
+    - [スタートアップは1回の資金調達でどれくらいの数の投資家から調達するのか？](https://worry-hacker.com/corporate-analysis-startup-funding-investor-average-01/)
+    * [バーコード検索：JANコードの基礎知識から検索の仕方まで徹底解説](https://orange-operation.jp/pos/16452.html)
+        * 日本の製品情報をバーコードで検索する方法とサイトの紹介
+    * [スタートアップ企業リスト](https://startup-db.com/companies)
+    * [中小企業向け補助金・総合支援サイト - ミラサポPlus - 経済産業省](https://mirasapo-plus.go.jp/subsidy/ithojo/)
+        * IT導入補助金を活用して安くITを導入しましょう！
+    * [Makeshop Reseller partner(jp)](https://www.makeshop.jp/partner/reseller_partner.html)
+    * [BINDupホームページ自動作成](https://bindup.jp/plan/)
+    * [日本法人検索(中小機構)](https://tdb.smrj.go.jp/corpinfo/corporate/search#o)
+    * [法人関連オンライン簡単申請サービス - GVA](https://corporate.ai-con.lawyer/)
+    * [WeWork Japan](https://ultimate-setsuko.com/business/wework/)
 * kr
   * [for Korean](kr)
   * [가족비자(family visa) 신청 관련](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/visa)
