@@ -1,6 +1,6 @@
 [Translate this page?](https://translate.googleusercontent.com/translate_c?depth=1&hl=en&rurl=translate.google.com&sl=auto&sp=nmt4&tl=ja&u=https://github.com/LowyShin/KnowledgeBase&usg=ALkJrhgmYJ2j5I5KtTO5ROlKUAYf8bQMcw)
 
-## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBase/wiki)
+## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBase)
 
 * [Markdown](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/Markdown)
 * [Real World PlantUML](https://real-world-plantuml.com/)
