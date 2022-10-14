@@ -159,7 +159,7 @@
 * [VirtualBox](https://www.virtualbox.org/)
   * [MacOSでの新バージョンVirtual Box実行時mac verr_vm_driver_not_installed (-1908)回避](https://www.nemotos.net/?p=3707)
 
-### Management
+### Infrastructure Management
 
 * [Automate Infrastructure on Any Cloud - TerraForm](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/terraform)
     - Easy to mass deploy tool on Azure, AWS, GCE
@@ -174,6 +174,29 @@
   * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
 * [File Sync(rsync, scp...)](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
 * [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+
+### Project Management
+
+- [JIRA](https://www.atlassian.com/software/jira)
+    - issue管理及びプロジェクト管理の定番ツール
+    - add-onが強い
+    - [Confluence](https://www.atlassian.com/software/confluence)
+        - wiki形式のコンテンツ管理ツール(CMS)
+- [Wrike](https://www.wrike.com/)
+    - JIRAに近いプロジェクト管理ツール
+    - 基本機能でganttが自動作成されるのが強み
+    - 値段が高い
+- [Trello](https://trello.com/en)
+    - カード型イシュー管理サービス
+    - Add-onでgantt chartがある。
+- [ASANA](https://asana.com/)
+    - カード型イシュー管理サービス
+- [draw.io](https://app.diagrams.net/)
+    - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
+    - 無料なのに強力
+    - Googleドライブに保存して共有したりすると共同作業が便利
+- [mural.ly](https://www.mural.co/)
+    - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
 
 ### Security
 
