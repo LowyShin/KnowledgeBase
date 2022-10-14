@@ -32,3 +32,6 @@
 * [aws aurora benchmark](https://aws-ref.s3.amazonaws.com/aurora/Amazon+Aurora.pdf)
 
 * ELB limit : https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/application/load-balancer-limits.html
+
+- [Resource Access Manager를 이용하여 Subnet(VPC)를 공유](https://zigispace.net/m/1033)
+- [Share your VPC with other accounts](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-sharing.html#vpc-share-prerequisites)
