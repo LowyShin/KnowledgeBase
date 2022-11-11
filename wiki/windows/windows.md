@@ -4,6 +4,8 @@
 
 - [【Bginfo】Windowsのデスクトップにシステム情報を表示する方法と各種カスタマイズ](https://mugendennou.net/win-server/bginfo/)
 
+- [EvetCreate.exe(official)](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/eventcreate)
+
 ## Windows Server
 
 - [2022 年(KB894199) のコンテンツにおけるソフトウェア更新サービスとWindows Server Update Servicesの変更について](https://support.microsoft.com/ja-jp/topic/description-of-software-update-services-and-windows-server-update-services-changes-in-content-for-2022-kb894199-0c540f4f-60c8-7dc2-23c9-48153749966d#bkmk_ref)
