@@ -284,6 +284,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * jp
     * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
     - [スタートアップは1回の資金調達でどれくらいの数の投資家から調達するのか？](https://worry-hacker.com/corporate-analysis-startup-funding-investor-average-01/)
+    - [LINEビジネス](https://github.com/LowyShin/KnowledgeBase/blob/master/jp/linebusiness.md)
     * [バーコード検索：JANコードの基礎知識から検索の仕方まで徹底解説](https://orange-operation.jp/pos/16452.html)
         * 日本の製品情報をバーコードで検索する方法とサイトの紹介
     * [スタートアップ企業リスト](https://startup-db.com/companies)
