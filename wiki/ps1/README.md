@@ -76,6 +76,22 @@ Format-Wide
       * `#TYPE System.Diagnostics.EventLogEntry#system/Microsoft-Windows-GroupPolicy/1500`
     * `-Delimiter` : `` `t ``, `,`
 
+- Write Event
+```ps1
+EventCreate.exe /L APPLICATION /T ERROR /ID 999 /D "test event"
+```
+https://www.intellilink.co.jp/column/ms/2022/063000.aspx
+
+- evenlog level
+
+| level name | level |
+|--|--|
+| CRITICAL | 1 |
+| ERROR | 2 |
+| WARNING | 3 |
+| INFORMATION | 4 |
+
+
 * CPU usage
 ```ps1
 $cpuinfo = New-Object -TypeName PSCustomObject
