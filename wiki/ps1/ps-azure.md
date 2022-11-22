@@ -87,6 +87,8 @@ Get-AzScheduledQueryRule | Select Name, Enabled | Where-Object {$_.Name -like "a
 
 - [Add-AzMetricAlertRuleV2](https://learn.microsoft.com/ja-jp/powershell/module/Az.Monitor/add-azmetricalertrulev2?view=azps-0.10.0)
     - [例 3: メトリック アラート ルールを無効にする](https://learn.microsoft.com/ja-jp/powershell/module/Az.Monitor/add-azmetricalertrulev2?view=azps-0.10.0#3)
-
+    ```
+    Get-AzMetricAlertRuleV2 -ResourceGroupName alertstest  -Name TestAlertRule | Add-AzMetricAlertRuleV2 -DisableRule
+    ```
 
 
