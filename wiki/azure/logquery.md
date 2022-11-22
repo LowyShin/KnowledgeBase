@@ -6,6 +6,12 @@ resources
 | where (resourceGroup =~ ('giip-rg'))
 ```
 
+- Events
+```
+Event
+| summarize Occurance=count() by RenderedDescription, EventID, EventLevelName, EventLevel, Computer, EventLog, Source
+```
+
 - dependencies summary by result code, date
 
 ```az
