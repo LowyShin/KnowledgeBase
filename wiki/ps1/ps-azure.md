@@ -84,3 +84,9 @@ foreach ($az_rule_row in $az_rule_list){
 Write-Output "... Result ...!"
 Get-AzScheduledQueryRule | Select Name, Enabled | Where-Object {$_.Name -like "alert*(${vm_name})*"}
 ```
+
+- [Add-AzMetricAlertRuleV2](https://learn.microsoft.com/ja-jp/powershell/module/Az.Monitor/add-azmetricalertrulev2?view=azps-0.10.0)
+    - [例 3: メトリック アラート ルールを無効にする](https://learn.microsoft.com/ja-jp/powershell/module/Az.Monitor/add-azmetricalertrulev2?view=azps-0.10.0#3)
+
+
+
