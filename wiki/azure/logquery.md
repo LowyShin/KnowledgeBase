@@ -8,6 +8,14 @@ dependencies
 | order by timestamp desc
 ```
 
+- time/data
+```
+dependencies 
+| summarize Occurance=count() by format_datetime(timestamp,'yyyy-MM-dd'), substring(data, 0, 97), resultCode 
+| where resultCode contains "404" 
+| order by timestamp desc
+```
+
 - Azure Metrics 
 
 ```az
