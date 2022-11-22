@@ -9,3 +9,5 @@
 利益剰余金は、払込資本を運用することによって得た利益のうち、配当せずに会社内部に留保したものです。利益剰余金は、利益準備金、その他利益剰余金に分けられます。そして、その他利益剰余金は、任意積立金、繰越利益剰余金に分けられます。
 
 https://advisors-freee.jp/article/category/cat-big-02/cat-small-04/11807/
+
+- [日本の休日](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)
