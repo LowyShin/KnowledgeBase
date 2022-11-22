@@ -45,11 +45,13 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 
 - [Useful query for log analytics](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/logquery.md)
 
-* [Azure LogAnalyticsワークスペースへのApacheログの取り込み](https://cloud.ebisuda.com/2021/07/05/azure-loganalytics%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%B8%E3%81%AEapache%E3%83%AD%E3%82%B0%E3%81%AE%E5%8F%96%E3%82%8A%E8%BE%BC%E3%81%BF/)
+- [Azure Monitor Log Alert V2(➽)](https://cloudadministrator.net/2021/11/04/azure-monitor-log-alert-v2/)
 
-* [App Serviceからのログ取り込み](https://cloud.ebisuda.com/2021/07/11/app-service%E3%81%8B%E3%82%89%E3%81%AE%E3%83%AD%E3%82%B0%E5%8F%96%E3%82%8A%E8%BE%BC%E3%81%BF/)
+* [Azure LogAnalyticsワークスペースへのApacheログの取り込み(➽)](https://cloud.ebisuda.com/2021/07/05/azure-loganalytics%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%B8%E3%81%AEapache%E3%83%AD%E3%82%B0%E3%81%AE%E5%8F%96%E3%82%8A%E8%BE%BC%E3%81%BF/)
 
-* [Log Query](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/query-optimization#use-effective-aggregation-commands-and-dimensions-in-summarize-and-join)
+* [App Serviceからのログ取り込み(➽)](https://cloud.ebisuda.com/2021/07/11/app-service%E3%81%8B%E3%82%89%E3%81%AE%E3%83%AD%E3%82%B0%E5%8F%96%E3%82%8A%E8%BE%BC%E3%81%BF/)
+
+* [Log Query(➽Official)](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/query-optimization#use-effective-aggregation-commands-and-dimensions-in-summarize-and-join)
 
 ## Azure AD(Active Directory)
 
