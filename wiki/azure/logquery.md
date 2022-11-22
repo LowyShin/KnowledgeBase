@@ -33,3 +33,8 @@ Perf
 | where ObjectName contains "Process"
 | where TimeGenerated between(datetime("2022-11-19 04:30:00") .. datetime("2022-11-19 06:00:00")) 
 ```
+
+## Ref
+
+- [Optimize log queries in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-optimization#use-effective-aggregation-commands-and-dimensions-in-summarize-and-join)
+
