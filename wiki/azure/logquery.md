@@ -1,5 +1,11 @@
 # Useful Azure Query
 
+- get Resource
+```
+resources
+| where (resourceGroup =~ ('giip-rg'))
+```
+
 - dependencies summary by result code, date
 
 ```az
