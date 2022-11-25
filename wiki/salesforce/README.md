@@ -1,4 +1,4 @@
-#### Salesforce Certified Administrator자격증 취득정보
+## Salesforce Certified Administrator자격증 취득정보
 
 * 【Salesforce公式】認定アドミニストレーター資格 対策
   * [일본 세일즈포스의 공식 학습로드맵](https://trailhead.salesforce.com/ko/users/welcome4/trailmixes/prepare-for-your-salesforce-administrator-credential)
@@ -21,3 +21,11 @@
 * [Focus On Force](https://focusonforce.com)
   * 세일즈포스 관련 자격증을 총망라해 시험 가이드와 연습문제를 제공하는 사이트
   * 세일즈포스 자격증과 관련해서는 위 사이트가 제일 유명!
+
+## References
+
+### UI Components
+
+- [Radio Button](https://developer.salesforce.com/docs/atlas.en-us.198.0.lightning.meta/lightning/ui_radio.htm)
+- [Primitive Data Type](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/primitive_data_types.htm)
+- [Field Type](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/field_types.htm?q=data%20type)
