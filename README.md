@@ -146,7 +146,7 @@
   * Microsoft社から提供する強力な無料開発ツール。様々な言語の開発及びDBへの接続・モバイル仮想端末の起動・管理などこれ一本できるほど多いadd-onがある。
 * [git(github)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
   * git・github関連のTip
-* [GoogleSheet](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
+* [GoogleSheet(GSheet)](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
   * Google Sheet利用に便利な内容
 * [Excel](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/excel)
 * [VNC](https://github.com/LowyShin/KnowledgeBase/wiki/VNC)
