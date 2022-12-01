@@ -71,6 +71,9 @@ function sendEmail(lwFromName, lwTo, lwSubject, lwBody){
 
 * [GoogleAppsScript　スクリプトのプロパティの超簡単な使い方](https://qiita.com/0Delta/items/7d8303eebbff4062069e)
 
+- [How to Get the Sheet Name in Google Sheets (Formula)](https://spreadsheetpoint.com/get-sheet-name-google-sheets/)
+
+
 ## Links
 
 * [Google Apps Scriptで値の変更をトリガーにしつつ変更されたセルの行番号と列番号を知る](https://tonari-it.com/gas-trigger-changed/#toc2)
