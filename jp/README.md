@@ -12,4 +12,8 @@ https://advisors-freee.jp/article/category/cat-big-02/cat-small-04/11807/
 
 - [日本の休日](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)
 
-- [被保険者資格取得届](https://www.nenkin.go.jp/service/kounen/todokesho/hihokensha/20140718.files/0000002415.pdf)
+### 日本年金機構
+
+- [事業所の名称・所在地を変更するとき](https://www.nenkin.go.jp/service/kounen/tekiyo/jigyosho/20120406.html)
+- 様式・書式
+    - [被保険者資格取得届](https://www.nenkin.go.jp/service/kounen/todokesho/hihokensha/20140718.files/0000002415.pdf)
