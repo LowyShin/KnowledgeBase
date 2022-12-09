@@ -24,6 +24,10 @@
 
 ## References
 
+- [LWCで住所を郵便番号検索で自動入力するには](https://qiita.com/tatsuro-suzuki/items/31792a712634533e80e9)
+- 韓国の郵便番号検索機能はサポートしてない。(LWC)
+    - https://help.salesforce.com/s/articleView?id=sf.customize_maps_autocomplete.htm&type=5&language=ko
+
 ### UI Components
 
 - [Radio Button](https://developer.salesforce.com/docs/atlas.en-us.198.0.lightning.meta/lightning/ui_radio.htm)
