@@ -201,6 +201,10 @@
 - [mural.ly](https://www.mural.co/)
     - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
 
+### How to add a WordPress video background
+
+* [WordPressのバックグラウンドに動画を入れる方法](https://themeisle.com/blog/wordpress-video-background/)
+  
 ### Security
 
 * [Trend Micro]()
