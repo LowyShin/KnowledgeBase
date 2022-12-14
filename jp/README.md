@@ -23,7 +23,7 @@ https://advisors-freee.jp/article/category/cat-big-02/cat-small-04/11807/
 
 - [【国税庁】各種申告書・記載例（扶養控除等申告書など）](https://www.nta.go.jp/users/gensen/nencho/shinkokusyo/index.htm)
     - [令和4年給与所得者用扶養控除等（移動）申告書](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r04_01_input.pdf)
-    - [令和4年給与所得者用扶養控除等（移動）申告書の記入例（書き方）](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r4bun_02.pdf）
+    - [令和4年給与所得者用扶養控除等（移動）申告書の記入例](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r4bun_02.pdf)
 
 ### 日本年金機構
 
