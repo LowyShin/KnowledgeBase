@@ -84,4 +84,4 @@ tinyint | 0 ～ 255 | 1 バイト
 
 * https://docs.microsoft.com/ja-jp/sql/t-sql/data-types/int-bigint-smallint-and-tinyint-transact-sql?view=sql-server-ver16
 
-
+- [Amazon RDS for SQL Server でのデータベースメールの使用](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/SQLServer.DBMail.html)
