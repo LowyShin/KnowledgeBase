@@ -111,6 +111,7 @@
   * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
 * [Chatbot](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/Chatbot.md)
 * [PHP](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/PHP/README.md)
+- [React TypeScript ESLint Prettier VSCode のプロジェクト作成](https://itc-engineering-blog.netlify.app/blogs/eslint-prettier)
 
 ### RPA(Robotic Process Automation)
 
