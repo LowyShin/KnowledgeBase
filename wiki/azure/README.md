@@ -107,6 +107,8 @@ az account set --subscription="SUBSCRIPTION_ID"
 az ad signed-in-user show
 ```
 
+- [ブラウザ認証をスキップし、CLIでAzureにログインする方法](https://tech-blog.cloud-config.jp/2022-09-16-auto-azure-login-for-cli/)
+
 ## Documentation
 
 - 各画面でJSON表示ができてそのJSONをファイルに落としてからExcelから読み取ってテーブル変換などの工夫によってそのまま使えるテーブルが作成できる。
