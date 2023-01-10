@@ -34,3 +34,6 @@ https://www.e-tax.nta.go.jp/
 - [事業所の名称・所在地を変更するとき](https://www.nenkin.go.jp/service/kounen/tekiyo/jigyosho/20120406.html)
 - 様式・書式
     - [被保険者資格取得届](https://www.nenkin.go.jp/service/kounen/todokesho/hihokensha/20140718.files/0000002415.pdf)
+- 外国人の扶養家族の場合日本に居住の場合のみ登録可能（年末調整から控除するのは別なので年金登録しなくても控除可能）
+  - 住民票添付及びマイナンバー記入必須
+
