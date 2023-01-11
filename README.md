@@ -307,7 +307,9 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [キズの付いたCDを修復する方法](https://www.wikihow.jp/%E3%82%AD%E3%82%BA%E3%81%AE%E4%BB%98%E3%81%84%E3%81%9FCD%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B)
 * [プラスチックについた傷を消す方法](https://www.wikihow.jp/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%9F%E5%82%B7%E3%82%92%E6%B6%88%E3%81%99)
 * [aerodrone - 1万円台の高性能ドローン](https://get-aerodrone.com/)
-- [キャパシタとコンデンサの違い](https://www.musashi-es.co.jp/blog/2021/05/53cd8895d7f57f6b8e1db96904ad793b05c6567b.html)
+- [キャパシタとコンデンサの違い](https://www.musashi-es.co.jp/blog/2021/05/53cd8895d7f57f6b8e1db96904ad793b05c6567b.html
+- [AWS規格別許容電流表](https://www.batteryspace.jp/html/page28.html)
+
 
 ### Life
 
