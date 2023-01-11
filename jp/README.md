@@ -26,6 +26,8 @@ https://www.e-tax.nta.go.jp/
 ### 年末調整
 
 - [【国税庁】各種申告書・記載例（扶養控除等申告書など）](https://www.nta.go.jp/users/gensen/nencho/shinkokusyo/index.htm)
+    - [令和4年給与所得者の基礎控除申告書兼給与所得者の配偶者控除等申告書兼所得金額調整控除申告書](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r5bun_06.pdf)
+
     - [令和4年給与所得者用扶養控除等（移動）申告書](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r04_01_input.pdf)
     - [令和4年給与所得者用扶養控除等（移動）申告書の記入例](https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/r4bun_02.pdf)
 
