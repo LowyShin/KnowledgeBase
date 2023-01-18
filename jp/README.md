@@ -44,4 +44,11 @@ https://www.e-tax.nta.go.jp/
 - 管轄以外への住所移転の場合税務署と都税事務所に移動届提出が必要。
 - 年金機構に住所変更届を申請。
 
+### 家族ビザ申請
+
+- https://www.moj.go.jp/isa/applications/status/dependent.html
+
+
+
+
 
