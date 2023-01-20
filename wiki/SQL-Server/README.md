@@ -94,4 +94,31 @@ tinyint | 0 ～ 255 | 1 バイト
   -- convert UCT to JST
   select @mydate at time zone 'UTC' at time zone 'Tokyo Standard Time'
   ```
+  
+  - custom time function
+  ```sql
+  CREATE FUNCTION [dbo].[fzonetime] 
+  (
+      @timestr datetime,
+      @zonecode varchar(max)
+  )
+  RETURNS datetime
+  AS
+  BEGIN
+
+      DECLARE @Result datetime = getdate();
+      DECLARE @zonename varchar(max);
+
+      select @zonename = 
+          case when @zonecode = 'jp' then 'Tokyo Standard Time'
+          else @zonecode
+          end ;
+
+      Select @Result = @timestr AT TIME ZONE 'UTC' AT TIME ZONE @zonename;
+
+      RETURN @Result
+
+  END
+  GO
+  ```
 
