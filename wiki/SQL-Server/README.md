@@ -85,3 +85,13 @@ tinyint | 0 ～ 255 | 1 バイト
 * https://docs.microsoft.com/ja-jp/sql/t-sql/data-types/int-bigint-smallint-and-tinyint-transact-sql?view=sql-server-ver16
 
 - [Amazon RDS for SQL Server でのデータベースメールの使用](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/SQLServer.DBMail.html)
+
+- [At time zone](https://learn.microsoft.com/ja-jp/sql/t-sql/queries/at-time-zone-transact-sql?view=sql-server-ver16)
+  - Azure SQLの場合UTCが基本になって変更ができないため全てのdatetime形式はAt time zoneを利用して変換しないといけない。
+  ```sql
+  -- getdate for JST
+  select getdate() at time zone 'Tokyo Standard Time'
+  -- convert UCT to JST
+  select @mydate at time zone 'UTC' at time zone 'Tokyo Standard Time'
+  ```
+
