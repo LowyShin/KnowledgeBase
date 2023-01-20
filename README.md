@@ -242,6 +242,10 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   * [adb shell](https://talklowy-jp.blogspot.com/2020/10/android-rooting-app.html)
 * [MacOS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MacOS)
 
+### Apps
+
+- [iOS](https://github.com/LowyShin/KnowledgeBase/tree/master/iOS)
+
 ### Hardware
 
 * [Xeon CPU](https://github.com/LowyShin/KnowledgeBase/wiki/Xeon-CPU)
