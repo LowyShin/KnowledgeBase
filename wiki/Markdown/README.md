@@ -30,4 +30,10 @@
 | TD | TD | TD |
 | TD | TD | TD |
 
+### Image include
+
+```md
+![my image](https://github.com/LowyShin/knowledgebase/blob/main/docs/Images/042B4672-8198-48C8-90E9-956626DDE69B.gif)
+```
+![my image](https://github.com/LowyShin/knowledgebase/blob/main/docs/Images/042B4672-8198-48C8-90E9-956626DDE69B.gif)
 
