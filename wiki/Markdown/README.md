@@ -33,7 +33,7 @@
 ### Image include
 
 ```md
-![my image](https://github.com/LowyShin/knowledgebase/blob/main/docs/Images/042B4672-8198-48C8-90E9-956626DDE69B.gif)
+![my image](https://github.com/LowyShin/KnowledgeBase/blob/master/images/hobby/A4BEED32-6A41-4D4A-8EDF-4367CE5BC8AD.gif)
 ```
-![my image](https://github.com/LowyShin/knowledgebase/blob/main/docs/Images/042B4672-8198-48C8-90E9-956626DDE69B.gif)
+![my image](https://github.com/LowyShin/KnowledgeBase/blob/master/images/hobby/A4BEED32-6A41-4D4A-8EDF-4367CE5BC8AD.gif)
 
