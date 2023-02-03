@@ -56,4 +56,6 @@
 
 ### Japan
 
+- [【金融庁】仮想通貨交換業](https://www.fsa.go.jp/news/30/virtual_currency/20181024-2.html)
+- [【金融庁】第二種金融商品取引業](https://lfb.mof.go.jp/kantou/kinyuu/kinshotorihou/mokuji_nisyu.htm)
 * [改正資金決済法における「暗号資産（仮想通貨）」に該当するICOトークンを日本国内の居住者に対して販売する場合は、金融庁に対して「暗号資産交換業」の登録を行わなければなりません（自社が販売の主体となる場合）](https://www.businesslawyers.jp/practices/865)
