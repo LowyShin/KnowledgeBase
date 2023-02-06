@@ -126,6 +126,7 @@ az ad signed-in-user show
 ### CDN
 
 - [Quickstart: Integrate an Azure Storage account with Azure CDN(official)](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn)
+- [Azure CDN 製品の機能比較](https://learn.microsoft.com/ja-jp/azure/cdn/cdn-features?WT.mc_id=Portal-Microsoft_Azure_Cdn)
 
 ## Links
 
