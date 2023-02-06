@@ -19,6 +19,9 @@
 * [ERC721(Crypto Kitty Sample)](https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/)
 * [OpenZepplin-ERC721 Dev](https://docs.openzeppelin.com/contracts/3.x/erc721)
 
+- [NFTとは？仕組みや特徴・購入方法を初心者にもわかりやすく解説](https://maonline.jp/media/nft-about/)
+- [【NFT】Etherscan（イーサ スキャン）上でNFTを表示してみた](https://note.com/ooba8686/n/n5b2aa32c1ee0)
+- [NFTメタデータを生成する](https://morioh.com/p/d7269c43ee37)
 
 ## Wallets
 
