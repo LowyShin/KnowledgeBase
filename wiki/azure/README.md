@@ -123,6 +123,10 @@ az ad signed-in-user show
 
 - [Azure DevOpsを触ってみた](https://www.qes.co.jp/media/Microservices/a104)
 
+### CDN
+
+- [Quickstart: Integrate an Azure Storage account with Azure CDN(official)](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn)
+
 ## Links
 
 - [Terrafomr for Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/terraform/tfazure.md)
