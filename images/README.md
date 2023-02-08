@@ -1,0 +1,1 @@
+- [Azure icons(code.benco.io)](http://code.benco.io/icon-collection/azure-icons/)
