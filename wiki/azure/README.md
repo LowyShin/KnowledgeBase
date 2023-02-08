@@ -123,10 +123,12 @@ az ad signed-in-user show
 
 - [Azure DevOpsを触ってみた](https://www.qes.co.jp/media/Microservices/a104)
 
-### CDN
+### Load Balancing and CDN
 
 - [Quickstart: Integrate an Azure Storage account with Azure CDN(official)](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn)
 - [Azure CDN 製品の機能比較](https://learn.microsoft.com/ja-jp/azure/cdn/cdn-features?WT.mc_id=Portal-Microsoft_Azure_Cdn)
+
+- [Azure Front Door と Azure Application Gateway の違いは何ですか?](https://learn.microsoft.com/ja-jp/azure/frontdoor/standard-premium/faq)
 
 ## Links
 
