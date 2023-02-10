@@ -19,6 +19,7 @@ where
 	JSON_VALUE(<jsonfield>, '$."status"') = 0
 ```
 - Field 一部だけJSONの場合
+  - lsParamフィールドがJSONデータ
 ```sql
 select lssn, lsName, lsRegdt
 	, JSON_VALUE(lsParam, '$.UID') as juid
