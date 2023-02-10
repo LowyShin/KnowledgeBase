@@ -18,6 +18,16 @@ from (
 where
 	JSON_VALUE(<jsonfield>, '$."status"') = 0
 ```
+- Field 一部だけJSONの場合
+```sql
+select lssn, lsName, lsRegdt
+	, JSON_VALUE(lsParam, '$.UID') as juid
+from (
+	select * from tLogSp
+	where lsParam like '{%'
+		and lsParam like '%UID%'
+) a
+```
 * https://docs.microsoft.com/ja-jp/sql/t-sql/functions/json-modify-transact-sql?view=sql-server-ver15
 
 * JSONをテーブルのように使う
