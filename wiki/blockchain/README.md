@@ -67,6 +67,10 @@
 
 * [Mining Tips](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mining/README.md)
 
+## Gas Pricing
+
+- [All Blockchain Gas Pricing](https://cointool.app/gasPrice/klay)
+
 ## Laws
 
 ### Japan
