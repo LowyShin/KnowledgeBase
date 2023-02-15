@@ -70,6 +70,7 @@
 ## Gas Pricing
 
 - [All Blockchain Gas Pricing](https://cointool.app/gasPrice/klay)
+  - ETH, BSC, Arbitrum, EthereumPow, HECO, Polygon, Fantom, OKX Chain, xDAI, Avalanche, Celo, Moonriver, Cronos, IoTeX, SmartBCH, Moonbeam
 
 ## Laws
 
