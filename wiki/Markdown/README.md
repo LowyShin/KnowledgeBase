@@ -1,4 +1,4 @@
-- [New Markdown basic](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [New Style Markdown basic(Official)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 * [Markdown 表Tableの基本記法](https://notepm.jp/help/markdown-table)
 
