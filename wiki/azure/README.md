@@ -53,6 +53,12 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 
 * [Log Query(➽Official)](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/query-optimization#use-effective-aggregation-commands-and-dimensions-in-summarize-and-join)
 
+## Basic Functions
+
+### Networking
+
+- [【Azure】App ServiceのVNet統合とプライベートリンクを利用した通信閉域化](https://techblog.ap-com.co.jp/entry/2021/03/12/150117)
+
 ## Azure AD(Active Directory)
 
 * [Azure portal を使用して Azure ロールを割り当てる](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal?tabs=current)
