@@ -57,16 +57,16 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 
 ### Networking
 
-- [【Azure】App ServiceのVNet統合とプライベートリンクを利用した通信閉域化](https://techblog.ap-com.co.jp/entry/2021/03/12/150117)
+- [【Azure】App ServiceのVNet統合とプライベートリンクを利用した通信閉域化(➽)](https://techblog.ap-com.co.jp/entry/2021/03/12/150117)
 
 ## Azure AD(Active Directory)
 
-* [Azure portal を使用して Azure ロールを割り当てる](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal?tabs=current)
+* [Azure portal を使用して Azure ロールを割り当てる(official)(➽)](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal?tabs=current)
 - [基礎から分かる Azure AD B2C](https://qiita.com/Shinya-Yamaguchi/items/03321728b373a27be009)
 
 ## Trouble Shooting
 
-* [Azure VM 上でローカルの Linux パスワードをリセットする方法](https://docs.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/reset-password)
+* [Azure VM 上でローカルの Linux パスワードをリセットする方法(official)(➽)](https://docs.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/reset-password)
 
 ## Pricing
 
@@ -74,7 +74,7 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
   * https://azure.microsoft.com/pricing/calculator/
 * App Service Pricing
   * https://azure.microsoft.com/pricing/details/app-service/windows/
-* [自動化を使用したコストの管理](https://learn.microsoft.com/ja-jp/azure/cost-management-billing/costs/manage-automation?source=recommendations)
+* [自動化を使用したコストの管理(official)(➽)](https://learn.microsoft.com/ja-jp/azure/cost-management-billing/costs/manage-automation?source=recommendations)
 
 ## Azure Database
 
@@ -84,23 +84,23 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 * [リストア時の「Access denied; you need (at least one of) the SUPER privilege(s) for this operation」エラー](https://next4us-ti.hatenablog.com/entry/2019/03/30/100627)
 * [[MySQL] ERROR 1227 (42000) at line 18: Access denied; you need (at least one of) the SUPER privilege(s) for this operation](https://qiita.com/jesus_isao/items/16da16885e0c3a2aec4c)
 
-* [Running an optimized MariaDB (MySQL) cluster on Azure](https://sabbour.me/running-a-mariadb-cluster-on-azure/)
+* [Running an optimized MariaDB (MySQL) cluster on Azure(➽)](https://sabbour.me/running-a-mariadb-cluster-on-azure/)
 
 ## Integration
 
-- [Export CSV by Powershell](https://www.sanganakauthority.com/2015/05/export-to-excel-microsoft-azure-vm-list.html)
+- [Export CSV by Powershell(➽)](https://www.sanganakauthority.com/2015/05/export-to-excel-microsoft-azure-vm-list.html)
 
 ## Connection
 
 ### Azure Bastion
 
-* [Azure Bastion とは(Azure official)](https://docs.microsoft.com/ja-jp/azure/bastion/bastion-overview)
+* [Azure Bastion とは(Azure official)(➽)](https://docs.microsoft.com/ja-jp/azure/bastion/bastion-overview)
 ![bastion](https://docs.microsoft.com/ja-jp/azure/bastion/media/bastion-overview/architecture.png)
 
 
 ## Azure Cli
 
-* [Official Reference](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)
+* [Official Reference(➽)](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)
 * login
 ```
 az login
@@ -114,7 +114,7 @@ az account set --subscription="SUBSCRIPTION_ID"
 az ad signed-in-user show
 ```
 
-- [ブラウザ認証をスキップし、CLIでAzureにログインする方法](https://tech-blog.cloud-config.jp/2022-09-16-auto-azure-login-for-cli/)
+- [ブラウザ認証をスキップし、CLIでAzureにログインする方法(➽)](https://tech-blog.cloud-config.jp/2022-09-16-auto-azure-login-for-cli/)
 
 ## Documentation
 
@@ -123,19 +123,19 @@ az ad signed-in-user show
 
 ## Microsoft Ignite
 
-- [Microsoft Ignite 質問応答のエクスポート/インポート/更新](https://learn.microsoft.com/ja-jp/azure/cognitive-services/language-service/question-answering/how-to/export-import-refresh)
-- [Microsoft Excel にインポートされた Azure Data Explorer Kusto クエリを使用してデータを視覚化する](https://learn.microsoft.com/ja-jp/azure/data-explorer/excel-blank-query)
+- [Microsoft Ignite 質問応答のエクスポート/インポート/更新(official)(➽)](https://learn.microsoft.com/ja-jp/azure/cognitive-services/language-service/question-answering/how-to/export-import-refresh)
+- [Microsoft Excel にインポートされた Azure Data Explorer Kusto クエリを使用してデータを視覚化する(official)(➽)](https://learn.microsoft.com/ja-jp/azure/data-explorer/excel-blank-query)
 
 ### Azure DevOps
 
-- [Azure DevOpsを触ってみた](https://www.qes.co.jp/media/Microservices/a104)
+- [Azure DevOpsを触ってみた(➽)](https://www.qes.co.jp/media/Microservices/a104)
 
 ### Load Balancing and CDN
 
-- [Quickstart: Integrate an Azure Storage account with Azure CDN(official)](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn)
-- [Azure CDN 製品の機能比較](https://learn.microsoft.com/ja-jp/azure/cdn/cdn-features?WT.mc_id=Portal-Microsoft_Azure_Cdn)
+- [Quickstart: Integrate an Azure Storage account with Azure CDN(official)(➽)](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn)
+- [Azure CDN 製品の機能比較(official)(➽)](https://learn.microsoft.com/ja-jp/azure/cdn/cdn-features?WT.mc_id=Portal-Microsoft_Azure_Cdn)
 
-- [Azure Front Door と Azure Application Gateway の違いは何ですか?](https://learn.microsoft.com/ja-jp/azure/frontdoor/standard-premium/faq)
+- [Azure Front Door と Azure Application Gateway の違いは何ですか?(official)(➽)](https://learn.microsoft.com/ja-jp/azure/frontdoor/standard-premium/faq)
 
 ## Links
 
