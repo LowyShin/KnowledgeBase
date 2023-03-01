@@ -62,7 +62,8 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 ## Azure AD(Active Directory)
 
 * [Azure portal を使用して Azure ロールを割り当てる(official)(➽)](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal?tabs=current)
-- [基礎から分かる Azure AD B2C](https://qiita.com/Shinya-Yamaguchi/items/03321728b373a27be009)
+- [基礎から分かる Azure AD B2C(➽)](https://qiita.com/Shinya-Yamaguchi/items/03321728b373a27be009)
+- [Azure AD B2C のキホンとよくある質問(➽)](https://jpazureid.github.io/blog/azure-active-directory/azure-ad-b2c-fundamentals/#:~:text=Azure%20AD%20%E3%81%8C%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%82%BA%20(%E4%BC%81%E6%A5%AD,%E7%82%B9%E3%81%8C%E5%A4%A7%E3%81%8D%E3%81%8F%E7%95%B0%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82)
 
 ## Trouble Shooting
 
