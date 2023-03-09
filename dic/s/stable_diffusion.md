@@ -28,6 +28,7 @@ ResNet으로 구성된 U-Net블록은 잠재표현을 얻기 위해 순방향 �
 
 - [stable diffusion을 이용한 AI 그림 생성 모듈을 쉽게 만든 WEBUI의 설치 방법](https://arca.live/b/aiart/68917133)
   - [AI가 실사와 애니풍을 정도를 조정해서 그려주는 사례](https://www.clien.net/service/board/park/17932600)
+  - ![](https://cdn.clien.net/web/api/file/F01/13900814/168ede09c0679.png?w=850&h=30000)
   - [PVC모델 적용 사례](https://prompts.co.kr/bbs/board.php?bo_table=gallery&wr_id=125)
 - [AI Tool Reveals How Celebrities’ Faces Have Been Photoshopped](https://petapixel.com/2023/02/28/ai-tool-reveals-how-celebrities-faces-have-been-photoshopped/)
   - AI가 사진에서 어느 부분을 리터칭을 했는지 판별해 주는 툴
