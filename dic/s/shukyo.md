@@ -1,0 +1,3 @@
+- 宗教関連統計に関する資料集 
+  - 文化庁の資料概要ページ : https://www.bunka.go.jp/tokei_hakusho_shuppan/tokeichosa/shumu_kanrentokei/index.html
+    - PDF : https://www.bunka.go.jp/tokei_hakusho_shuppan/tokeichosa/shumu_kanrentokei/pdf/h26_chosa.pdf
