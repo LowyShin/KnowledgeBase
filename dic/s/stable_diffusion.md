@@ -12,7 +12,8 @@
 
 ## 기술
 
-![Stable_Diffusion_architecture](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Stable_Diffusion_architecture.png)
+![Stable_Diffusion_architecture](https://upload.wikimedia.org/wikipedia/commons/f/f6/Stable_Diffusion_architecture.png)
+- https://ja.wikipedia.org/wiki/Stable_Diffusion
 
 기본 개념은 화상을 픽셀공간에서 저차원잠재공간으로 압축하여 화상에서의 기본 의미를 찾는다. 
 압축된 잠재표현에 순방향 확산 처리(forward diffusion process)에서 가우시안 노이즈가 연속적으로 부여된다.  
@@ -39,4 +40,4 @@ Stable Diffusion에서 생성된 화상의 원본중에 Pinterest가 9.5%, 기�
 
 ## 참고
 
-- https://ja.wikipedia.org/wiki/Stable_Diffusion
+- Wikipedia(ja) : https://ja.wikipedia.org/wiki/Stable_Diffusion
