@@ -1,7 +1,34 @@
+# SQL Server & Azure SQL Server
+
+## Install & Configuration
+
 * [Integration Services (SSIS) のインストール](https://docs.microsoft.com/ja-jp/sql/integration-services/install-windows/install-integration-services?view=sql-server-ver15)
 
 * MSDTCを動作させるために必要な設定について
   * https://blogs.technet.microsoft.com/jpiis/2018/02/05/msdtc-settings/
+
+## User
+
+- Add user for azure database
+```sql
+-- create server logins
+use master
+CREATE LOGIN mydbo
+	WITH 
+		PASSWORD = 'PWPWPWPWPW'
+GO
+
+-- create db logins
+use my_db
+CREATE USER mydbo
+	FOR LOGIN mydbo
+	WITH DEFAULT_SCHEMA = my_db
+GO
+
+-- Add user to the database owner role
+EXEC sp_addrolemember N'db_owner', N'mydbo'
+GO
+```
 
 ## JSON Query
 
