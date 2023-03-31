@@ -118,6 +118,12 @@ https://www.e-tax.nta.go.jp/
 
 - https://www.moj.go.jp/isa/applications/status/dependent.html
 
+### 雇用保険
+
+- [労働者名簿](https://jsite.mhlw.go.jp/tokyo-roudoukyoku/library/tokyo-roudoukyoku/standard/relation/18.doc)
+- [労働条件通知書](https://jsite.mhlw.go.jp/tokyo-roudoukyoku/content/contents/000892219.doc)
+- [雇用保険保険者資格取得届](https://hoken.hellowork.mhlw.go.jp/assist/001000.do?screenId=001000&action=koyohohiLicenceLink)
+
 
 
 
