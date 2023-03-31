@@ -120,10 +120,15 @@ https://www.e-tax.nta.go.jp/
 
 ### 雇用保険
 
+- 労働保険関係成立届事業主控え
+  - 労働基準監督署で申請をしてもらうもの
+- 雇用保険適用事業所設置届
 - [労働者名簿](https://jsite.mhlw.go.jp/tokyo-roudoukyoku/library/tokyo-roudoukyoku/standard/relation/18.doc)
 - [労働条件通知書](https://jsite.mhlw.go.jp/tokyo-roudoukyoku/content/contents/000892219.doc)
 - [雇用保険保険者資格取得届](https://hoken.hellowork.mhlw.go.jp/assist/001000.do?screenId=001000&action=koyohohiLicenceLink)
-
+- [賃金台帳]
+- 出勤簿又はタイムカード
+- 法人登記簿
 
 
 
