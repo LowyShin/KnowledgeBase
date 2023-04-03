@@ -46,16 +46,17 @@ where
 	JSON_VALUE(<jsonfield>, '$."status"') = 0
 ```
 - Field 一部だけJSONの場合
-  - lsParamフィールドがJSONデータ
-```sql
-select lssn, lsName, lsRegdt
-	, JSON_VALUE(lsParam, '$.UID') as juid
-from (
-	select * from tLogSp
-	where lsParam like '{%'
-		and lsParam like '%UID%'
-) a
-```
+  - lsParamフィールドがJSONデータの場合
+  - フィールド名が一致しないと`JSON text is not properly formatted. Unexpected character '@' is found at position 0.`エラーが発生するのでまずlike検索でフィルターをかける。（大小文字区別するので注意必要）
+  ```sql
+  select lssn, lsName, lsRegdt
+  	, JSON_VALUE(lsParam, '$.UID') as juid
+  from (
+  	select * from tLogSp
+  	where lsParam like '{%' 
+  		and lsParam like '%UID%'
+  ) a
+  ```
 * https://docs.microsoft.com/ja-jp/sql/t-sql/functions/json-modify-transact-sql?view=sql-server-ver15
 
 * JSONをテーブルのように使う
