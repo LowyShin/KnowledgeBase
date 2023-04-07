@@ -92,6 +92,7 @@ https://www.e-tax.nta.go.jp/
     - [被保険者資格取得届](https://www.nenkin.go.jp/service/kounen/todokesho/hihokensha/20140718.files/0000002415.pdf)
 - 外国人の扶養家族の場合日本に居住の場合のみ登録可能（年末調整から控除するのは別なので年金登録しなくても控除可能）
   - 住民票添付及びマイナンバー記入必須
+- 発送先 : https://www.nenkin.go.jp/service/kounen/todokesho/20150216.html
 
 ### 本店移転
 
