@@ -86,3 +86,4 @@
 ## News
 
 - [Metaverse Style JP  - メタバースやNFT、暗号資産に関連した情報を発信するWeb3メディア](https://www.metaverse-style.com/)
+- [【NFT×神社】日本国内の神社におけるNFT活用事例3選 | NFT Media | NFTに関する最新情報をお届けするメディア](https://nft-media.net/business/shrines/20236/)
