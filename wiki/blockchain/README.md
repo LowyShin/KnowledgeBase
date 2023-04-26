@@ -87,3 +87,4 @@
 
 - [Metaverse Style JP  - メタバースやNFT、暗号資産に関連した情報を発信するWeb3メディア](https://www.metaverse-style.com/)
 - [【NFT×神社】日本国内の神社におけるNFT活用事例3選 | NFT Media | NFTに関する最新情報をお届けするメディア](https://nft-media.net/business/shrines/20236/)
+- [日本初の ｢お守り NFT｣ を買ってみた。マーケティングの格言 ｢ドリルと穴｣ から考えるお守り NFT の価値とは？](https://www.countand1.com/2022/08/kemigawa-shrine-omamori-nft-value.html)
