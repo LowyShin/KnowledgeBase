@@ -242,7 +242,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### OS
 
-* [CentOS(Linux)](https://talklowy-jp.blogspot.com/2021/04/centos-knowledgebase-giip.html)
+* [CentOS/Rehl(Redhat Enterprise Linux)](https://talklowy-jp.blogspot.com/2021/04/centos-knowledgebase-giip.html)
 * [Windows](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/windows/windows.md)
 * Android
   * [Rooting app](https://talklowy-jp.blogspot.com/2020/10/android-rooting-app.html)
