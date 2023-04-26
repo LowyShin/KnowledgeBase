@@ -82,3 +82,7 @@
 
 - [仮想通貨にかかる税金とは？](https://www.freee.co.jp/kb/kb-kakuteishinkoku/virtual_currency_tax/#:~:text=%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8%E3%81%AE%E5%A3%B2%E8%B2%B7%E3%81%AA%E3%81%A9,%E7%A8%AE%E3%81%AB%E5%88%86%E9%A1%9E%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)
 - [法律事務所ZeLoによる仮想通貨の法律関連相談](https://zelojapan.com/practice/blockchain)
+
+## News
+
+- [Metaverse Style JP  - メタバースやNFT、暗号資産に関連した情報を発信するWeb3メディア](https://www.metaverse-style.com/)
