@@ -203,6 +203,12 @@
 - [mural.ly](https://www.mural.co/)
     - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
 
+### Mail Service
+
+- [(Gmail API)Gmail APIのSMTPサーバーを使ってWordPressから無料でメールを送信する方法](https://kinsta.com/jp/blog/gmail-smtp-server/)
+- [(Sendgrid)WordPressでSendGridを設定してメールを送信するには](https://kinsta.com/jp/knowledgebase/sendgrid-wordpress/)
+- [(Mailgun)How to Configure Mailgun in WordPress to Send Emails](https://kinsta.com/knowledgebase/mailgun-wordpress/)
+
 ### How to add a WordPress video background
 
 * [WordPressのバックグラウンドに動画を入れる方法](https://themeisle.com/blog/wordpress-video-background/)
