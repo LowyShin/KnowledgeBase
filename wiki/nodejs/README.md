@@ -1,5 +1,15 @@
 ## Install
 
+### RHEL(Red Hat Enterprise Linux)
+
+Install nodejs 16 version
+```sh
+dnf module -y install nodejs:16
+
+# Check version
+node -v
+```
+
 ### CentOS
 
 ```sh
