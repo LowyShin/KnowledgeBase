@@ -135,6 +135,7 @@
 
 * [ezis - DBパフォーマンス分析ツール(日本語公式)](https://github.com/LowyShin/ezis-jp)
   * RDBMS(ORACLE, SQL Server, MySQL, Mariadb, PostgreSQL)のエンジンからデータを取得し、強力なパフォーマンス情報が収集できて過去時点に戻って原因分析などができるツール
+- [Online HTML Editor](https://htmleditor.online/full/)
 * [wappalyzer - Analysis dev environment bu URL ](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg/related)
   * Chrome Add-onでWebサイトに接続して実行すると開発環境をすべて分析してくれる
   * ![wappalyzer](https://github.com/LowyShin/KnowledgeBase/blob/master/images/chrome/wappalyzer-giipasp.png)
