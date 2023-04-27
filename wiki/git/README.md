@@ -142,7 +142,26 @@ git push -u --force origin master
 * git history clear(reinit)
   *  https://gist.github.com/stephenhardy/5470814
 
+## Management
 
+### Check git
+
+```sh
+git fetch
+ HEADHASH=$(git rev-parse HEAD)
+ UPSTREAMHASH=$(git rev-parse $1@{upstream})
+
+ if [ "$HEADHASH" != "$UPSTREAMHASH" ]
+ then
+   echo -e ${ERROR}Not up to date with origin. Aborting.${NOCOLOR}
+   echo
+   exit 0
+ else
+   git pull origin dev
+   echo -e ${FINISHED}Current branch is up to date with origin/master.${NOCOLOR}
+ fi
+```
+- https://www.christianengvall.se/check-for-changes-on-remote-origin-git-repository/
 
 ## Markdown
 
