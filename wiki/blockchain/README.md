@@ -18,6 +18,8 @@
 * [Definition of NFT(Non-Fungible Token)](https://en.wikipedia.org/wiki/Non-fungible_token)
 * [ERC721(Crypto Kitty Sample)](https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/)
 * [OpenZepplin-ERC721 Dev](https://docs.openzeppelin.com/contracts/3.x/erc721)
+- [【真のNFT!?】メタデータを作って返す【フルオンチェーン】](https://qiita.com/hakumai-iida/items/c96d7c053379f42ba9b8)
+
 
 ### Structure
 
