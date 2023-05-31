@@ -133,6 +133,6 @@ https://www.e-tax.nta.go.jp/
 - 出勤簿又はタイムカード
 - 法人登記簿
 - [その他様式](https://jsite.mhlw.go.jp/tokyo-roudoukyoku/hourei_seido_tetsuzuki/hourei_youshikishu/youshikishu_zenkoku.html)
-
+- [雇用保険被保険者離職票再交付申請書](https://hoken.hellowork.mhlw.go.jp/assist/001000.do?screenId=001000&action=koyohohihoRishokusaikofuLink)
 
 
