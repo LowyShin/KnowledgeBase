@@ -146,23 +146,6 @@ git push -u --force origin master
 
 ### Check git
 
-```sh
-git fetch
- HEADHASH=$(git rev-parse HEAD)
- UPSTREAMHASH=$(git rev-parse $1@{upstream})
-
- if [ "$HEADHASH" != "$UPSTREAMHASH" ]
- then
-   echo -e ${ERROR}Not up to date with origin. Aborting.${NOCOLOR}
-   echo
-   exit 0
- else
-   git pull origin dev
-   echo -e ${FINISHED}Current branch is up to date with origin/master.${NOCOLOR}
- fi
-```
-- https://www.christianengvall.se/check-for-changes-on-remote-origin-git-repository/
-
 - git 레포지터리와 로컬을 비교해서 다른 경우 가져오는 스크립트
 ```sh
 reponame="lowyrepo"
@@ -191,6 +174,8 @@ else
 
 fi
 ```
+- https://www.christianengvall.se/check-for-changes-on-remote-origin-git-repository/
+
 
 ## Markdown
 
