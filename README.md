@@ -147,7 +147,8 @@
   * Photoshopと同じくらいのイメージリタッチなどができるツール
 * [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
   * Microsoft社から提供する強力な無料開発ツール。様々な言語の開発及びDBへの接続・モバイル仮想端末の起動・管理などこれ一本できるほど多いadd-onがある。
-* [git(github)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
+* [git(github)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/g/git.md)
+  * (https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/git)
   * git・github関連のTip
 - [azuresource management(devops)](https://azure.microsoft.com/en-us/products/devops/?nav=min)
 * [GoogleSheet(GSheet)](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
