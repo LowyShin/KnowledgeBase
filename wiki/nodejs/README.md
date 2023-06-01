@@ -1,5 +1,23 @@
 ## Install
 
+### NVM(Node Version Manager)
+
+https://github.com/coreybutler/nvm-windows
+
+```sh
+# Installed Node List
+nvm list
+
+# node 16 latest install 
+nvm install 16
+
+# change node
+nvm use 16
+
+# check version
+node --v
+```
+
 ### RHEL(Red Hat Enterprise Linux)
 
 Install nodejs 16 version
