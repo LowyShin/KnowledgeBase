@@ -176,6 +176,7 @@
 * [AWS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/AWS)
   * [アベイラビリティーゾーンを使用できるかを確認する](https://aws.amazon.com/jp/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
 * [Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/README.md)
+  * [Application Gateway](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/azure-application-gateway.md)
   * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
   - [Azure Networking](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/networking.md)
 * [File Sync(rsync, scp...)](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
