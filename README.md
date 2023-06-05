@@ -8,7 +8,7 @@
 * [PUML for Markdown](https://github.com/danielyaa5/puml-for-markdown)
   * Draw diagram on Markdown and so on. 
 
-### Data(DBMS, NoSQL, Datascience)
+### Data(DBMS, NoSQL, Datascience, database)
 
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
 * [MachineLearning(ML/AI)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
@@ -59,6 +59,9 @@
   * Tableau, Google Data Portal, Redash and BI, data visualization tools
 * [Referrals](https://github.com/LowyShin/KnowledgeBase/wiki/Referrals)
 * [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
+- retool
+  - Webでデータ管理ができるツール。柔軟なカスタマイズが特徴
+  - DBMSから許可すべきIPアドレス : https://docs.retool.com/docs/allow-retools-cloud-ip-addresses
 
 ### [BlockChain](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain)
 
