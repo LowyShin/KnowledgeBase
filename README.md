@@ -93,6 +93,7 @@
 
 ### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
+- [vite - Next Generation Frontend Tooling](https://vitejs.dev/)
 * [nodejs](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nodejs)
 * [Flutter](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/flutter)
   * nodesjからインストールできるWeb/Android/iOSを一気に開発できるツール。コードの修正があまりいらなくnodejsからの様々な追加機能の活用ができる。
