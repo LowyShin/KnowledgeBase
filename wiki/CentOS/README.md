@@ -1,3 +1,14 @@
+## New Installation command
+
+- yum to dnf
+```sh
+# old
+yum install -y git
+
+# new
+dnf install -y git 
+```
+
 ## Hardware Information
 
 * [CentOS　ハードウェア情報の取得](https://ex1.m-yabe.com/archives/1881)
