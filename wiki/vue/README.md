@@ -1,3 +1,14 @@
+- invalid host header
+vue.config.js
+```config
+module.exports = {
+  transpileDependencies: ["vuetify"],
+  devServer: {
+    disableHostCheck: true
+  }
+};
+```
+
 
 * configuration for web servers
   * https://router.vuejs.org/guide/essentials/history-mode.html#memory-mode
