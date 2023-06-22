@@ -1,7 +1,31 @@
-- invalid host header
+## Tips
+
+### Proxy
+
+vue.config.js
+```js
+module.exports = {
+  devServer: {
+    proxy: {
+      '^/api': {
+        target: '<url>',
+        ws: true,
+        changeOrigin: true
+      },
+      '^/foo': {
+        target: '<other_url>'
+      }
+    }
+  }
+}
+```
+
+### invalid host header
+
+if you use many dns and hostname for dev, disable host check.
   
 vue.config.js
-```config
+```js
 module.exports = {
   transpileDependencies: ["vuetify"],
   devServer: {
@@ -10,6 +34,7 @@ module.exports = {
 };
 ```
 
+## Links
 
 * configuration for web servers
   * https://router.vuejs.org/guide/essentials/history-mode.html#memory-mode
