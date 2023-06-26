@@ -144,6 +144,18 @@ while ($line -le $InputFilename.Length) {
 ```
   * https://www.spjeff.com/2017/06/02/powershell-split-csv-in-1000-line-batches/
 
+### Process
+
+- Check running process
+```ps1
+Get-Process -Name "myapp"
+```
+
+- Force stop running process
+```ps1
+Stop-Process -Name "myapp"
+```
+
 ### Convert
 
 - Integerに変更
