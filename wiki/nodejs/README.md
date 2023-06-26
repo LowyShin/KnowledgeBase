@@ -2,6 +2,7 @@
 
 ### NVM(Node Version Manager)
 
+- install NVM for windows
 https://github.com/coreybutler/nvm-windows
 
 ```sh
