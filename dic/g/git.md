@@ -107,6 +107,21 @@ git config --global user.name "LowyAI"
 git clone https://github.com/LowyShin/giipAgentLinux.sh
 ```
 
+- git clone with branch
+```sh
+git clone -b main https://github.com/LowyShin/giipAgentLinux.sh
+```
+
+- get all branch list
+```sh
+git branch -a
+```
+
+- make a branch
+```sh
+git banch -b mybranch
+```
+
 * git pull
 ```sh
 git pull origin master
