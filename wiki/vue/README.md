@@ -1,5 +1,13 @@
 ## Tips
 
+### Global Variables
+
+.env.{environment}
+```js
+VUE_APP_VAR01 = "my var"
+```
+- 変数前に`VUE_APP`を入れないとサービス全体で使えずに`vue.config.js`みたいなシステム関連ファイルだけで読み込めますが、変数の前に`VUE_APP`を入れると全てのvueファイルで変数が使えます。これは仕様です！
+
 ### Proxy
 
 vue.config.js
