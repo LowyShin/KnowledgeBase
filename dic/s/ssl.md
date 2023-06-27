@@ -101,7 +101,7 @@ If you like Certbot, please consider supporting our work by:
 ```
 라고 표시되면서 종료되면 완료. 
 
-`/etc/letsencrypt/live/`에 파일들이 정상적으로 들어있는지 확인후 문제 없으면 필요한 파일로 변형하여 저장. 
+`/etc/letsencrypt/archive/`에 파일들이 정상적으로 들어있는지 확인후 문제 없으면 필요한 파일로 변형하여 저장. 
 pem밖에 없으므로 pfx나 다른 파일로는 openssl등의 툴로 변환을 해야 함.
 
 Azure Application Gateway등에 넣을 pfx 포맷으로 변경(openssl 설치 필요)
