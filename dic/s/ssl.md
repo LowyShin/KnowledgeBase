@@ -82,12 +82,27 @@ value(s) you've just added.
 라고 DNS레코드 등록하여 오너 인증을 해야 함. 
 
 DNS에서 Txt레코드를 등록
+DNS인증이 완료되면 
+```
+uccessfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/littleworld.net/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/littleworld.net/privkey.pem
+This certificate expires on 2023-09-25.
+These files will be updated when the certificate renews.
 
+NEXT STEPS:
+- This certificate will not be renewed automatically. Autorenewal of --manual certificates requires the use of an authentication hook script (--manual-auth-hook) but one was not provided. To renew this certificate, repeat this same certbot command before the certificate's expiry date.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+```
+라고 표시되면서 종료되면 완료. 
 
-
-완료되면 도메인 단위로 폴더가 생성되어 저장됨. 
-웹서버에 파일 생성이 필요하므로 결국 VM이 필요.. 
+`/etc/letsencrypt/live/`에 파일들이 정상적으로 들어있는지 확인후 문제 없으면 필요한 파일로 변형하여 저장. 
+pem밖에 없으므로 pfx나 다른 파일로는 openssl등의 툴로 변환을 해야 함.
 
 Azure Application Gateway등에 넣을 pfx 포맷으로 변경(openssl 설치 필요)
 ```sh
