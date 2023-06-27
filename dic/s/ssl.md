@@ -2,10 +2,65 @@
 
 ## Free SSL
 
+SSL자체에 비용을 내는 것은 불합리하다는 운동이 퍼짐에 따라 무료 SSL을 제공하는 서비스가 늘고 있습니다. 
+그 중에서도 여러가지 편의 툴을 제공하여 스크립팅이 가능하게 해주는 CertBot이란 서비스가 있습니다.
+
+- 공식 : https://certbot.eff.org/
+
+install certbot
+```sh
 dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm  
 dnf config-manager --set-enabled PowerTools
 # -- no match
 
 # select by environment
+# for apache
 dnf install certbot python3-certbot-apache
+# for nginx
 dnf install certbot python3-certbot-nginx
+# for windows
+winget install certbot
+```
+
+- windows의 경우 certbot 명령을 쉽게 해주는 batch를 만들 수 있습니다. 보통 C:\Program Files\Certbot\bin 에 실행프로그램이 있으므로 환경변수의 PATH에 추가를 해야 합니다.
+- certexec.bat
+```bat
+@ECHO off
+REM certbot wrapper
+REM sslcert musubi.green [test]
+REM  test를 지정하면 --dry-run (시뮬레이션)을 붙여 실행합니다.
+SETLOCAL
+if "%~1"=="" (
+  ECHO put into domain for SSL
+  GOTO END
+)
+
+if "%~2"=="test" (
+  SET DRYRUN=--dry-run
+) else (
+  SET DRYRUN=
+)
+
+certbot certonly --manual -d %~1 --key-type rsa --agree-tos --manual-public-ip-logging-ok --manual-auth-hook certbot-preauth.cmd --manual-cleanup-hook certbot-postauth.cmd %DRYRUN%
+
+:END
+ENDLOCAL
+PAUSE
+```
+- 윈도우즈 환경에서는 여러가지 어려운 점들이 있어 linux vm을 열고 작업하는 것을 추천...
+
+SSL발행
+```sh
+certbot certonly --manual -d *.littleworld.net --key-type rsa --agree-tos --manual-public-ip-logging-ok
+```
+email 필수. 
+
+완료되면 도메인 단위로 폴더가 생성되어 저장됨. 
+웹서버에 파일 생성이 필요하므로 결국 VM이 필요.. 
+
+Azure Application Gateway등에 넣을 pfx 포맷으로 변경(openssl 설치 필요)
+```sh
+openssl pkcs12 -inkey privkey1.pem -in cert1.pem -export -out fullchain.pfx
+```
+
+
