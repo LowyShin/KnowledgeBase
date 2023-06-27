@@ -53,7 +53,38 @@ SSL발행
 ```sh
 certbot certonly --manual -d *.littleworld.net --key-type rsa --agree-tos --manual-public-ip-logging-ok
 ```
-email 필수. 
+명령을 실행하면 email 요청함. 이메일 입력하면 . 
+```
+ould you be willing, once your first certificate is successfully issued, to
+share your email address with the Electronic Frontier Foundation, a founding
+partner of the Let's Encrypt project and the non-profit organization that
+develops Certbot? We'd like to send you email about our work encrypting the web,
+EFF news, campaigns, and ways to support digital freedom.
+```
+라고 표시되는데 Y를 눌러 이메일 등록. 
+
+```
+Please deploy a DNS TXT record under the name:
+
+_acme-challenge.littleworld.net.
+
+with the following value:
+
+cJVlZDstMqheupXCSRfKrj0FCmQ8g7UKOZsN2uLUGPs
+
+Before continuing, verify the TXT record has been deployed. Depending on the DNS
+provider, this may take some time, from a few seconds to multiple minutes. You can
+check if it has finished deploying with aid of online tools, such as the Google
+Admin Toolbox: https://toolbox.googleapps.com/apps/dig/#TXT/_acme-challenge.littleworld.net.
+Look for one or more bolded line(s) below the line ';ANSWER'. It should show the
+value(s) you've just added.
+```
+라고 DNS레코드 등록하여 오너 인증을 해야 함. 
+
+DNS에서 Txt레코드를 등록
+
+
+
 
 완료되면 도메인 단위로 폴더가 생성되어 저장됨. 
 웹서버에 파일 생성이 필요하므로 결국 VM이 필요.. 
