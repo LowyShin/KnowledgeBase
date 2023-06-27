@@ -109,4 +109,5 @@ Azure Application Gateway등에 넣을 pfx 포맷으로 변경(openssl 설치 �
 openssl pkcs12 -inkey privkey1.pem -in cert1.pem -export -out fullchain.pfx
 ```
 
+https://github.com/LowyShin/KnowledgeBase/blob/master/dic/o/openssl.md
 
