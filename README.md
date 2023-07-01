@@ -98,6 +98,7 @@
 * [nodejs](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nodejs)
 * [Flutter](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/flutter)
   * nodesjからインストールできるWeb/Android/iOSを一気に開発できるツール。コードの修正があまりいらなくnodejsからの様々な追加機能の活用ができる。
+  * [Flutter 비디오 강의 코딩쉐프(youtube)](https://www.youtube.com/@codingchef)
 * [Vue.js](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/vue)
 * [Nuxt.js](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nuxtjs)
 - [Nest.js](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nestjs)
