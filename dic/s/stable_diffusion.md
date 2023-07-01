@@ -47,3 +47,6 @@ Stable Diffusion에서 생성된 화상의 원본중에 Pinterest가 9.5%, 기�
 ## 참고
 
 - Wikipedia(ja) : https://ja.wikipedia.org/wiki/Stable_Diffusion
+
+### 출처
+ - https://github.com/LowyShin/KnowledgeBase/blob/master/dic/s/stable_diffusion.md
