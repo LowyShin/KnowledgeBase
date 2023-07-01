@@ -81,11 +81,12 @@
 ### AI(Artifical Intelligence)
 
 - Image/Video generation
-    * [Generate video from text you written - makeavideo](https://makeavideo.studio/)
-    * [DALL·E](https://en.wikipedia.org/wiki/DALL-E)
-    * [Generate Photo from text you written - craiyon](https://www.craiyon.com/)
-    * [Imagen](https://imagen.research.google/)
-    * [Midjourney](https://www.midjourney.com/home/) 
+  - [크리에이터가 실직하는 세상을 불러온 Stable Diffusion은 무엇일까?](https://talklowykr.blogspot.com/2023/07/stable-diffusion.html)
+  * [Generate video from text you written - makeavideo](https://makeavideo.studio/)
+  * [DALL·E](https://en.wikipedia.org/wiki/DALL-E)
+  * [Generate Photo from text you written - craiyon](https://www.craiyon.com/)
+  * [Imagen](https://imagen.research.google/)
+  * [Midjourney](https://www.midjourney.com/home/) 
 - Chat
     - [ChatGPT](https://chat.openai.com/chat)
 - AI Robot
