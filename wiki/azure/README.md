@@ -1,4 +1,4 @@
-## Introduce
+## Azure Cloud Service
 
 AzureはMSで作ったサービスなのでExcelから管理しやすくなっているのが長所でAzureのデータストアに入れたままExcelに表示したり、Azureの設定などをJSONに吐き出してExcelに取り込んなりするといちいち管理台帳を手動で作らなくても管理がしやすいです。
 
