@@ -143,7 +143,7 @@ Azure Container Instances はあくまで単一ポッドなので、複数コン
 
 ### Azure Container Apps
 
-Kubernetes の機能や Dapr・KEDA・envoy などのオープンソースのテクノロジーを活かして、Kubernetes スタイルのアプリやマイクロサービスを作るのに向いたサービスです。
+[Kubernetes](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/k/kuubernetes.md) の機能や Dapr・KEDA・envoy などのオープンソースのテクノロジーを活かして、Kubernetes スタイルのアプリやマイクロサービスを作るのに向いたサービスです。
 サービス自体は Kubernetes 基盤で構築されていますが、Kubernetes API への直接アクセスは提供されません。
 Kubernetes の機能を活かしたいが 1 から構築する必要性・知見がない中で、ある程度ベストプラクティスに沿いたい場合に向いています。
 汎用的なので、迷ったらこれでいいかなと思います。
@@ -166,7 +166,7 @@ Windows/Linux ベースで .NET、.NET Core、Java、Ruby、Node.js、PHP、Pyth
 
 ### Azure Kubernetes Service
 
-KubernetesはDockerコンテナをGUIで管理がしやすくしたOpen Sourceツールです。管理がしやすいためAzureとAWSで取り入れサービスとして提供しています。
+[Kubernetes](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/k/kuubernetes.md)はDockerコンテナをGUIで管理がしやすくしたOpen Sourceツールです。管理がしやすいためAzureとAWSで取り入れサービスとして提供しています。
 KubernetesはK8Sとも言われるですが、それはKと後8文字の英語とSがついてK8Sと呼んだりしてます。
 Azure で Kubernetes をフル活用したい場合に最適なサービスです。
 一番の特徴は Kubernetes API への直接アクセスがサポートされていることです。Kubernetes をフルマネージドで使用できます。
