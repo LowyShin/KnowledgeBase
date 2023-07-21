@@ -155,6 +155,7 @@ Kubernetes の機能を活かしたいが 1 から構築する必要性・知見
 
 ### Azure App Service
 
+App Serviceの設定中コンテナを利用してAppを構成できる設定があります。ACIの設定をしてDeployすることができてサーバーレスコンテナサービスになります。
 Web アプリケーションのためのサービスです。
 フルマネージドで Web サイトや Web API を構築したいときに向いています。
 Windows/Linux ベースで .NET、.NET Core、Java、Ruby、Node.js、PHP、Python から環境を選択します。
