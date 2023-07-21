@@ -9,3 +9,10 @@ Linux Container Serviceから出発した環境仮想化技術の一つ。
 ![image](https://github.com/LowyShin/KnowledgeBase/assets/20239203/6dd492f5-f995-4193-ac7b-6215c2f5f30b)
 
 [わかりやすい「コンテナ技術の解説」](https://zenn.dev/esaka/articles/2d117655af1f03cf2444#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%95%E7%94%9F)
+
+## 関連技術
+
+- Docker
+- [Kubernetes](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/k/kuubernetes.md)https://github.com/LowyShin/KnowledgeBase/blob/master/dic/k/kuubernetes.md
+- [ACI](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/aci.md)https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/aci.md
+- Amazon Container Service
