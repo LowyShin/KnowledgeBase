@@ -139,6 +139,11 @@ az ad signed-in-user show
 
 - [Azure Front Door と Azure Application Gateway の違いは何ですか?(official)(➽)](https://learn.microsoft.com/ja-jp/azure/frontdoor/standard-premium/faq)
 
+## Azure Automation
+
+- [ACI(Azure Container Instance)](aci.md)
+- [Azure Batch](azurebatch.md)
+
 ## Links
 
 - [Terrafomr for Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/terraform/tfazure.md)
