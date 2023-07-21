@@ -114,6 +114,7 @@
 * [wsf/vbs/vba](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
 * [WMI](WMI)
 * [HTML](https://github.com/LowyShin/KnowledgeBase/wiki/HTML)
+  * [Great CSS Text Animation Examples You Can Use](https://www.sliderrevolution.com/resources/css-text-animation/)
   * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
 * [Chatbot](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/Chatbot.md)
 * [PHP](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/PHP/README.md)
