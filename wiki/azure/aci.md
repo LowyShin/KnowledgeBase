@@ -189,7 +189,9 @@ Azure Functions で作成したコードは基本的にコンテナイメージ�
 
 ### Azure Red Hat OpenShift
 
-Azure 上で OpenShift を使用したい場合に最適なサービスです。
+OpenShift とは、Red Hat社が提供しているエンタープライズ対応のKubernetesコンテナプラットフォームで、Docker、Kubernetes、Dockerレジストリなどで構成されるCaaS(Container as a Service)基盤です。
+
+Azure Red Hat OpenShift は Azure 上で OpenShift を使用したい場合に最適なサービスです。
 ソースコード管理・ビルド・デプロイ・スケーリング・正常性の管理は、OpenShift の機能で自動的に行うことが出来ます。
 レジストリ・ネットワーク・ストレージ・CI/CD は組み込みの機能を使うこともできますし、独自のものを使用することもできます。
 元から OpenShift を使用して運用していたり、Kubernetes を本格的に運用する前提で、CI/CD ツールや長期のサポートなど、必要な他のツールや保守サービスも一通りほしい場合に便利です。
