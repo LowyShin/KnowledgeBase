@@ -187,7 +187,7 @@ Azure Functions で作成したコードは基本的にコンテナイメージ�
 - 一時的に使用する関数
 - 1 度の実行時間が短い(60 分未満)
 
-### Azure Red Hat OpenShift
+### [Azure Red Hat OpenShift](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/o/openshift.md)
 
 OpenShift とは、Red Hat社が提供しているエンタープライズ対応のKubernetesコンテナプラットフォームで、Docker、Kubernetes、Dockerレジストリなどで構成されるCaaS(Container as a Service)基盤です。
 
