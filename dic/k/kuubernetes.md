@@ -28,6 +28,8 @@ Kubernetesは現在のWeb開発で使われている理由は、主に以下の�
 
 これらの特徴により、Kubernetesは現在のDevOpsを実現する上で非常に強力なプラットフォームだといえよう。
 
+- [分かりやすい「僕らは何故Kubernetesを使うのか」](https://zenn.dev/esaka/articles/2d117655af1f03cf2444)
+
 ## Kubernetesの強み
 
 - 多種多様なワークフローに対応できるほど機能が豊富
