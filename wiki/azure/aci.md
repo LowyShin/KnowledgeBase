@@ -12,11 +12,11 @@ Azure Container Instances はあくまで単一ポッドなので、複数コン
 <table style="font-size: 0.7em; table-layout: fixed; width: 100%;">
     <tr style="background-color: #eee;">
         <td style="width: 10%;"></td>
-        <td>Web App</td>
-        <td>Functions App</td>
-        <td>ACI</td>
-        <td>ACA</td>
-        <td>AKS</td>
+        <td><a href="https://azure.microsoft.com/ja-jp/products/app-service/web/">Web App</a></td>
+        <td><a href="https://azure.microsoft.com/ja-jp/products/functions/#overview">Azure Functions</a></td>
+        <td><a href="https://azure.microsoft.com/ja-jp/products/container-instances/#overview">ACI</a></td>
+        <td><a href="https://azure.microsoft.com/ja-jp/products/container-apps/#overview">ACA</a></td>
+        <td><a href="https://azure.microsoft.com/ja-jp/products/kubernetes-service/#overview">AKS</a></td>
     </tr>
     <tr>
         <td>コンテナ以外のデプロイ手法</td>
@@ -194,4 +194,17 @@ Spring Boot を使用する際は、コードを変更したりコンテナ用�
 
 - コードを変更せずに Spring boot アプリケーションをデプロイしたい
 - コンテナ技術のノウハウなしにコンテナのメリットを享受したい
+
+### [Azure Batch](https://azure.microsoft.com/ja-jp/products/batch)
+
+Azure Batchとは、CPU・メモリなど多くのコンピュータリソースを必要とする大規模なバッチジョブを、Azure上で効率的に処理するための実行基盤です。Azure Batchを使用することで、下記のバッチジョブを効率的に実行することが可能になります。
+
+- 大規模な並列処理を行うバッチジョブ
+- 大量のマシンリソースを必要とする科学計算等の高負荷なバッチジョブ（ハイパフォーマンス・コンピューティング：HPC）
+
+Azure Batchで管理された仮想マシン上で実行するようにスケジュールを設定し、バッチジョブの要件に合わせて仮想マシンを自動的にスケールさせながら大量のマシンリソースを要するバッチジョブを処理していきます。
+
+## Reference
+
+- [Azure Batch](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/azurebatch.md)
 
