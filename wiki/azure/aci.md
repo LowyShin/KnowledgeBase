@@ -1,6 +1,6 @@
 # Azure Container Instance(ACI)
 
-Linux Container Serviceと呼ばれる隔離された環境を提供するサービスから出発したコンテナサービスはAzureの場合はACIにAWSの場合は Amazon ECSなどで提供されています。
+[Linux Container Service](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/c/containerservice.md)と呼ばれる隔離された環境を提供するサービスから出発したコンテナサービスはAzureの場合はACIにAWSの場合は Amazon ECSなどで提供されています。
 
 コンテナはそもそも異なるアプリケーション環境を一つのOS上で稼働させサーバー台数を減らす目的で開発されていたのでその根本的な機能をしておいたら活用範囲が分かると思います。
 
@@ -8,7 +8,7 @@ Linux Container Serviceと呼ばれる隔離された環境を提供するサー
 
 最近コンテナサービスに合わせられるような環境も増えてきたのでnode14とnode16を同時に起動させたりすることがしやすくなっています。この環境を丸ごと動かすことで既存のOSを丸ごとコピーするより遥かに少ない容量と展開リソースで最近VMより使われるようになりました。
 
-コンテナサービスが必要な場合はこの記事をそのまま見ながら似たようなサービスと比べるのをお勧めします。
+[コンテナサービス](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/c/containerservice.md)が必要な場合はこの記事をそのまま見ながら似たようなサービスと比べるのをお勧めします。
 しかし自動化の管理だけを目的としてコンテナサービスは道具の一部だと思った方は[バッチっサービス](azurebatch.md)をご覧ください。
 
 Azure Container Apps の条件に当てはまらなかったりそれほど多くの機能を必要としないような、単体で動くシンプルなアプリケーションやバッチ処理に適したサービスです。
