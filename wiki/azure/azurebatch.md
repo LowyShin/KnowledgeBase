@@ -15,9 +15,28 @@
 ## Azure における統合と自動化の適切なサービスを選ぶ
 
 ### [Microsoft Power Automate](https://make.powerautomate.com/) (旧称 Microsoft Flow)
+
+Power AutomateはITに詳しくない人がパソコン上の作業を自動化することに特化して開発されたものでWWF(Windows Workflow Foundation)から派生した商品と思われます。GUIが便利で業務フローを作成して簡単なコードだけ入れたらすぐ作業ができ、自動化までサポートしているので簡単に自動化ができます。
+ITの人ならVisual StudioからWWFを追加して開発するのも良いですが、Power Automateの豊かなコンポネントを利用すると生産性の高さに魅了されると思います。
+サーバーエンジニアの場合バッチファイルを作成してPower Automateで動かすことも可能なので幅広く使えるツールだと思います。
+
 ### [Azure Logic Apps](https://azure.microsoft.com/ja-jp/products/logic-apps/)
+
+Azure Logic Apps は、コンテナー化されたランタイム上に構築された、主要なサービスとしての統合プラットフォーム (iPaaS) です。どこでも Logic Apps をデプロイして実行することができ、ビジネスクリティカルなワークフローをどこでも自動化しながら、スケールと移植性を向上させることができます。
+
+基本的に企業から大量のバッチが必要な場合拡張がしやすく統合管理がしやすい特徴があるのでバッチが専門の仕事には向いていると思います。
+しかし、バッチ処理が少ないまたは種類が少ない場合はPower AutomateまたはAzure Functionでもいいかと思います。
+
 ### [Azure Functions](https://azure.microsoft.com/ja-jp/products/functions/)
+
+Azure Functions は、任意のプログラミング言語を使用してより効率的に開発するのに役立つ、イベント ドリブン型サーバーレス コンピューティング プラットフォームです。最高レベルのハードウェア抽象化を備えたコア ビジネス ロジックに焦点を当てます。複雑なオーケストレーションの課題を簡素化し、ローカルでビルドおよびデバッグし、クラウドで大規模にデプロイし、トリガーとバインドを使用して関数を Azure サービスに接続します。
+
+簡単に言うと条件に合わせてバッチを稼働したい場合に向いています。Azure FunctionなしでLog Analyticsからデータを収集しMonitorから条件を付けてスクリプトを実行する方法もありますが、この方法と比べて使うのもいいかと思います。
+
 ### [Azure App Service WebJobs](https://learn.microsoft.com/ja-jp/azure/app-service/webjobs-create)
+
+App Serviceを使っている場合は機能の一つのWebジョブという機能が使えます。
+決まった時間になるとWebAPIを起動するなどのWeb Appに含まれているコードを実行するのに最適されていますが、逆にほかのシステムの管理だどの機能をまとめて専用のWeb Appとして使うのも良いかと思います。
 
 ## 比較
 
