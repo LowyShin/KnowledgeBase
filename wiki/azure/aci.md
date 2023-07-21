@@ -166,6 +166,8 @@ Windows/Linux ベースで .NET、.NET Core、Java、Ruby、Node.js、PHP、Pyth
 
 ### Azure Kubernetes Service
 
+KubernetesはDockerコンテナをGUIで管理がしやすくしたOpen Sourceツールです。管理がしやすいためAzureとAWSで取り入れサービスとして提供しています。
+KubernetesはK8Sとも言われるですが、それはKと後8文字の英語とSがついてK8Sと呼んだりしてます。
 Azure で Kubernetes をフル活用したい場合に最適なサービスです。
 一番の特徴は Kubernetes API への直接アクセスがサポートされていることです。Kubernetes をフルマネージドで使用できます。
 その代わり、クラスターの構成と運用はユーザーの制御と責任の範囲内となるため、クラウドサービスの利点が一部損なわれることには注意しましょう。
