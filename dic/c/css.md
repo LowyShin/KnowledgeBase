@@ -1,6 +1,6 @@
 # Cascade Style Sheet(CSS)
 
-### CSSだけで外部サイトへのリンクにマーク(アイコン)をつける方法
+### CSSだけで外部サイトへのリンクにマーク(アイコン)をつける方法1
 
 ```html
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
