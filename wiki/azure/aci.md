@@ -9,6 +9,124 @@ Azure Container Instances はあくまで単一ポッドなので、複数コン
 - 単一で動くシンプルなアプリケーション
 - バッチ処理
 
+<table style="font-size: 0.7em; table-layout: fixed; width: 100%;">
+    <tr style="background-color: #eee;">
+        <td style="width: 10%;"></td>
+        <td>Web App</td>
+        <td>Functions App</td>
+        <td>ACI</td>
+        <td>ACA</td>
+        <td>AKS</td>
+    </tr>
+    <tr>
+        <td>コンテナ以外のデプロイ手法</td>
+        <td>ZIPデプロイ、Gitデプロイ等（ネイティブサポート言語のみ）</td>
+        <td>一部のネイティブサポート言語に加えカスタムハンドラーにより別言語にも対応</td>
+        <td>✖</td>
+        <td>✖</td>
+        <td>✖</td>
+    </tr>
+    <tr>
+        <td>コンテナ利用時のプラン制約</td>
+        <td>なし（F1でも可能）</td>
+        <td>従量課金プラン不可（PremiumもしくはApp Service Planが必須）</td>
+        <td>なし</td>
+        <td>なし</td>
+        <td>なし</td>
+    </tr>
+    <tr>
+        <td>Windowsコンテナ</td>
+        <td>対応</td>
+        <td>✖</td>
+        <td>対応</td>
+        <td>✖</td>
+        <td>対応</td>
+    </tr>
+    <tr>
+        <td>マルチコンテナ</td>
+        <td>
+            docker-compose（プレビュー）<br>
+            <a target="_blank" href="https://learn.microsoft.com/ja-jp/azure/app-service/configure-custom-container?pivots=container-linux#preview-limitations">App Serviceの機能制限あり</a><br>
+            <a target="_blank" href="https://learn.microsoft.com/ja-jp/azure/app-service/configure-custom-container?pivots=container-linux#unsupported-options">docker-composeの機能制限あり</a>
+        </td>
+        <td>✖</td>
+        <td>・Yamlテンプレート<br>・ARMテンプレート<br>・docker-compose（機能制約あり）</td>
+        <td>対応</td>
+        <td>対応</td>
+    </tr>
+    <tr>
+        <td>0へのスケーリング</td>
+        <td>✖</td>
+        <td>✖</td>
+        <td>✖（スケーリング自体に非対応）</td>
+        <td>対応</td>
+        <td>△（Userプールのみ0までスケーリング可能、cluster全体の停止オプションは別途あり）</td>
+    </tr>
+    <tr>
+        <td>目的</td>
+        <td>連続起動</td>
+        <td>
+            エフェメラルだが、コンテナ含む従量課金プラン対象外の機能利用時の課金は連続的<br>
+            <a target="_blank" href="https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#billing">「すべての Premium プランには、常に 1 つ以上のアクティブな (課金された) インスタンスがあります。」</a>
+        </td>
+        <td>連続起動・エフェメラル（連続起動すると同一条件のWeb App for Containersより高くなりがち）</td>
+        <td>連続起動・エフェメラル（連続起動時はACIより高額）</td>
+        <td>連続起動・エフェメラル</td>
+    </tr>
+    <tr>
+        <td>実行時間制限</td>
+        <td>なし</td>
+        <td>
+            従量課金：最大10min<br>Premium：規定30min、
+            <a target="_blank" href="https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-premium-plan?tabs=portal#longer-run-duration">
+                設定により無制限（60min保証）
+            </a>
+        </td>
+        <td>無制限</td>
+        <td>無制限</td>
+        <td>無制限</td>
+    </tr>
+    <tr>
+        <td>Kubernetes</td>
+        <td>✖</td>
+        <td>✖</td>
+        <td>✖</td>
+        <td>△（Kubernetesが内部で動いているがユーザーはKubernetes APIにアクセスできない）</td>
+        <td>対応</td>
+    </tr>
+    <tr>
+        <td>課金単位</td>
+        <td>1時間あたり</td>
+        <td>1秒あたり（従量課金プラン）</td>
+        <td>1時間あたり</td>
+        <td>1秒あたり</td>
+        <td>1時間あたり</td>
+    </tr>
+    <tr>
+        <td>無料枠</td>
+        <td>無料プランあり</td>
+        <td>従量課金プランのみ<br>40万GB秒<br>100万回の実行</td>
+        <td>なし</td>
+        <td>18万vCPU秒<br>36万GiB秒<br>200万リクエスト</td>
+        <td>なし</td>
+    </tr>
+    <tr>
+        <td>料金</td>
+        <td>Free<br>Basic: 約2,000円/月<br>Std: 約12,000円/月<br>Prem: 約13,000円/月</td>
+        <td>Premium: 常時稼働インスタンス1台のみで約26,000円/月</td>
+        <td>RAM: 約600円/月･GiB<br>vCPU: 約5300円/月<br>別途GPUコンテナーあり</td>
+        <td>RAM: 約1,100円/月･GiB<br>vCPU: 約9,000円/月<br>アイドル時は割引料金</td>
+        <td>1番安いStandard B2sを1台で運用してもVMSSだけで約6,000円/月</td>
+    </tr>
+    <tr style="background-color: #eee;">
+        <td style="width: 10%;"></td>
+        <td>Web App</td>
+        <td>Functions App</td>
+        <td>ACI</td>
+        <td>ACA</td>
+        <td>AKS</td>
+    </tr>
+</table>
 
 ## 関連性高い機能
 
