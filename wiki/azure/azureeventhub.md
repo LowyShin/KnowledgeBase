@@ -28,5 +28,7 @@ Host: your-namespace.servicebus.windows.net
 ```
 
 - [イベント送信APIの説明](https://learn.microsoft.com/ja-jp/rest/api/eventhub/send-batch-events)
+- [Pythonを利用したイベント送信及び受信](https://learn.microsoft.com/ja-jp/azure/event-hubs/event-hubs-python-get-started-send?tabs=passwordless%2Croles-azure-portal)
+
 
 ![AzureEventHub drawio](https://github.com/LowyShin/KnowledgeBase/assets/20239203/e009bfaf-9a4a-4ff0-bad3-bda9efe843da)
