@@ -32,3 +32,13 @@ Host: your-namespace.servicebus.windows.net
 
 
 ![AzureEventHub drawio](https://github.com/LowyShin/KnowledgeBase/assets/20239203/e009bfaf-9a4a-4ff0-bad3-bda9efe843da)
+
+
+### おまけ
+
+設定が複雑なのでシンプルに状態をストレージアカウントに入れてチェックするのもありです。
+
+1. Batchが終わったらバッチの順番をテキストファイル化してアップロードする
+   - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-python
+2. アップしたファイルを次のバッチがチェックしまだ前回のバッチが終了してなかったら1分待つ、の繰り返し。
+
