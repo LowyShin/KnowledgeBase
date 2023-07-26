@@ -26,6 +26,8 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
     * Azure login using az command
     * change subscription or component control
 
+- [Event Hub](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/azureeventhub.md)
+
 ## Deployment
 
 * Simple management source and service by Github + Azure App Service
