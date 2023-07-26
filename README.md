@@ -213,6 +213,15 @@
 - [mural.ly](https://www.mural.co/)
     - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
 
+### SEO
+
+- [Google Analytics](https://analytics.google.com/analytics/web/provision/#/provision)
+  - Googleが提供しているサイトのユーザー分析ツール。
+- [Google Search Console](https://search.google.com/search-console/about)
+  - GAにはhttps通信の検索キーワードなどが収集できないためGoogle Search Consoleを利用しなければなりません。GAと繋いで使うのを推奨します。
+- [xml-sitemaps.com - Sitemap generator](https://www.xml-sitemaps.com/)
+  - Google Search Console用のサイトマップ自動作成ツール
+
 ### Mail Service
 
 - [(Gmail API)Gmail APIのSMTPサーバーを使ってWordPressから無料でメールを送信する方法](https://kinsta.com/jp/blog/gmail-smtp-server/)
