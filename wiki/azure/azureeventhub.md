@@ -42,6 +42,8 @@ Host: your-namespace.servicebus.windows.net
 | Azure Event Grid | イベント配信 | 反応型開発 | Trigger Azure Functionsを利用した条件の開発 | $0.54/100万操作（10万操作まで無料）|
 | Azure Service Bus | メッセージ | 企業型アプリケーションメッセージ処理 | オーダー処理、金融のバッチ処理、メッセージキュー、AMQP | $0.05/100万処理 | 
 
+![image](https://github.com/LowyShin/KnowledgeBase/assets/20239203/294f4194-4277-4d0a-9953-96dd582deb17)
+
 
 
 ### おまけ
