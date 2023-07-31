@@ -99,6 +99,17 @@ ON  A1.Month >= A2.Month
 ORDER BY A1.Month
 ```
 
+### Select from SP
+
+```sql
+declare @myVal nvarchar(100)
+Declare @T Table (LeftPoint int, LeftBonus int, pchPoint int, pchBonus int, pchPointUsed int, pchBonusUsed int)
+Insert @T Exec pAStatPoint
+Select @myVal = LeftPoint from @T
+
+select @myVal as LeftPoint
+```
+
 ## Management
 
 ### Table Allocate
