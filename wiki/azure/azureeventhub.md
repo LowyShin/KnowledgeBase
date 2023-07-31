@@ -34,6 +34,16 @@ Host: your-namespace.servicebus.windows.net
 ![AzureEventHub drawio](https://github.com/LowyShin/KnowledgeBase/assets/20239203/e009bfaf-9a4a-4ff0-bad3-bda9efe843da)
 
 
+### 疑似サービス比較
+
+| サービス | タイプ | 目的 | 使用例 |
+--|--|--|--|
+| Azure Event Hubs | イベントストリーミング（持続配信） | ビックデータの持続送信 | ログ送信・データ送信 | 
+| Azure Event | イベント配信 | 反応型開発 | Trigger Azure Functionsを利用した条件の開発 |
+| Azure Service Bus | メッセージ | 企業型アプリケーションメッセージ処理 | オーダー処理、金融のバッチ処理、メッセージキュー、AMQP |
+
+
+
 ### おまけ
 
 設定が複雑なのでシンプルに状態をストレージアカウントに入れてチェックするのもありです。
