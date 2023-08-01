@@ -20,6 +20,12 @@
 - [Transfer(send) with data - Klaytn API](https://docs.klaytn.foundation/content/dapp/sdk/caver-js/api-references/caver.kct/kip17)
 - [Klaytn API Help Center](https://support.klaytnapi.com/)
 
+## Polygon
+
+- [Official Homepage](https://polygon.technology/)
+- [Polygon Scan](https://polygonscan.com/)
+- Deploy and management : [ThridWeb - ERC Token management tool](https://thirdweb.com/thirdweb.eth/TokenERC20)
+
 ## ERC20 Tokens
 
 * [ERC20](https://ethereum.org/ja/developers/docs/standards/tokens/erc-20/)
@@ -44,6 +50,7 @@
 
 ### Other links
 
+- [ThridWeb - ERC Token management tool](https://thirdweb.com/thirdweb.eth/TokenERC20)
 - [NFTとは？仕組みや特徴・購入方法を初心者にもわかりやすく解説](https://maonline.jp/media/nft-about/)
 - [【NFT】Etherscan（イーサ スキャン）上でNFTを表示してみた](https://note.com/ooba8686/n/n5b2aa32c1ee0)
 - [NFTメタデータを生成する](https://morioh.com/p/d7269c43ee37)
