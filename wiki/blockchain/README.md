@@ -9,9 +9,6 @@
 
 * [Ethereum](https://en.wikipedia.org/wiki/Ethereum)
   * github source : https://github.com/ethereum
-
-### Tools
-
 * [Etherscan](https://etherscan.io/)
 
 ## Klaytn
