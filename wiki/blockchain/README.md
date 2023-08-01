@@ -11,6 +11,27 @@
   * github source : https://github.com/ethereum
 * [Etherscan](https://etherscan.io/)
 
+### EVM compatibility
+
+ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습니다. 
+이들은 Ethereum의 Wallet을 이용하기 때문에 하나의 Ethereum Wallet을 가지고 있으면 네트워크가 달라도 같은 주소로서 사용이 가능합니다. 때문에 하나의 지갑을 만들고 나면 네트워크만 바꾸어 사용이 가능하므로 주소를 네트워크마다 달리 가지고 있을 필요가 없습니다. 그리고 당연한 이야기 이지만 이 메인넷의 하위의 토큰들도 모두 같은 주소로 사용이 가능합니다. 
+
+이렇게 하나의 지갑으로 사용 가능한 메인넷은 다음과 같습니다. 
+
+1. Binance Smart Chain (Now BNB Smart Chain)
+2. Avalanche 
+3. Cardano
+4. Solana 
+5. Polygon
+6. Optimism 
+7. Arbitrum
+8. Boba Network
+9. Tron
+10. Fantom
+11. TomoChain
+14. zkSync 
+15. Cosmos 
+
 ## Klaytn
 
 - [Klaytn Official Documentation](https://docs.klaytn.foundation/)
