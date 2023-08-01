@@ -8,6 +8,18 @@
 * [PUML for Markdown](https://github.com/danielyaa5/puml-for-markdown)
   * Draw diagram on Markdown and so on. 
 
+## Giip(RPA/Workflow Automation Engine)
+
+GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기반으로 다양한 작업을 자동화하기 편하도록 지원해주는 서비스 입니다. 
+요즘들어 workflow 계열 툴이나 lowscript로 DevOps 코드를 쉽게 만들고 있는 경우가 많은데 이 모든 서비스들이 giip와 유사합니다. giip는 2007년부터 개발되어 지금까지 클라우드나 레거시의 모든 인프라를 통합 관리할 수 있도록 만들어져 있어, 클라우드상의 인스턴스 뿐만 아니라 IP가 유동적으로 변하는 머신이나 로컬 PC까지 자유롭게 관리/통제가 가능합니다.
+
+* giip docs
+  - English : https://github.com/LowyShin/giip/wiki
+  - Japanses : https://github.com/LowyShin/giipdoc-ja/wiki
+  - Korean : https://github.com/LowyShin/giipdoc-ko/wiki
+* [giip Service Web](https://giipasp.azurewebsites.net)
+
+
 ### Data(DBMS, NoSQL, Datascience, database)
 
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
@@ -372,14 +384,6 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   * 福岡から東京まで引っ越しした場合相場が20万円ほどです（1人の場合）。クロネコヤマトのパレットに自分で詰め込めば4万円程でお引越しができます！
 * [国際郵便マイページサービス](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do)
   * 国際郵便の送り状登録及び印刷が簡単にできる郵便局公式サービス
-
-## Giip(RPA Engine)
-
-GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기반으로 다양한 작업을 자동화하기 편하도록 지원해주는 서비스 입니다. 
-요즘들어 workflow 계열 툴이나 lowscript로 DevOps 코드를 쉽게 만들고 있는 경우가 많은데 이 모든 서비스들이 giip와 유사합니다. giip는 2007년부터 개발되어 지금까지 클라우드나 레거시의 모든 인프라를 통합 관리할 수 있도록 만들어져 있어, 클라우드상의 인스턴스 뿐만 아니라 IP가 유동적으로 변하는 머신이나 로컬 PC까지 자유롭게 관리/통제가 가능합니다.
-
-* [giip docs](https://github.com/LowyShin/giip)
-* [giip website](https://giipasp.azurewebsites.net)
 
 
 ## Dictionary
