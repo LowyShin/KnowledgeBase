@@ -1,5 +1,5 @@
 # Line Business 
 
-## Auto Answer Manual
+## Line Smart Store
 
-
+https://lme.jp/media/system/mysmartstore/
