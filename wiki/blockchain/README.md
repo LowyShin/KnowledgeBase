@@ -66,6 +66,7 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 ### IPFS
 
 - [IPFS](https://ipfs.tech/)
+- [IPFS Explorer](https://ipfsexplorer.online/)
 - [InterPlanetary File System(IPFS, Wikipedia)](https://ja.wikipedia.org/wiki/InterPlanetary_File_System)
 - [IPFS入門 : 新たなP2Pハイパーメディア分散プロトコル](https://postd.cc/an-introduction-to-ipfs/)
 
