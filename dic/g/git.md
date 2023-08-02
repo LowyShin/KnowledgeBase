@@ -66,7 +66,19 @@ git clone git@github.com:LowyShin/Knowledgebase.git
 
 ## tips
 
+### Github + Slack
+
 - [Github + Slack integration](https://github.com/integrations/slack)
+```sh
+# 처음에는 github에 어카운트 연결을 해야함.
+/github signin
+# Subscribe된 레포지터리 표시
+/github subscribe list
+# Subscribe 설정. commits:* 는 모든 브랜치의 커밋 표시. commits만 넣으면 디폴트 브랜치의 commit표시. 
+/github subscribe LowyShin/KnowledgeBase commits:*
+```
+
+
 
 * fork原本レポジトリーから自分のレポジトリーに同期
 ```git
