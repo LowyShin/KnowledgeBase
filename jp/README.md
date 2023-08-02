@@ -21,6 +21,7 @@ https://advisors-freee.jp/article/category/cat-big-02/cat-small-04/11807/
 
 
 - e-GOVで使われている社会保険の都道府県コード一覧
+  - e-GOVでは説明がなくて「都道府県コード」を入力しろって書いてる場所に入れるコードです。
   ```
   e-GOV　社会保険の都道府県コード一覧
   01 北海道
