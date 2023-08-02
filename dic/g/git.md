@@ -66,6 +66,8 @@ git clone git@github.com:LowyShin/Knowledgebase.git
 
 ## tips
 
+- [Github + Slack integration](https://github.com/integrations/slack)
+
 * fork原本レポジトリーから自分のレポジトリーに同期
 ```git
 # add origin repogitory
