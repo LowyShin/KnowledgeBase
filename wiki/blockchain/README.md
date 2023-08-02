@@ -46,7 +46,8 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 
 ## ERC20 Tokens
 
-* [ERC20](https://ethereum.org/ja/developers/docs/standards/tokens/erc-20/)
+* [ERC20 Official](https://ethereum.org/ja/developers/docs/standards/tokens/erc-20/)
+- [独自のERC20トークンを作ってみよう！](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/ERC20.md)
 
 ## NFT Tokens
 
