@@ -55,6 +55,7 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 - [NFT Drop Contractを利用して特定時間から配布できるプロモーションを作成する](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/nftdrop.md)
 * [Definition of NFT(Non-Fungible Token)](https://en.wikipedia.org/wiki/Non-fungible_token)
 * [ERC721(Crypto Kitty Sample)](https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/)
+- [NFT Viewer](https://www.nftviewer.xyz/)
 * [OpenZepplin-ERC721 Dev](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [【真のNFT!?】メタデータを作って返す【フルオンチェーン】](https://qiita.com/hakumai-iida/items/c96d7c053379f42ba9b8)
 
