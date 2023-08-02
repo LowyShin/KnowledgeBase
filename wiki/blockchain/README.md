@@ -42,7 +42,7 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 
 - [Official Homepage](https://polygon.technology/)
 - [Polygon Scan](https://polygonscan.com/)
-- Deploy and management : [ThridWeb - ERC Token management tool](https://thirdweb.com/thirdweb.eth/TokenERC20)
+- Deploy and management : [ThirdWeb - ERC Token management tool](https://thirdweb.com/thirdweb.eth/TokenERC20)
 
 ## ERC20 Tokens
 
