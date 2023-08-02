@@ -83,6 +83,10 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 
 ## Development(Tool, Service)
 
+- [Thirdweb - Web deploy tool](https://thirdweb.com/)
+  - ERC20, NFT Token deploy and management. Promotion, lockable
+- [Bunzz - Web deploy tool](https://www.bunzz.dev/)
+  - ERC20, NFT Token deploy and management. Promotion, lockable
 * [AWS Hyper Ledger Tutorial](https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/managed-blockchain-get-started-tutorial.html)
 * [Alchemy - Blockchain API and Node Service | Ethereum, Polygon, Flow, Crypto.org + More](https://www.alchemy.com/)
 * [Develop a Full Stack Serverless NFT Application with Amazon Managed Blockchain – Part 1](https://aws.amazon.com/jp/blogs/database/part-1-develop-a-full-stack-serverless-nft-application-with-amazon-managed-blockchain/)
