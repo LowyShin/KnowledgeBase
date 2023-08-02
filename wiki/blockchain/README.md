@@ -51,6 +51,7 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 
 ## NFT Tokens
 
+- [NFT Collection Contractを利用して基本的なNFTを作成・送信する](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/nftcol.md)
 - [NFT Drop Contractを利用して特定時間から配布できるプロモーションを作成する](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/nftdrop.md)
 * [Definition of NFT(Non-Fungible Token)](https://en.wikipedia.org/wiki/Non-fungible_token)
 * [ERC721(Crypto Kitty Sample)](https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/)
