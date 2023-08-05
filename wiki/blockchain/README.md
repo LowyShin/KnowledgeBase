@@ -59,6 +59,10 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 * [OpenZepplin-ERC721 Dev](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [【真のNFT!?】メタデータを作って返す【フルオンチェーン】](https://qiita.com/hakumai-iida/items/c96d7c053379f42ba9b8)
 
+### NFT Projects
+
+- [NFT Wars - card game assosiates](https://nftwars.xyz/)
+- [Soudan NFT Community](https://soudan-nft.xyz/)
 
 ### Structure
 
