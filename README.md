@@ -346,6 +346,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [AR - A glimpse of the future through an augmented reality headset - Meron Gribetz](https://www.ted.com/talks/meron_gribetz_a_glimpse_of_the_future_through_an_augmented_reality_headset?language=en)
 * [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
 - [HONDA 着脱式可搬バッテリー「Honda Mobile Power Pack」を活用した取り組みについて](https://www.honda.co.jp/news/2021/c211029b.html)
+- [Honda goldwing price](https://www.honda.co.jp/GOLDWING/type/)
 * [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
 * [Fountain Pen ink cartridge guide](https://unsharpen.com/fountain-pen-cartridge-guide/)
 * [住宅も3Dプリンターで価格革命](https://youtu.be/kTeysI5U-xw)
