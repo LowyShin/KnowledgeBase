@@ -92,6 +92,18 @@ giip를 이용해서 간단하게 실행하는 방법을 소개합니다.
 
 만약 VM Scale set등으로 자동으로 VM이 생성되는 경우라면 생성된 VM마다 VM의 번호를 추가해야 하는데 VM마다 추가하고 config에 등록하는 스크립트는 다른 페이지에 기재하겠습니다.
 
+### NODE_ENV on Windows
+
+nodejsのNODE_ENV, SET_ENV等Linux shellからの環境変数がWindowsでも読めるにはwindows bashが必要。
+大体の場合gitをインストールしているためgit bashを利用して設定するのが楽
+
+```sh
+npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
+```
+
+ref : https://evantay.com/docs/nodejs-set-npm-run-shell/
+
+
 ## nodejs上で動くFramework
 
 * [Flutter](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/flutter)
