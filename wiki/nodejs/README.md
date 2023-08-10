@@ -62,9 +62,17 @@ giip를 이용해서 간단하게 실행하는 방법을 소개합니다.
    - 1번의 링크를 따라하면 giipAgentLinux를 서버에 설치까지 끝납니다.
 3. git clone으로 첫 소스 가져옴
    - git clone명령을 사용하여 서버에서 소스를 우선 가져옵니다.
+   ```sh
+   mkdir -p /usr/projects
+   cd /usr/projects
+   git clone https://github.com/LowyShin/myprj.git
+   ```
+   - git clone에서 권한등의 이유로 막혀있다면 아래 링크를 참조하여 ssh-key를 등록해 주셔야 합니다.
+     - https://github.com/LowyShin/KnowledgeBase/blob/master/dic/g/git.md#account   
    - 소스 위치와 스크립트의 위치를 맞출 필요가 있습니다. 만약 맞추기 귀찮다면 `mkdir -p /usr/projects` 라고 생성해서 그 위치에서 git clone을 하면 편리합니다. 
 4. node를 기동하는 스크립트 작성
    - https://github.com/LowyShin/giip/blob/gh-pages/giipscripts/sh/nodejs-githubsyncandrun.sh
+   - 위 링크에 있는 소스를 그대로 복사해서 [Automation > AddScript](https://giipaspstg02.azurewebsites.net/view/SMAHTML/ScrPut.asp) 에 등록 합니다. 등록 방법은 1번에 있는 Quick Start의 하단의 [서버 정보 취득 스크립트의 등록]을 참고하세요. 
    - 기동하지 않는다면 이슈에 환경을 올려주면 맞춰드립니다. ^^
 5. 작성한 스크립트를 서버에 할당
    - 아래 링크에서부터 실행하여 3에서 작성한 스크립트를 등록하고 할당합니다.
@@ -72,6 +80,7 @@ giip를 이용해서 간단하게 실행하는 방법을 소개합니다.
 6. 서버에서 로그 확인
    - 서버에 ssh로 접속후 아래 커맨드로 실행여부를 리얼타임으로 확인 가능합니다.
    - `tail -f /var/log/giipAgentYYYYMMDD.log`
+   ![image](https://github.com/LowyShin/KnowledgeBase/assets/20239203/2691989d-5ba3-4ca0-a284-21d65d947279)
    - 기다리기 싫은 경우는 강제 실행 버튼을 눌러 실행할 수 있습니다.
    ![image](https://github.com/LowyShin/KnowledgeBase/assets/20239203/905bfc03-c719-49ac-9d7a-595556bb3ef8)
 
