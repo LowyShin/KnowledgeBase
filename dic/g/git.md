@@ -78,9 +78,27 @@ git clone git@github.com:LowyShin/Knowledgebase.git
 /github subscribe LowyShin/KnowledgeBase commits:*
 ```
 
+### .gitignore
+
+node_modules를 실수로 인덱스 걸어버린 경우
+```sh
+# 인덱스에서 node_modules를 삭제
+$ git rm -r --cached node_modules  
+
+$ git status
+On branch master
+Initial commit
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+new file:   .gitignore
+new file:   app.js
+new file:   index.jade
+new file:   package.json
+```
 
 
-* fork原本レポジトリーから自分のレポジトリーに同期
+### fork原本レポジトリーから自分のレポジトリーに同期
 ```git
 # add origin repogitory
 git remote add upstream git@github.com/lowyshin/myrepo.git
@@ -94,17 +112,20 @@ git push origin main
 
 ```
 
-* VS Codeを利用した同期の管理
+### VSCode Sync
+- VS Codeを利用した同期の管理
   * https://talklowy-jp.blogspot.com/2019/12/vs-codemicrosoft-visualstudio.html
 
 
-* if can not upload large files, and delete original file.. then
+### LargeFiles
+if can not upload large files, and delete original file.. then
 ```shell
 git filter-branch --force --index-filter  'git rm --cached --ignore-unmatch kvexport/kv20190716-Kia02-s03_volume.csv'   --prune-empty --tag-name-filter cat -- --all
 
 git push origin master
 ```
 
+### Password
 * GitHubでユーザ名・パスワード省略（push, pull）
   * https://qiita.com/azusanakano/items/8dc1d7e384b00239d4d9
 ```sh
@@ -116,6 +137,7 @@ git config --global user.email "ai@netbako.com"
 git config --global user.name "LowyAI"
 ```
 
+### etc
 * Git clone
 ```sh
 git clone https://github.com/LowyShin/giipAgentLinux.sh
