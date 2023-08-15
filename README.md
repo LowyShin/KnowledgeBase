@@ -83,6 +83,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   * [Ethereum](https://en.wikipedia.org/wiki/Ethereum)
     * [Source](https://github.com/ethereum)
 * [Wallets](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain#wallets)
+- [NFT](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/README.md#nft-tokens)
 * [Mining](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mining/README.md)
 * [Exchanges()取引所]
   * [GMO Coin Z](https://coin.z.com/)
