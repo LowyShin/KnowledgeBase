@@ -61,6 +61,10 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 
 ### NFT Projects
 
+- [NFTお守り - 結・MUSUBI](https://www.musubi.green/)
+  - かわいいキャラクターお守りを無料で配信
+- [レコチョクが日本初のNFTチケット・ソリューション提供開始！](https://shinagawa.keizai.biz/release/180789/)
+- [ファントークン by Jasmy](https://www.jasmy.co.jp/index.html)
 - [NFT Wars - card game assosiates](https://nftwars.xyz/)
 - [Soudan NFT Community](https://soudan-nft.xyz/)
 - [NIKKEI（日経）コンパスに搭載されているNFT企業](https://www.nikkei.com/compass/search/Y2F0ZWdvcnk9Y29tcGFueSZ0aGVtZT00MTM4NQ)
