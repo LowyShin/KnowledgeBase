@@ -46,6 +46,7 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 ## Azure Monitor
 
 - [Azure Monitor Agentを利用したカスタムテキストログの収集(➽)](https://zenn.dev/microsoft/articles/739eb0ba0a7e8c)
+  - Azure Log Analyticsを利用したカスタムログ収集機能が2024年8月末にリタイアとなるためAzure Monitorを利用してカスタムログを収集
 - [Azure Monitor Log Alert V2(➽)](https://cloudadministrator.net/2021/11/04/azure-monitor-log-alert-v2/)
 
 
