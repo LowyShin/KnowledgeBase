@@ -148,6 +148,8 @@ az ad signed-in-user show
 
 ## Azure Automation
 
+Azure上の管理自動化に関しての悩みならまず[こちら(Azure Script Management)](https://github.com/LowyShin/KnowledgeBase/wiki/AzureScriptManagement)をご確認ください。。
+
 - [ACI(Azure Container Instance)](aci.md)
 - [Azure Batch](azurebatch.md)
 
