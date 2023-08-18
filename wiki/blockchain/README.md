@@ -51,6 +51,14 @@ ERC규격에 맞춘 독립 네트워크를 가진 코인들이 나오고 있습�
 
 ## NFT Tokens
 
+NFT(None Fungible Token)은 Ethereum에서 만든 규약 중 대체 불가능 토큰의 방식으로 ERC-721계열 및 ERC-1155계열이 있습니다. 
+
+ERC-721은 하나의 NFT토큰에 대한 이력관리를 통해 유일성을 가지게 되는 규약이지만, 하나의 그림을 여러명이 소유하거나 하기 위해서는 소유자들의 리스트가 필요하게 되어 ERC-1155라는 규약을 만들었습니다. 
+
+이는 하나의 TokenID를 몇 개의 셋트로 만드느냐를 지정하여 각 지정된 셋트의 소유자는 모두 이 TokenID의 소유자가 됩니다. 즉, 하나의 음원또는 그림을 10개로 나누어 판매하면 10개의 서브토큰의 소유자도 이 토큰에 대한 권한을 가지게 됩니다. 
+
+그렇다고 메인토큰을 어떻게 하는 것은 아니고 서브토큰이 독립된 토큰처럼 사용되어 한 개의 앨범을 10장 팔았다.. 라는 느낌으로 많이 사용하고 있습니다. 
+
 - [NFT Collection Contractを利用して基本的なNFTを作成・送信する](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/nftcol.md)
 - [NFT Drop Contractを利用して特定時間から配布できるプロモーションを作成する](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/nftdrop.md)
 * [Definition of NFT(Non-Fungible Token)](https://en.wikipedia.org/wiki/Non-fungible_token)
