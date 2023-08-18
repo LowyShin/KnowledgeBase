@@ -19,6 +19,7 @@ Dart라는 새로운 방식의 언어를 사용하는데 기존 개발자들에�
 
 ## Education
 
+- [Flutter 인기 아키텍처 라이브러리 3종 비교 분석 - GetX vs BLoC vs Provider](https://engineering.linecorp.com/ko/blog/flutter-architecture-getx-bloc-provider)
 - https://github.com/deniscolak/smart-admin-dashboard
 - https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard
 - [Responsive Admin Panel or Dashboard - Flutter UI - Speed Code - Youtube](https://www.youtube.com/watch?v=_uOgXpEHNbc)
