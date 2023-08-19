@@ -94,6 +94,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 ### AI(Artifical Intelligence)
 
 - Image/Video generation
+  - [Pokeit - Image Generate AI](https://pokeit.ai/)
   - [크리에이터가 실직하는 세상을 불러온 Stable Diffusion은 무엇일까?](https://talklowykr.blogspot.com/2023/07/stable-diffusion.html)
   * [Generate video from text you written - makeavideo](https://makeavideo.studio/)
   * [DALL·E](https://en.wikipedia.org/wiki/DALL-E)
