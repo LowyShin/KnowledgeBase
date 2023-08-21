@@ -1,5 +1,9 @@
 # Hacking / cracking
 
+## 취약점 분석 도구 
+
+- [[보안분석] 웹 취약점 분석 도구 - Wapiti3](https://goldb.tistory.com/entry/%EB%B3%B4%EC%95%88%EB%B6%84%EC%84%9D-%EC%9B%B9-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D-%EB%8F%84%EA%B5%AC-Wapiti3)
+
 ## 모의 해킹 툴
 
 모의해킹 사이트이며, 최근 보안 트렌드에 치중되있는 사이트입니다.
