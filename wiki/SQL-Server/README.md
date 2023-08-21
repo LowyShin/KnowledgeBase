@@ -72,6 +72,10 @@ Select @myVal = LeftPoint from @T
 select @myVal as LeftPoint
 ```
 
+## External Data
+
+- [외부 데이터 엑세스(using External Data Source)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/extdata.md)
+
 ## Management
 
 ### Table Allocate
