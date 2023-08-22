@@ -32,6 +32,9 @@ WITH ( TYPE = BLOB_STORAGE,
 --          , CREDENTIAL= sampleblobcred1
 );
 
+-- 생성확인
+select * from sys.external_data_sources
+
 -- 데이터를 내가 원하는 테이블에 집어 넣는 SQL
 -- Azure의 날짜 표기는 getdate()를 하면 UTC에서 변경 불가능하여 JST로 가져오는 함수를 따로 만듬. dbo.fgetJST()
 insert into tRawData(rdRegdt, rdData)
