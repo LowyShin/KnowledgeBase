@@ -103,6 +103,7 @@ ERC-721은 하나의 NFT토큰에 대한 이력관리를 통해 유일성을 가
 
 ## Development(Tool, Service)
 
+- [verify ethereum wallet address](https://ethereum.stackexchange.com/questions/1374/how-can-i-check-if-an-ethereum-address-is-valid)
 - [Thirdweb - Web deploy tool](https://thirdweb.com/)
   - ERC20, NFT Token deploy and management. Promotion, lockable
 - [Bunzz - Web deploy tool](https://www.bunzz.dev/)
