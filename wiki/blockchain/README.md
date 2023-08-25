@@ -76,6 +76,7 @@ ERC-721은 하나의 NFT토큰에 대한 이력관리를 통해 유일성을 가
 - [NFT Wars - card game assosiates](https://nftwars.xyz/)
 - [Soudan NFT Community](https://soudan-nft.xyz/)
 - [NIKKEI（日経）コンパスに搭載されているNFT企業](https://www.nikkei.com/compass/search/Y2F0ZWdvcnk9Y29tcGFueSZ0aGVtZT00MTM4NQ)
+- [[2023最新]OpenSeaのロイヤリティの相場と設定方法について解説](https://proroad07.com/nft_royalty_rates/)
 
 ### Structure
 
