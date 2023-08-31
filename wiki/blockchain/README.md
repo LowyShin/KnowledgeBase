@@ -98,8 +98,8 @@ ERC-721은 하나의 NFT토큰에 대한 이력관리를 통해 유일성을 가
 
 ## Wallets
 
-* [Metamask](https://metamask.io/)
-* [Token Pocket](https://tokenpocket.jp/)
+* [Metamask - official](https://metamask.io/)
+* [Token Pocket - official](https://tokenpocket.jp/)
 
 ## Development(Tool, Service)
 
