@@ -19,6 +19,9 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   - Korean : https://github.com/LowyShin/giipdoc-ko/wiki
 * [giip Service Web](https://giipasp.azurewebsites.net)
 
+### 職業
+
+- 職業マップ
 
 ### Data(DBMS, NoSQL, Datascience, database)
 
