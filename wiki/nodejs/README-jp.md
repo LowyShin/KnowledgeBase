@@ -75,8 +75,7 @@ giipを利用して簡単に実装ができます。
    - 登録方法は1番手順にあるQuick Startの[サーバー情報取得スクリプトの登録]をご参考ください。 
    - 起動しなかったらイシューに環境をお教え頂ければご対応致します。
 5. 作成したスクリプトをサーバーに割り当て
-   - 下記のリンクから実行し、手順３から作成したスクリプトを登録して割り当てます。
-   - https://github.com/LowyShin/giipdoc-ko/wiki/%EB%B9%A0%EB%A5%B8-%EC%8B%9C%EC%9E%91#%EC%84%9C%EB%B2%84-%EC%A0%95%EB%B3%B4-%EC%B7%A8%EB%93%9D-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%EB%93%B1%EB%A1%9D
+   - Quick Startの手順３から作成したスクリプトを登録して割り当てます。
 6. サーバーからログ確認
    - サーバーにssh接続後下記のコマンドから実行状況がリアルタイムで確認できます。
    - `tail -f /var/log/giipAgentYYYYMMDD.log`
