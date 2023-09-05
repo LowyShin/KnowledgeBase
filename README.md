@@ -21,7 +21,8 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### 職業
 
-- 職業マップ
+- [ITエンジニアの職業マップ](https://app.diagrams.net/#G1t6Cp5xFIDc5c90B6Pb776syDMRE7Tkv_)
+  - サーバー・ネットワーク・データベース・セキュリティ関連の全体職種を網羅
 
 ### Data(DBMS, NoSQL, Datascience, database)
 
