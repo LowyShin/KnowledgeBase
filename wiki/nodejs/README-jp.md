@@ -56,7 +56,7 @@ yum clear all
 giipを利用して簡単に実装ができます。
 
 1. giip登録及びLogical Server作成
-   - https://github.com/LowyShin/giipdoc-ko/wiki/%EB%B9%A0%EB%A5%B8-%EC%8B%9C%EC%9E%91
+   - https://github.com/LowyShin/giipdoc-ja/wiki/Quickstart
 2. giipAgentLinuxをサーバーに登録
    - 1番手順のリンクにgiipAgentLinuxの登録手順が含まれてます。
 3. git cloneでソースのダウンロード
