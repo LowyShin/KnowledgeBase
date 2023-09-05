@@ -71,7 +71,7 @@ giipを利用して簡単に実装ができます。
    - ソース位置とスクリプトの位置を合わせる必要がありますが、面倒だったら`mkdir -p /usr/projects`にしたらサンプルと同じ位置になります。
 4. nodeを起動するスクリプトを作成
    - https://github.com/LowyShin/giip/blob/gh-pages/giipscripts/sh/nodejs-githubsyncandrun.sh
-   - 上記のリンクのソースをそのままコピーし[Automation > AddScript](https://giipaspstg02.azurewebsites.net/view/SMAHTML/ScrPut.asp)に登録します。
+   - 上記のリンクのソースをそのままコピーし[Automation > AddScript](https://giipasp.azurewebsites.net/view/SMAHTML/ScrPut.asp)に登録します。
    - 登録方法は1番手順にあるQuick Startの[サーバー情報取得スクリプトの登録]をご参考ください。 
    - 起動しなかったらイシューに環境をお教え頂ければご対応致します。
 5. 作成したスクリプトをサーバーに割り当て
