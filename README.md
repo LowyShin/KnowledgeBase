@@ -100,7 +100,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 ### AI(Artifical Intelligence)
 
 - Image/Video generation
-  - [Stable diffusion Web UI](https://github.com/C43H66N12O12S2/stable-diffusion-webui)
+  - [Stable diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
   - [Kohya's GUI - Stable diffusion](https://github.com/bmaltais/kohya_ss)
     - Stable diffusionを利用した生成型AIで有名なKohya's GUI
   - [Kohya's GUIの日本語バージョン + DreamBooth training + LoRA Traning](https://github.com/kohya-ss/sd-scripts)
