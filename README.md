@@ -199,6 +199,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 " [putty](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/putty)
 * [VirtualBox](https://www.virtualbox.org/)
   * [MacOSでの新バージョンVirtual Box実行時mac verr_vm_driver_not_installed (-1908)回避](https://www.nemotos.net/?p=3707)
+- [qr code chimp - QR Code生成](https://www.qrcodechimp.com/pricing)
 
 ### Infrastructure Management
 
