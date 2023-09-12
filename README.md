@@ -354,7 +354,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 - [イラスト・マンガ描き方ナビ](https://www.clipstudio.net/oekaki)
   - お絵かきがさらに楽しくなるクリエイターのための情報サイト
-- [コミケ、開催地やジャンル（作品名）で探す](https://www.akaboo.jp/event/item/sa001.html)
+- [アマチュアマンガ・開催地やジャンル（作品名）で探す](https://www.akaboo.jp/event/item/sa001.html)
 - [イベント早見一覧（開催日別）](https://www.akaboo.jp/event/index.html)
 
 - Vtuber/Streamer
