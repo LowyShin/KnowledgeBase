@@ -71,6 +71,7 @@ ERC-721은 하나의 NFT토큰에 대한 이력관리를 통해 유일성을 가
 
 - [NFTお守り - 結・MUSUBI](https://www.musubi.green/)
   - かわいいキャラクターお守りを無料で配信
+- [クリエイター向けのNFT作成サポート](https://www.createnft.site/) 
 - [レコチョクが日本初のNFTチケット・ソリューション提供開始！](https://shinagawa.keizai.biz/release/180789/)
 - [ファントークン by Jasmy](https://www.jasmy.co.jp/index.html)
 - [NFT Wars - card game assosiates](https://nftwars.xyz/)
