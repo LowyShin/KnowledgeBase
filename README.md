@@ -352,6 +352,8 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### Hobby
 
+- [イラスト・マンガ描き方ナビ](https://www.clipstudio.net/oekaki)
+  - お絵かきがさらに楽しくなるクリエイターのための情報サイト
 - Vtuber/Streamer
   - [Vライバー事務所MIRULAプロダクション](https://mirula-production.com/)
     - イラストレーター・ライバー（Vtuber）・事務所を募集
