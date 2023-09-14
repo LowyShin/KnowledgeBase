@@ -201,6 +201,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 * [VirtualBox](https://www.virtualbox.org/)
   * [MacOSでの新バージョンVirtual Box実行時mac verr_vm_driver_not_installed (-1908)回避](https://www.nemotos.net/?p=3707)
 - [qr code chimp - QR Code生成](https://www.qrcodechimp.com/pricing)
+- [デザイナー必見！無料で利用できるおすすめのQRコード作成ツール10選](https://www.mdn.co.jp/web/helpful_tips/5807)
 
 ### Infrastructure Management
 
