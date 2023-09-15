@@ -97,7 +97,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   * [Liquid](https://www.liquid.com/)
 * [コピートレードに気をつけろ！](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/copytrade.md)
 
-### AI(Artifical Intelligence)
+### [AI(Artifical Intelligence)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/ai.md)
 
 - Image/Video generation
   - [Stable diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
