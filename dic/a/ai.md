@@ -18,6 +18,8 @@
   * [Generate Photo from text you written - craiyon](https://www.craiyon.com/)
   * [Imagen](https://imagen.research.google/)
   * [Midjourney](https://www.midjourney.com/home/) 
+- [AzureVMでお絵かきAI「Stable Diffusion」を構築する](https://tech-blog.cloud-config.jp/2022-11-15-building-stable-diffusion-on-azure-vm)
+
 
 ## Text generator
     - [ChatGPT](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/c/chatgpt.md)
