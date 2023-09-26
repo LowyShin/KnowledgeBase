@@ -359,6 +359,10 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### Hobby
 
+- [スポーツやろうよ](https://www.net-menber.com/)
+  - 一人でも参加可能なアマチュアスポーツメンバー募集サイト
+- [つなげーと](https://tunagate.com/)
+  - 様々な趣味を一緒に楽しめるメンバー募集サービス
 - [イラスト・マンガ描き方ナビ](https://www.clipstudio.net/oekaki)
   - お絵かきがさらに楽しくなるクリエイターのための情報サイト
 - [アマチュアマンガ・開催地やジャンル（作品名）で探す](https://www.akaboo.jp/event/item/sa001.html)
