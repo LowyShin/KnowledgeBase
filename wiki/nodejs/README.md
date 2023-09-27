@@ -103,6 +103,24 @@ npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
 
 ref : https://evantay.com/docs/nodejs-set-npm-run-shell/
 
+## Codes
+
+### import json file
+
+- `omamoricfg.json`
+```json
+{
+    "oTitle" : "My Omamori"
+}
+```
+
+```nodejs
+import lwJSON from './omamoricfg.json' assert {type: 'json'}
+
+const oTitle = lwJSON.oTitle
+
+console.log("oTitle :", oTitle)
+```
 
 ## nodejs上で動くFramework
 
