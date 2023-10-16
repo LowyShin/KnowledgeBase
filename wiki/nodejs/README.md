@@ -4,6 +4,10 @@
 
 - install NVM for windows
 https://github.com/coreybutler/nvm-windows
+- install NVM for CentOS
+```sh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+```
 
 ```sh
 # Installed Node List
