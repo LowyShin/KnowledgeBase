@@ -418,6 +418,9 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * [国際郵便マイページサービス](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do)
   * 国際郵便の送り状登録及び印刷が簡単にできる郵便局公式サービス
 
+## SNS
+
+- [Twitter](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/t/twitter.md)
 
 ## Dictionary
 
