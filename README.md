@@ -99,6 +99,10 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### [AI(Artifical Intelligence)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/ai.md)
 
+- ChatGPT
+  - [CustomGPTs](https://www.customgptlist.com/)
+  - [ChatGPT](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/c/chatgpt.md)
+
 - [Stable Diffusion「呪文詠唱」パターン集！見習い召喚士必見！](https://ponkichi.blog/stable-diffusion-prompt/#st-toc-h-25)https://ponkichi.blog/stable-diffusion-prompt/#st-toc-h-25
   - 일본에서는 stable diffusion을 통한 이미지 생성을 [소환] 이라고 하고 이미지 생성에 사용하는 프롬프트를 [주문영창] 이라고 하네요.. 재밌는 표현들.. ^^
   - 이미지 생성에 필요한 주문(?)들을 모은 사이트가 있어 소개합니다.
@@ -116,10 +120,8 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   * [Generate Photo from text you written - craiyon](https://www.craiyon.com/)
   * [Imagen](https://imagen.research.google/)
   * [Midjourney](https://www.midjourney.com/home/) 
-- Text generator
-    - [ChatGPT](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/c/chatgpt.md)
 - AI Robot
-    - [Robot secretary - deepbrainai](https://deepbrainai.io/product/ai-human)
+  - [Robot secretary - deepbrainai](https://deepbrainai.io/product/ai-human)
 
 ### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
