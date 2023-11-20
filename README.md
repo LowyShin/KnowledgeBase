@@ -274,7 +274,20 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   
 ### Security
 
-* [Trend Micro]()
+- [OWASP Amass](https://owasp.org/www-project-amass/):
+  - OWASP Amass는 다양한 보안 문제 및 취약점을 탐지하고 이를 점수로 제공하는 오픈 소스 도구입니다.
+
+- [OWASP ZAP (Zed Attack Proxy)](https://www.zaproxy.org/):
+  - OWASP ZAP은 오픈 소스 보안 도구로, 웹 애플리케이션의 취약점을 검사하고 점수로 표시할 수 있습니다.
+
+- [Netsparker](https://www.invicti.com/):
+  - Netsparker는 자동화된 웹 애플리케이션 보안 검사(ASV)를 수행하여 취약점을 탐지하고 그에 따른 리포트를 생성합니다.
+
+- [Acunetix](https://www.acunetix.com/):
+  - Acunetix는 웹 취약점 스캐닝 도구로, 웹사이트의 보안 취약성을 검사하고 등급 또는 점수로 제공합니다.
+
+- [Tenable.io Web Application Scanning](https://www.tenable.com/products):
+  - Tenable.io Web Application Scanning은 웹 애플리케이션의 보안 상태를 평가하고 취약점에 대한 점수를 제공합니다.
 
 
 ### Storage
