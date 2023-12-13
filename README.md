@@ -228,6 +228,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   * [Application Gateway](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/azure-application-gateway.md)
   * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
   - [Azure Networking](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/networking.md)
+  - [Azure Static Web Apps](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/static-web-apps.md)
 * [File Sync(rsync, scp...)](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
 * [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
