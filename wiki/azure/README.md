@@ -62,6 +62,8 @@ AzureのSQL DatabaseにはAuto Tuning機能が付いていてオンにするだ�
 
 ## Basic Functions
 
+### [Azure Static Web Apps](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/static-web-apps.md)
+
 ### Networking
 
 - [【Azure】App ServiceのVNet統合とプライベートリンクを利用した通信閉域化(➽)](https://techblog.ap-com.co.jp/entry/2021/03/12/150117)
