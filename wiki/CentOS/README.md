@@ -137,6 +137,40 @@ warning : This command is very dangerous that is memory clear physically.
 
 * [Systemdを使ってさくっと自作コマンドをサービス化してみる](https://qiita.com/DQNEO/items/0b5d0bc5d3cf407cb7ff)
 
+## Disk
+
+### fdisk
+
+```sh
+fdisk /dev/sdc
+```
+- d   delete a partition
+- g   create a new empty GPT partition table
+- G   create an IRIX (SGI) partition table
+- l   list known partition types
+- m   print this menu
+- n   add a new partition
+- o   create a new empty DOS partition table
+- p   print the partition table
+- q   quit without saving changes
+- s   create a new empty Sun disklabel
+- t   change a partition's system id
+- v   verify the partition table
+- w   write table to disk and exit
+- x   extra functionality (experts only)
+
+### format
+
+```sh
+format -t ext4 /dev/sdd1
+```
+
+### mount
+
+```sh
+mount -t auto /dev/sdd1 /mnt/sdd1
+```
+
 ## Journal
 
 * [journalctl コマンドの使い方](https://qiita.com/hana_shin/items/96095571b7bf1b721255)
