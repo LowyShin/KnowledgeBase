@@ -160,3 +160,17 @@ tinyint | 0 ～ 255 | 1 バイト
   GO
   ```
 
+### date
+
+```sql
+SELECT DATEPART(WEEKDAY,GETDATE())
+---------------------------
+  1
+```
+
+```sql
+SELECT DATENAME(WEEKDAY, GETDATE()) 
+---------------------------
+Monday
+```
+
