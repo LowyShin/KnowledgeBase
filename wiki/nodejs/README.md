@@ -20,7 +20,7 @@ nvm install 16
 nvm use 16
 
 # check version
-node --v
+node -v
 ```
 
 ### RHEL(Red Hat Enterprise Linux)
