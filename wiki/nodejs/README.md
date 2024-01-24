@@ -10,6 +10,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 ```
 
 ```sh
+# when using shell
+source $NVM_DIR/nvm.sh;
+
 # Installed Node List
 nvm list
 
