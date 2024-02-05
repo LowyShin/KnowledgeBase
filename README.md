@@ -215,6 +215,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### Infrastructure Management
 
+- [Ansible vs. terraform](https://talklowykr.blogspot.com/2024/02/ansible-terraform.html)
 * [Automate Infrastructure on Any Cloud - TerraForm](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/terraform)
     - Easy to mass deploy tool on Azure, AWS, GCE
 * [Shell/bash](https://github.com/LowyShin/KnowledgeBase/wiki/Shell)
