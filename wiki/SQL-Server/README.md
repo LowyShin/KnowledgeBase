@@ -174,3 +174,54 @@ SELECT DATENAME(WEEKDAY, GETDATE())
 Monday
 ```
 
+### geography
+
+sql server에는 geography 라는 속성의 컬럼이 생겼습니다. (언제부터인지...)
+
+그걸 이용하면 특정 지점에서 가장 가까운 순으로 소팅된 데이터를 부를 수 있지요. 
+
+```sql
+DECLARE @InputLatitude FLOAT = 40.7128; -- 입력 지점의 위도
+DECLARE @InputLongitude FLOAT = -74.0060; -- 입력 지점의 경도
+
+SELECT TOP 50 *
+FROM YourTableName
+ORDER BY geographyColumn.STDistance(geography::Point(@InputLatitude, @InputLongitude, 4326)) ASC;
+```
+
+만약 당신 주변의 가장 가까운 사람들 리스트를 얻고 싶다면 이렇게 하시면 됩니다. 
+그런데 데이터를 넣을때는? 
+
+```sql
+create table tUser(
+uSn bigint identity(1, 1),
+uUid nvarchar(200),
+uLoc geography, 
+uLocText nvarchar(200)
+)
+```
+
+이렇게 테이블을 만들었다 칩시다. 
+위도 경도를 받아서 uLocText에 위도 경도를 넣고, uLoc 에는 geography값을 넣는다면, 
+
+```sql
+declare @uLocText nvarchar(200), @uSn bigint
+
+set @uLocText = '40.7128, -74.0060'
+set @uSn = 1
+
+UPDATE tUser
+SET uLoc= geography::Point(CAST(SUBSTRING(@uLocText, 1, CHARINDEX(',', @uLocText) - 1) AS FLOAT), 
+         CAST(SUBSTRING(@uLocText, CHARINDEX(',', @uLocText) + 1, LEN(@uLocText)) AS FLOAT), 
+         4326)
+    , uLocText = @uLocText
+where uSn = @uSn
+
+```
+
+가 되는 것이지요. 
+실제로 uLoc 값에는 hex코드가 들어있어서 확인이 어려우니 위도 경도에 대한 텍스트를 따로 가지고 있으면 활용하기가 쉬워 집니다. 
+
+
+giip :: Control all Robots and Devices! Free inter-RPA orchestration tool! https://giipasp.azurewebsites.net/
+
