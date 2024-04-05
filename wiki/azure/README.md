@@ -152,6 +152,7 @@ az ad signed-in-user show
 
 Azure上の管理自動化に関しての悩みならまず[こちら(Azure Script Management)](https://github.com/LowyShin/KnowledgeBase/wiki/AzureScriptManagement)をご確認ください。。
 
+- [Runbookを5分毎に実行する方法by Logic App](https://www.spjeff.com/2023/01/20/azure-rapid-runbook-run-every-5-minutes/)
 - [ACI(Azure Container Instance)及びAzure Functions、Azure Logic Appsの比較](aci.md)
 - [Azure Batch](azurebatch.md)
 
