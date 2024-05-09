@@ -12,3 +12,12 @@
   - https://www.doda.jp
 - Remogu - フリーランス・正社員
   - https://remogu.jp/
+- https://www.green-japan.com/
+- https://bizreach.biz/
+- https://levtech.jp/
+- https://lapras.com/
+- https://en-gage.net/
+
+- update
+  - https://github.com/LowyShin/KnowledgeBase/issues/20
+  - 
