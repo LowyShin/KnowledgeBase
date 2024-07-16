@@ -110,6 +110,10 @@ order by sum(spc.used_pages) desc
 * [AWS RDS for sqlserver Replication](https://aws.amazon.com/jp/blogs/news/how-to-migrate-to-amazon-rds-for-sql-server-using-transactional-replication/)
 * [AWS RDS for sqlserver Read Replica(Enterprise Edition)](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/SQLServer.ReadReplicas.html)
 
+## Updates
+
+`update <tablename> with (rowlock)` を使うとUpdate対象行だけロックがかかる。
+しかし、updateの量が全体の1/10を超えてしまうとTable Lockになるので注意が必要。
 
 ## Datatype
 
