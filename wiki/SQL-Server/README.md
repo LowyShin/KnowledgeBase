@@ -30,6 +30,8 @@ EXEC sp_addrolemember N'db_owner', N'mydbo'
 GO
 ```
 
+- [create user script](usercreate)
+
 ## JSON_QUERY and JSON_VALUE
 
 https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/JSON_QUERY.md
@@ -75,6 +77,10 @@ select @myVal as LeftPoint
 ## External Data
 
 - [외부 데이터 엑세스(using External Data Source)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/extdata.md)
+
+## Indexed View
+
+- [Generate Index from Indexed View](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/indexedview/GenIndexofIndexedview.sql)
 
 ## Management
 
