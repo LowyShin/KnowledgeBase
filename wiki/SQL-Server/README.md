@@ -31,6 +31,7 @@ GO
 ```
 
 - [create user script](usercreate)
+  - for mass server and user management by excel
 
 ## JSON_QUERY and JSON_VALUE
 
