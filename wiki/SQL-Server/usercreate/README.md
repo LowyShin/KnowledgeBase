@@ -65,3 +65,8 @@ ExcelファイルのGenシートからcreateuser-mssql-gen.batファイルにコ
 ### createuser-mssql.ps1
 
 SQL Serverに接続してユーザー作成クエリを実行する。
+
+## 参考
+
+- [SQL Server のインスタンス間でログインとパスワードを転送する-Microsoft](https://learn.microsoft.com/ja-jp/troubleshoot/sql/database-engine/security/transfer-logins-passwords-between-instances)
+
