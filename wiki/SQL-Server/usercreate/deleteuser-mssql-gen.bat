@@ -1,4 +1,4 @@
-powershell .\createuser-mssql.ps1 -serverInstance "dev-selectdb01" -databaseName "cosme" -loginName "lowytest" -newUserPassword "lowytest" -adminUserName "shinhadm" -adminPassword "sidhd34123"
+powershell .\deleteuser-mssql.ps1 -serverInstance "dev-updatedb01" -databaseName "cosme" -loginName "lowytest" -newUserPassword "lowytest" -adminUserName "shinhadm" -adminPassword "sidhd34123"
 
 
 
