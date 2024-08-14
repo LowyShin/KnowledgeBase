@@ -79,7 +79,34 @@ select @myVal as LeftPoint
 
 - [외부 데이터 엑세스(using External Data Source)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/extdata.md)
 
-## Indexed View
+## Index
+
+### Index usage statistics
+
+```sql
+SELECT 
+    OBJECT_NAME(S.[OBJECT_ID]) AS [Table Name],
+    I.name AS [Index Name],
+    I.index_id AS [Index ID],
+    USER_SEEKS AS [User Seeks],
+    USER_SCANS AS [User Scans],
+    USER_LOOKUPS AS [User Lookups],
+    USER_UPDATES AS [User Updates],
+    LAST_USER_SEEK AS [Last User Seek Time],
+    LAST_USER_SCAN AS [Last User Scan Time],
+    LAST_USER_LOOKUP AS [Last User Lookup Time],
+    LAST_USER_UPDATE AS [Last User Update Time]
+FROM 
+    sys.dm_db_index_usage_stats AS S
+    INNER JOIN sys.indexes AS I ON I.[OBJECT_ID] = S.[OBJECT_ID] AND I.index_id = S.index_id
+WHERE 
+    OBJECTPROPERTY(S.[OBJECT_ID],'IsUserTable') = 1
+	and OBJECT_NAME(S.[OBJECT_ID]) in ('table1', 'table2', 'table3', 'table4')
+ORDER BY 
+    OBJECT_NAME(S.[OBJECT_ID]), I.index_id;
+```
+
+### Indexed View
 
 - [Generate Index from Indexed View](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/indexedview/GenIndexofIndexedview.sql)
 
