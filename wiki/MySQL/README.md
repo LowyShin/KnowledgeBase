@@ -54,6 +54,7 @@
 
 ### Innodb
 
+- mysql db-tunnerという個人で作った自動分析ツール
 * Check tuning point using mysqltuner
   * You can tune easy by suggestion on mysqltuner
 ```
@@ -62,7 +63,9 @@ $ unzip master
 $ cd master
 $ ./mysqltuner.pl
 ```
-  * https://corporate.inter-edu.com/developper/1373
+- 紹介ページ : https://blog.k-bushi.com/post/tech/database/use-mysql-tuner/#gsc.tab=0
+
+* https://corporate.inter-edu.com/developper/1373
 
 * innodb storage engine
   * https://enterprisezine.jp/dbonline/detail/3829
