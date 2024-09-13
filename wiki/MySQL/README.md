@@ -46,6 +46,8 @@
 
 ## Tuning
 
+- [Innodb BUffer Pool(Official)](https://dev.mysql.com/doc/refman/8.0/en/innodb-buffer-pool.html)
+  - [DBのメモリについて簡単にまとめてみた](https://qiita.com/rom0323/items/9ce5a7c577ea2d0caa63#:~:text=%E7%AC%AC101%E5%9B%9E%20Inno)
 * [DBの負荷分散手法](https://www.engineer-memo.net/20200305-5241)
 * [Azure Database for MySQL での読み取りワークロードのスケールアウト](https://azure.microsoft.com/ja-jp/blog/scaling-out-read-workloads-in-azure-database-for-mysql/)
 
