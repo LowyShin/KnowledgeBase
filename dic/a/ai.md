@@ -26,3 +26,33 @@
 
 ## AI Robot
     - [Robot secretary - deepbrainai](https://deepbrainai.io/product/ai-human)
+
+## not arranged
+
+AI Explained (youtube.com/@AIExplained)
+
+- AI Andy (youtube.com/@AIAndy)
+- Two Minute Papers (https://lnkd.in/eDQJgzmy)
+- The AI Advantage (youtube.com/@aiadvantage)
+- Machine Learning Street Talk (youtube.com/@MLStreetTalk)
+- Siraj Raval (youtube.com/@SirajRaval)
+- David Shapiro (youtube.com/@DavidShapiro)
+- MattVidPro AI (youtube.com/@MattVidProAI)
+- Robert Miles AI Safety (https://lnkd.in/eKycDwAS)
+- DeepLearningAI (https://lnkd.in/eqwxj2id)
+- Yannic Kilcher (youtube.com/@YannicKilcher)
+- Prompt Engineering (https://lnkd.in/eMKhEjwZ)
+- Dr Alan D. Thompson (https://lnkd.in/e-pV59F6)
+- Matt Wolfe (youtube.com/@mreflow)
+- The AI Grid (youtube.com/@TheAiGrid)
+- Jason West (youtube.com/@JWestdigital)
+- 10x income (youtube.com/@10xincome)
+- Bryan Hong (youtube.com/@itsbryanhong)
+- howtoai (https://lnkd.in/efzBwuHU)
+- Tech With Tim (youtube.com/@TechWithTim)
+- CodeEmporium (youtube.com/@CodeEmporium)
+- Edureka (youtube.com/@edurekaIN)
+- CS50 (youtube.com/@cs50)
+- StatQuest with Josh Starmer (youtube.com/@statquest)
+- Computerphile (youtube.com/@Computerphile)
+
