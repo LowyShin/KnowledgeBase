@@ -28,6 +28,8 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### Data(DBMS, NoSQL, Datascience, database)
 
+- [TiDB](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/t/tidb.md)
+  - KV(Key Value)を使ったNoSQLのような保存方式でMySQLと同じSQLが使えるDBMS
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
 * [MachineLearning(ML/AI)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
 * [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
