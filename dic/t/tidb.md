@@ -359,3 +359,4 @@ TiDBで月ごとのパーティションテーブルを管理するには、以�
 
 - [TiDB ドキュメント - パーティションテーブル](https://docs.pingcap.com/ja/tidb/stable/partitioned-table)
   - https://docs.pingcap.com/ja/tidb/stable/partitioned-table
+- [Local Index vs. Global Index](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/t/tidb-index.md)
