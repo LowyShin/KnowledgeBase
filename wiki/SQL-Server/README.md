@@ -263,3 +263,7 @@ where uSn = @uSn
 
 giip :: Control all Robots and Devices! Free inter-RPA orchestration tool! https://giipasp.azurewebsites.net/
 
+## Ref
+
+- [ARITHABORTエラーが発生した場合の対処](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server/sql-server-ARITHABORT.md)
+
