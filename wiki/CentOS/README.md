@@ -120,6 +120,7 @@ whereis mysql
 
 ### apache(httpd)
 
+- [LogRotate機能を利用したログファイルの管理方法](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/CentOS/logrotate.md)
 * [Apache logrotateによるログローテーションの設定](https://itsakura.com/centos-apache-log)
 * [Apache ログファイルの詳細・解析](https://httpd.apache.org/docs/2.4/ja/logs.html)
 * [apacheのaccess_logをjson化しtd-agentで集約サーバへ収集する](https://ogugu.hateblo.jp/entry/2018/08/03/153930)
