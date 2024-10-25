@@ -182,6 +182,20 @@ sample
 $num = [Math]::Round(1.4999, -2);
 ```
 
+### Escape character
+
+### @
+
+```
+powershell test-esacpe.ps1 -param1 '`@bbbbbb`'
+```
+
+### )
+
+```
+powershell test-esacpe.ps1 -param1 'aaaa`)`aaa'
+```
+
 ## Tools
 
 * [CPU Stress(load) Test](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ps1/CPUStressTest.ps1)
