@@ -2,7 +2,7 @@
 
 ## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBase)
 
-* [Markdown](/wiki/Markdown)
+* [Markdown](/m/Markdown)
 * [Real World PlantUML](https://real-world-plantuml.com/)
   * Draw diagram on Markdown and so on. 
 * [PUML for Markdown](https://github.com/danielyaa5/puml-for-markdown)
@@ -28,52 +28,52 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### Data(DBMS, NoSQL, Datascience, database)
 
-- [TiDB](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/t/tidb.md)
+- [TiDB](./dic/t/tidb/README.md)
   - KV(Key Value)を使ったNoSQLのような保存方式でMySQLと同じSQLが使えるDBMS
 * [CLoud RDBMS比較](https://cloud-textbook.com/50/)
-* [MachineLearning(ML/AI)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/MachineLearning.md)
-* [SQL Server](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/SQL-Server)
+* [MachineLearning(ML/AI)](./dic/m/MachineLearning/README.md)
+* [SQL Server](./dic/s/SQL-Server/README.md)
   * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。Azure SQLを使うと自動チューニング機能があってオンしておくと勝手にIndex Tuningを行います。（勝手にIndexがなくなったり作成されたり）データのアクセスパターンによって同じデータセットだとしても使うユーザーのパターンによってチューニングが変わるのでDBMSに詳しくない場合でも十分なパフォーマンスが保たれます。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
 
-* [ORACLE](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLE)
+* [ORACLE](./dic/o/ORACLE/README.md)
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
   * 同時10000Transaction以上・無限にユーザーを増加させたいならORACLEより強いDBMSはありません。しかしその分十分なDBMS知識なしでは逆効果になるので自身があったらおすすめします。
-  * [ORACLE Active Duplicate](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORA-ActiveDuplicate.md)
+  * [ORACLE Active Duplicate](./dic/o/ORACLE/ORA-ActiveDuplicate.md)
   * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
-  * [Installation](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ORACLEInstallTips)
+  * [Installation](./dic/o/ORACLE/ORACLEInstallTips/README.md)
   * [InstantClient](https://talklowy-jp.blogspot.com/2021/10/oracle-linuxcentos-instant-client.html)
   * [DDL](https://talklowy-jp.blogspot.com/2020/10/oracle-ddl-lowy-knowledgebase.html)
-  * [ORACLETuning](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORACLETuning.md)
-  * [Merge Into/Update Join](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/MERGE.md)
+  * [ORACLETuning](./dic/o/ORACLE/ORACLETuning.md)
+  * [Merge Into/Update Join](./dic/o/ORACLE/MERGE.md)
   * [Useful SQL](https://talklowy-jp.blogspot.com/2020/10/oracle-useful-sql.html)
-  * [TableSpaceManagement](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/tablespace.md)
-  * [datetime](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORAdatetime.md)
-  * [Flashback](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORAFlashback.md)
+  * [TableSpaceManagement](./dic/o/ORACLE/tablespace.md)
+  * [datetime](./dic/o/ORACLE/ORAdatetime.md)
+  * [Flashback](./dic/o/ORACLE/ORAFlashback.md)
   * [BackupRestore](https://talklowy-jp.blogspot.com/2021/02/oracle-backup-and-restore-lowy.html)
   * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
-  * [DBMS STAT](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/ORACLE/ORADBMSSTAT.md)
+  * [DBMS STAT](./dic/o/ORACLE/ORADBMSSTAT.md)
   * [dbvisitを利用したAWS上のRoacle Cluster](https://cosol.jp/techdb/2020/08/oracle-se2-multi-az-deploy-on-aws-ec2-using-dbvisit-standby/)
 
-* [MySQL](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
+* [MySQL](./dic/m/MySQL)
   * 同時4000トランザクション未満の3GB未満データでは一番軽く早いDBMSです。しかし容量と同時接続が増えるほど設計能力がパフォーマンスに直結するため拡張を考えるなら真剣に拡張設計から考慮することを推奨します。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
   * [my.cnf](https://github.com/LowyShin/KnowledgeBase/wiki/my.cnf)
   * [Replication](https://talklowykr.blogspot.com/2021/03/mysql-replication.html)
-  * [backup](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MySQL)
+  * [backup](./dic//MySQL)
   * [MMM-MultiMaster](https://talklowy-jp.blogspot.com/2014/08/mysql-mmm-multi-master-ha.html)
-  * [semaphore bug](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/MySQL/semaphorebug.md)
-* [mariadb](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/mariadb)
+  * [semaphore bug](./dic/m/MySQL/semaphorebug.md)
+* [mariadb](./dic//mariadb)
   * MySQLエンジンを使って分離されたDBMSですが、今はエンジンもかなり異なっておりスピードより拡張を考慮して発展し続いているDBMSです。4台以上の分散が必要な場合分散及び管理がより簡単にできますが、台数が増えても性能は上がることではないので分散設計は人の力に依存します。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
 
-* [Redis with MySQL](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Redis/README.md)
+* [Redis with MySQL](./dic/Redis/README.md)
   * DBMSのIO負荷を下げる中間DBMSとしてよく使われておりますが、KVS(Key Value Store)構造のメモリ保管モジュールなので色んな役割で使いこなすとすごい力になると思います。しかし、単純にCluster DB Cacheなどの意味で使ってしまうと逆に同期の問題で性能があまり出ないこともあるので十分知ってから使うことを推奨します。
-* [Mongodb](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mongodb)
+* [Mongodb](./dic/m/mongodb)
   * ドキュメントデータベースとかに言われたりするHadoopと共にNoSQLの代表になりましたが、RDBMSではないのでRDBMSみたいにJoinをかけたりすると一般RDBMSよりもパフォーマンスが出ないこともあります。なのでNoSQLに入れるべきUnstructured(非構造)データを非正規化していかに高性能に使うかを考慮して設計しないと普通の大量テキストストレージになってしまうのでご注意を！
 * [Apache-Drill](https://github.com/LowyShin/KnowledgeBase/wiki/Apache-Drill)
   * Apache財団から推しているデータ抽出ツールでRDBMSとNoSQL、CSVなどのファイルデータなどをすべて一つのSQLで抽出できる強力なツールです。しかしインストールされたOSの言語とデータのCharactersetによって文字化けが多いので十分な工夫が必要です。NoSQLなどの非定型データとRDBMSのJoinが楽なのでデータ変換に時間をかけている場合は検討を推奨します。
-  * Visualization機能がないのでもしレポート・グラフなどのビジュアル系が好みだったら[Tableau](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/tableau)をお勧めします。TableauはNoSQLとRDBMSのJoinまではできませんが、ある程度処理（Preparation, プレパレーションツール）をしたデータの分析及びグラフ出力には優れたツールです。
+  * Visualization機能がないのでもしレポート・グラフなどのビジュアル系が好みだったら[Tableau](./dic//tableau)をお勧めします。TableauはNoSQLとRDBMSのJoinまではできませんが、ある程度処理（Preparation, プレパレーションツール）をしたデータの分析及びグラフ出力には優れたツールです。
 * [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KnowledgeBase/wiki/A5MK2)
 * [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
   * Tableau, Google Data Portal, Redash and BI, data visualization tools
@@ -83,21 +83,21 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   - Webでデータ管理ができるツール。柔軟なカスタマイズが特徴
   - DBMSから許可すべきIPアドレス : https://docs.retool.com/docs/allow-retools-cloud-ip-addresses
 
-### [BlockChain](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain)
+### [BlockChain](./dic//blockchain)
 
 * [仮想通貨(Crypto Currency)]
   * [BitCoin](https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3)
     * [Source](https://github.com/bitcoin/bitcoin)
   * [Ethereum](https://en.wikipedia.org/wiki/Ethereum)
     * [Source](https://github.com/ethereum)
-* [Wallets](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/blockchain#wallets)
-- [NFT](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/README.md#nft-tokens)
-* [Mining](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/mining/README.md)
+* [Wallets](./dic/b/blockchain#wallets)
+- [NFT](./dic/b/blockchain/README.md#nft-tokens)
+* [Mining](./dic/m/mining/README.md)
 * [Exchanges()取引所]
   * [GMO Coin Z](https://coin.z.com/)
   * [Huobi](https://www.huobi.co.jp/)
   * [Liquid](https://www.liquid.com/)
-* [コピートレードに気をつけろ！](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/blockchain/copytrade.md)
+* [コピートレードに気をつけろ！](./dic/b/blockchain/copytrade.md)
 
 ### [AI(Artifical Intelligence)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/ai.md)
 
@@ -130,17 +130,17 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 - [npm trends - download trend competition](https://npmtrends.com/driver.js-vs-intro.js-vs-vue-tour)
 - [Landing Page](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/l/landing.md)
 - [vite - Next Generation Frontend Tooling](https://vitejs.dev/)
-* [nodejs](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nodejs)
-* [Flutter](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/flutter)
+* [nodejs](./dic/n/nodejs)
+* [Flutter](./dic/f/flutter)
   * nodesjからインストールできるWeb/Android/iOSを一気に開発できるツール。コードの修正があまりいらなくnodejsからの様々な追加機能の活用ができる。
   * [Flutter 비디오 강의 코딩쉐프(youtube)](https://www.youtube.com/@codingchef)
-* [Vue.js](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/vue)
+* [Vue.js](./dic/v/vue)
 * [Reactに有利なベンチマークを作ってみた](https://qiita.com/uhyo/items/35cb243557df5e1a87fc)
   * Reactが高負荷状態でのレンダリングスピードが速いため複雑な開発が必要な場合には向いてるとのこと
 * [ReactとVueの比較 | 完全に同じアプリのコードの書き方の違い](https://qiita.com/cypher256/items/8d6c25e3466e4815b3c7)
-* [Nuxt.js](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nuxtjs)
-- [Nest.js](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/nestjs)
-* [GAS(Google Apps Script)](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/google/google-apps-script.md)
+* [Nuxt.js](./dic/n/nuxtjs)
+- [Nest.js](./dic/n/nestjs)
+* [GAS(Google Apps Script)](./dic/g/google/google-apps-script.md)
   * Google SheetまたはGoogle Appsをスクリプトでプログラミングができる。
 * [DataVisual](https://observablehq.com/@d3/gallery)
 * [Python](https://github.com/LowyShin/KnowledgeBase/wiki/Python)
@@ -148,14 +148,14 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   * MicrosoftからC#の拡散のために強制サポート中止されて軽いVBベースのWeb用スクリプト言語。
   * 軽くて簡単なので今でも使っているサービスが多い
 * [wsf/vbs/vba](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
-* [WMI](WMI)
+* [WMI](./dic/w/WMI)
 * [HTML](https://github.com/LowyShin/KnowledgeBase/wiki/HTML)
   * [Great CSS Text Animation Examples You Can Use](https://www.sliderrevolution.com/resources/css-text-animation/)
   * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
 - UI/UX
   - [Chat UI - dribbble.com](https://dribbble.com/tags/chat%20ui)
-* [Chatbot](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/AI/Chatbot.md)
-* [PHP](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/PHP/README.md)
+* [Chatbot](./dic/a/AI/Chatbot.md)
+* [PHP](./dic/p/PHP/README.md)
 - [React TypeScript ESLint Prettier VSCode のプロジェクト作成](https://itc-engineering-blog.netlify.app/blogs/eslint-prettier)
 
 ### RPA(Robotic Process Automation)
@@ -194,22 +194,22 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   * HTML Color Code
 * [Canva - free Online Design tool](https://www.canva.com/)
   * Photoshopと同じくらいのイメージリタッチなどができるツール
-* [vscode](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vscode/README.md)
+* [vscode](./dic/vscode/README.md)
   * Microsoft社から提供する強力な無料開発ツール。様々な言語の開発及びDBへの接続・モバイル仮想端末の起動・管理などこれ一本できるほど多いadd-onがある。
 * [git(github)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/g/git.md)
   * git・github関連のTip
 - [azuresource management(devops)](https://azure.microsoft.com/en-us/products/devops/?nav=min)
 * [GoogleSheet(GSheet)](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
   * Google Sheet利用に便利な内容
-* [Excel](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/excel)
+* [Excel](./dic/e/excel)
 * [VNC](https://github.com/LowyShin/KnowledgeBase/wiki/VNC)
 * [VPN](https://github.com/LowyShin/KnowledgeBase/wiki/VPN)
 * [Note Tool](https://github.com/LowyShin/KnowledgeBase/wiki/Note-Tool)
 * [Blog](https://github.com/LowyShin/KnowledgeBase/wiki/Blog)
 * [google news alert](https://www.google.com/alerts#)
 * [Online PDF to JPG](https://pdftoimage.com/ja/)
-* [LoadTest](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Tools/LoadTest.md)
-" [putty](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/putty)
+* [LoadTest](./dic/Tools/LoadTest.md)
+" [putty](./dic/p/putty)
 * [VirtualBox](https://www.virtualbox.org/)
   * [MacOSでの新バージョンVirtual Box実行時mac verr_vm_driver_not_installed (-1908)回避](https://www.nemotos.net/?p=3707)
 - [qr code chimp - QR Code生成](https://www.qrcodechimp.com/pricing)
@@ -218,20 +218,20 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 ### Infrastructure Management
 
 - [Ansible vs. terraform](https://talklowykr.blogspot.com/2024/02/ansible-terraform.html)
-* [Automate Infrastructure on Any Cloud - TerraForm](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/terraform)
+* [Automate Infrastructure on Any Cloud - TerraForm](./dic/t/terraform)
     - Easy to mass deploy tool on Azure, AWS, GCE
 * [Shell/bash](https://github.com/LowyShin/KnowledgeBase/wiki/Shell)
 * [crontab](https://github.com/LowyShin/KnowledgeBase/wiki/crontab)
-* [Windows PowerShell](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/ps1)
+* [Windows PowerShell](./dic/p/ps1)
 * [Windows(DOS) batch](https://github.com/LowyShin/KnowledgeBase/wiki/WinBatch)
 * [Wscript/wsf](https://github.com/LowyShin/KnowledgeBase/wiki/Wscript)
-* [AWS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/AWS)
+* [AWS](./dic/a/AWS)
   * [アベイラビリティーゾーンを使用できるかを確認する](https://aws.amazon.com/jp/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
-* [Azure](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/README.md)
+* [Azure](./dic/a/azure/README.md)
   * [Application Gateway](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/azure-application-gateway.md)
   * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
-  - [Azure Networking](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/networking.md)
-  - [Azure Static Web Apps](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/azure/static-web-apps.md)
+  - [Azure Networking](./dic/a/azure/networking.md)
+  - [Azure Static Web Apps](./dic/a/azure/static-web-apps.md)
 * [File Sync(rsync, scp...)](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
 * [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
@@ -320,12 +320,12 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 ### OS
 
 * [CentOS/Rhel(Redhat Enterprise Linux)](https://talklowy-jp.blogspot.com/2021/04/centos-knowledgebase-giip.html)
-* [Windows](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/windows/windows.md)
+* [Windows](./dic/w/windows/windows.md)
   * [IIS(Internet Information Server)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/l/iis.md)
 * Android
   * [Rooting app](https://talklowy-jp.blogspot.com/2020/10/android-rooting-app.html)
   * [adb shell](https://talklowy-jp.blogspot.com/2020/10/android-rooting-app.html)
-* [MacOS](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/MacOS)
+* [MacOS](./dic/m/MacOS)
 
 ### Apps
 
@@ -334,9 +334,9 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 ### Hardware
 
 * [Xeon CPU](https://github.com/LowyShin/KnowledgeBase/wiki/Xeon-CPU)
-* [Paloalto FW](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Paloalto.md)
-* [Cisco](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Cisco.md)
-* [Dell](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hardware/Dell.md)
+* [Paloalto FW](./dic/h/Hardware/Paloalto.md)
+* [Cisco](./dic/h/Hardware/Cisco.md)
+* [Dell](./dic/h/Hardware/Dell.md)
 * [Apple M2 vs Intel Core i9-12900K](https://www.cpu-monkey.com/ja/compare_cpu-apple_m2-vs-intel_core_i9_12900k)
 * [Rosetta 2のx86からarm64への変換はどのように動作するのか](https://www.infoq.com/jp/news/2021/01/rosetta-2-translation/)
 * [[ARMv8-A](https://developer.arm.com/documentation/den0024/a/ARMv8-Models/ARMv8-A-Foundation-Platform)](https://developer.arm.com/documentation/den0024/a/ARMv8-Models/ARMv8-A-Foundation-Platform)
@@ -352,7 +352,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 * global
   * https://angel.co/
     * Remote Job and Startup Job Search | AngelList Talent
-  * [Dev Outsourcing](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Business/DevOutsourcing.md)
+  * [Dev Outsourcing](./dic/b/Business/DevOutsourcing.md)
   * [flywire - easy payment gateway](https://www.flywire.com/)
 * jp
     * [Startup checkpoint(jp)](https://github.com/LowyShin/KnowledgeBase/wiki/StartupChkJP)
@@ -370,7 +370,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
     * [WeWork Japan](https://ultimate-setsuko.com/business/wework/)
 * kr
   * [for Korean](kr)
-  * [가족비자(family visa) 신청 관련](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/visa)
+  * [가족비자(family visa) 신청 관련](./dic/v/visa)
 
 ### Job&Hire
 
@@ -395,17 +395,17 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
   - [Vライバー事務所MIRULAプロダクション](https://mirula-production.com/)
     - イラストレーター・ライバー（Vtuber）・事務所を募集
   - [IRIAM（イリアム）｜新感覚Vtuberアプリ](https://www.live.iriam.com/)
-* [VR(VirutualReality)](https://github.com/LowyShin/KnowledgeBase/tree/master/wiki/vr)
+* [VR(VirutualReality)](./dic/v/vr)
   * Oculus Quest 2
-    * [Immersed](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/vr/immersed.md)
+    * [Immersed](./dic/v/vr/immersed.md)
 * [AR - A glimpse of the future through an augmented reality headset - Meron Gribetz](https://www.ted.com/talks/meron_gribetz_a_glimpse_of_the_future_through_an_augmented_reality_headset?language=en)
-* [Lithum-ion Battery](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/Lithium-ion-Battery.md)
+* [Lithum-ion Battery](./dic/h/Hobby/Lithium-ion-Battery.md)
 - [HONDA 着脱式可搬バッテリー「Honda Mobile Power Pack」を活用した取り組みについて](https://www.honda.co.jp/news/2021/c211029b.html)
 - [Honda goldwing price](https://www.honda.co.jp/GOLDWING/type/)
-* [Ebike](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/EBike.md)
+* [Ebike](./dic/h/Hobby/EBike.md)
 * [Fountain Pen ink cartridge guide](https://unsharpen.com/fountain-pen-cartridge-guide/)
 * [住宅も3Dプリンターで価格革命](https://youtu.be/kTeysI5U-xw)
-* [ロングセラー確実！？「iPhone SE」（第3世代）は買って損なしの圧倒的な安心感が魅力](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Hobby/iphonese20220325.md)
+* [ロングセラー確実！？「iPhone SE」（第3世代）は買って損なしの圧倒的な安心感が魅力](./dic/h/Hobby/iphonese20220325.md)
 * [Electronic goods](https://github.com/LowyShin/KnowledgeBase/wiki/Electronic-goods)
 * [キズの付いたCDを修復する方法](https://www.wikihow.jp/%E3%82%AD%E3%82%BA%E3%81%AE%E4%BB%98%E3%81%84%E3%81%9FCD%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B)
 * [プラスチックについた傷を消す方法](https://www.wikihow.jp/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%9F%E5%82%B7%E3%82%92%E6%B6%88%E3%81%99)
@@ -434,8 +434,8 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### [Lifestyle](wiki/Lifestyle)
 
-* [賃貸](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/rentalhouse.md)
-* [Share House](https://github.com/LowyShin/KnowledgeBase/blob/master/wiki/Lifestyle/Sharehouse.md)
+* [賃貸](./dic/l/Lifestyle/rentalhouse.md)
+* [Share House](./dic/l/Lifestyle/Sharehouse.md)
 * [一人お引越し - クロネコヤマト](https://www.008008.jp/moving/single/)
   * 福岡から東京まで引っ越しした場合相場が20万円ほどです（1人の場合）。クロネコヤマトのパレットに自分で詰め込めば4万円程でお引越しができます！
 * [国際郵便マイページサービス](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do)
