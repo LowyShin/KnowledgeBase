@@ -2,7 +2,7 @@
 
 ## [KnowledgeBase](https://github.com/LowyShin/KnowledgeBase)
 
-* [Markdown](.dic/m/Markdown)
+* [Markdown](.dic/m/Markdown/README.md)
 * [Real World PlantUML](https://real-world-plantuml.com/)
   * Draw diagram on Markdown and so on. 
 * [PUML for Markdown](https://github.com/danielyaa5/puml-for-markdown)
