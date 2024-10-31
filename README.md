@@ -28,60 +28,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### Data(DBMS, NoSQL, Datascience, database)
 
-- [TiDB](./dic/t/tidb/README.md)
-  - KV(Key Value)を使ったNoSQLのような保存方式でMySQLと同じSQLが使えるDBMS
-* [CLoud RDBMS比較](https://cloud-textbook.com/50/)
-* [MachineLearning(ML/AI)](./dic/m/MachineLearning/README.md)
-* [SQL Server](./dic/s/SQL-Server/README.md)
-  * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。Azure SQLを使うと自動チューニング機能があってオンしておくと勝手にIndex Tuningを行います。（勝手にIndexがなくなったり作成されたり）データのアクセスパターンによって同じデータセットだとしても使うユーザーのパターンによってチューニングが変わるのでDBMSに詳しくない場合でも十分なパフォーマンスが保たれます。
-  * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
-
-* [ORACLE](./dic/o/ORACLE/README.md)
-  * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
-  * 同時10000Transaction以上・無限にユーザーを増加させたいならORACLEより強いDBMSはありません。しかしその分十分なDBMS知識なしでは逆効果になるので自身があったらおすすめします。
-  * [ORACLE Active Duplicate](./dic/o/ORACLE/ORA-ActiveDuplicate.md)
-  * [Basic Management](https://talklowy-jp.blogspot.com/2020/10/oracle-management-knowledge.html)
-  * [Installation](./dic/o/ORACLE/ORACLEInstallTips/README.md)
-  * [InstantClient](https://talklowy-jp.blogspot.com/2021/10/oracle-linuxcentos-instant-client.html)
-  * [DDL](https://talklowy-jp.blogspot.com/2020/10/oracle-ddl-lowy-knowledgebase.html)
-  * [ORACLETuning](./dic/o/ORACLE/ORACLETuning.md)
-  * [Merge Into/Update Join](./dic/o/ORACLE/MERGE.md)
-  * [Useful SQL](https://talklowy-jp.blogspot.com/2020/10/oracle-useful-sql.html)
-  * [TableSpaceManagement](./dic/o/ORACLE/tablespace.md)
-  * [datetime](./dic/o/ORACLE/ORAdatetime.md)
-  * [Flashback](./dic/o/ORACLE/ORAFlashback.md)
-  * [BackupRestore](https://talklowy-jp.blogspot.com/2021/02/oracle-backup-and-restore-lowy.html)
-  * [Characterset(Official)](https://www.oracle.com/technetwork/jp/content/charcterset-250314-ja.pdf)
-  * [DBMS STAT](./dic/o/ORACLE/ORADBMSSTAT.md)
-  * [dbvisitを利用したAWS上のRoacle Cluster](https://cosol.jp/techdb/2020/08/oracle-se2-multi-az-deploy-on-aws-ec2-using-dbvisit-standby/)
-
-* [MySQL](./dic/m/MySQL)
-  * 同時4000トランザクション未満の3GB未満データでは一番軽く早いDBMSです。しかし容量と同時接続が増えるほど設計能力がパフォーマンスに直結するため拡張を考えるなら真剣に拡張設計から考慮することを推奨します。
-  * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
-  * [my.cnf](https://github.com/LowyShin/KnowledgeBase/wiki/my.cnf)
-  * [Replication](https://talklowykr.blogspot.com/2021/03/mysql-replication.html)
-  * [backup](./dic//MySQL)
-  * [MMM-MultiMaster](https://talklowy-jp.blogspot.com/2014/08/mysql-mmm-multi-master-ha.html)
-  * [semaphore bug](./dic/m/MySQL/semaphorebug.md)
-* [mariadb](./dic//mariadb)
-  * MySQLエンジンを使って分離されたDBMSですが、今はエンジンもかなり異なっておりスピードより拡張を考慮して発展し続いているDBMSです。4台以上の分散が必要な場合分散及び管理がより簡単にできますが、台数が増えても性能は上がることではないので分散設計は人の力に依存します。
-  * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
-
-* [Redis with MySQL](./dic/Redis/README.md)
-  * DBMSのIO負荷を下げる中間DBMSとしてよく使われておりますが、KVS(Key Value Store)構造のメモリ保管モジュールなので色んな役割で使いこなすとすごい力になると思います。しかし、単純にCluster DB Cacheなどの意味で使ってしまうと逆に同期の問題で性能があまり出ないこともあるので十分知ってから使うことを推奨します。
-* [Mongodb](./dic/m/mongodb)
-  * ドキュメントデータベースとかに言われたりするHadoopと共にNoSQLの代表になりましたが、RDBMSではないのでRDBMSみたいにJoinをかけたりすると一般RDBMSよりもパフォーマンスが出ないこともあります。なのでNoSQLに入れるべきUnstructured(非構造)データを非正規化していかに高性能に使うかを考慮して設計しないと普通の大量テキストストレージになってしまうのでご注意を！
-* [Apache-Drill](https://github.com/LowyShin/KnowledgeBase/wiki/Apache-Drill)
-  * Apache財団から推しているデータ抽出ツールでRDBMSとNoSQL、CSVなどのファイルデータなどをすべて一つのSQLで抽出できる強力なツールです。しかしインストールされたOSの言語とデータのCharactersetによって文字化けが多いので十分な工夫が必要です。NoSQLなどの非定型データとRDBMSのJoinが楽なのでデータ変換に時間をかけている場合は検討を推奨します。
-  * Visualization機能がないのでもしレポート・グラフなどのビジュアル系が好みだったら[Tableau](./dic//tableau)をお勧めします。TableauはNoSQLとRDBMSのJoinまではできませんが、ある程度処理（Preparation, プレパレーションツール）をしたデータの分析及びグラフ出力には優れたツールです。
-* [A5MK2-MultiDBMSTool](https://github.com/LowyShin/KnowledgeBase/wiki/A5MK2)
-* [BI](https://github.com/LowyShin/KnowledgeBase/wiki/BI)
-  * Tableau, Google Data Portal, Redash and BI, data visualization tools
-* [Referrals](https://github.com/LowyShin/KnowledgeBase/wiki/Referrals)
-* [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
-- retool
-  - Webでデータ管理ができるツール。柔軟なカスタマイズが特徴
-  - DBMSから許可すべきIPアドレス : https://docs.retool.com/docs/allow-retools-cloud-ip-addresses
+- Moved to [data](./dic/d/data/README.md)
 
 ### [BlockChain](./dic//blockchain)
 
@@ -125,38 +72,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 - AI Robot
   - [Robot secretary - deepbrainai](https://deepbrainai.io/product/ai-human)
 
-### [Development](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
-
-- [npm trends - download trend competition](https://npmtrends.com/driver.js-vs-intro.js-vs-vue-tour)
-- [Landing Page](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/l/landing.md)
-- [vite - Next Generation Frontend Tooling](https://vitejs.dev/)
-* [nodejs](./dic/n/nodejs)
-* [Flutter](./dic/f/flutter)
-  * nodesjからインストールできるWeb/Android/iOSを一気に開発できるツール。コードの修正があまりいらなくnodejsからの様々な追加機能の活用ができる。
-  * [Flutter 비디오 강의 코딩쉐프(youtube)](https://www.youtube.com/@codingchef)
-* [Vue.js](./dic/v/vue)
-* [Reactに有利なベンチマークを作ってみた](https://qiita.com/uhyo/items/35cb243557df5e1a87fc)
-  * Reactが高負荷状態でのレンダリングスピードが速いため複雑な開発が必要な場合には向いてるとのこと
-* [ReactとVueの比較 | 完全に同じアプリのコードの書き方の違い](https://qiita.com/cypher256/items/8d6c25e3466e4815b3c7)
-* [Nuxt.js](./dic/n/nuxtjs)
-- [Nest.js](./dic/n/nestjs)
-* [GAS(Google Apps Script)](./dic/g/google/google-apps-script.md)
-  * Google SheetまたはGoogle Appsをスクリプトでプログラミングができる。
-* [DataVisual](https://observablehq.com/@d3/gallery)
-* [Python](https://github.com/LowyShin/KnowledgeBase/wiki/Python)
-* [Classic ASP](https://github.com/LowyShin/KB-ClassicASP/blob/master/README.md)
-  * MicrosoftからC#の拡散のために強制サポート中止されて軽いVBベースのWeb用スクリプト言語。
-  * 軽くて簡単なので今でも使っているサービスが多い
-* [wsf/vbs/vba](https://github.com/LowyShin/KB-ClassicASP/wiki/wsf)
-* [WMI](./dic/w/WMI)
-* [HTML](https://github.com/LowyShin/KnowledgeBase/wiki/HTML)
-  * [Great CSS Text Animation Examples You Can Use](https://www.sliderrevolution.com/resources/css-text-animation/)
-  * [HTML(kr)](https://talklowykr.blogspot.com/2021/01/html-1-html.html)
-- UI/UX
-  - [Chat UI - dribbble.com](https://dribbble.com/tags/chat%20ui)
-* [Chatbot](./dic/a/AI/Chatbot.md)
-* [PHP](./dic/p/PHP/README.md)
-- [React TypeScript ESLint Prettier VSCode のプロジェクト作成](https://itc-engineering-blog.netlify.app/blogs/eslint-prettier)
+### [Development tools](https://talklowy-jp.blogspot.com/2022/03/blog-post.html)
 
 ### RPA(Robotic Process Automation)
 
@@ -178,85 +94,15 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   
 ### Tools
 
-* [ezis - DBパフォーマンス分析ツール(日本語公式)](https://github.com/LowyShin/ezis-jp)
-  * RDBMS(ORACLE, SQL Server, MySQL, Mariadb, PostgreSQL)のエンジンからデータを取得し、強力なパフォーマンス情報が収集できて過去時点に戻って原因分析などができるツール
-- [Free SSL](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/s/ssl.md)
-- [Broken Link Checker - W3.org](https://validator.w3.org/checklink)
-- [driver.js - Modal창으로 animated help를 만드는 javascript](https://driverjs.com/)
-- [Online HTML Editor](https://htmleditor.online/full/)
-- [피그마로 웹사이트 코드 없이 만들기](https://www.youtube.com/watch?v=qnQItPmcoPU)
-* [wappalyzer - Analysis dev environment bu URL ](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg/related)
-  * Chrome Add-onでWebサイトに接続して実行すると開発環境をすべて分析してくれる
-  * ![wappalyzer](https://github.com/LowyShin/KnowledgeBase/blob/master/images/chrome/wappalyzer-giipasp.png)
-- [Compare SaaS Service - capterra(jp)](https://www.capterra.jp/)
-* [Juliaの自動微分パッケージ Zygote の紹介](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/04/12/220015)
-* [color code table](https://www.colordic.org/)
-  * HTML Color Code
-* [Canva - free Online Design tool](https://www.canva.com/)
-  * Photoshopと同じくらいのイメージリタッチなどができるツール
-* [vscode](./dic/vscode/README.md)
-  * Microsoft社から提供する強力な無料開発ツール。様々な言語の開発及びDBへの接続・モバイル仮想端末の起動・管理などこれ一本できるほど多いadd-onがある。
-* [git(github)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/g/git.md)
-  * git・github関連のTip
-- [azuresource management(devops)](https://azure.microsoft.com/en-us/products/devops/?nav=min)
-* [GoogleSheet(GSheet)](https://github.com/LowyShin/KnowledgeBase/wiki/GSheet)
-  * Google Sheet利用に便利な内容
-* [Excel](./dic/e/excel)
-* [VNC](https://github.com/LowyShin/KnowledgeBase/wiki/VNC)
-* [VPN](https://github.com/LowyShin/KnowledgeBase/wiki/VPN)
-* [Note Tool](https://github.com/LowyShin/KnowledgeBase/wiki/Note-Tool)
-* [Blog](https://github.com/LowyShin/KnowledgeBase/wiki/Blog)
-* [google news alert](https://www.google.com/alerts#)
-* [Online PDF to JPG](https://pdftoimage.com/ja/)
-* [LoadTest](./dic/Tools/LoadTest.md)
-" [putty](./dic/p/putty)
-* [VirtualBox](https://www.virtualbox.org/)
-  * [MacOSでの新バージョンVirtual Box実行時mac verr_vm_driver_not_installed (-1908)回避](https://www.nemotos.net/?p=3707)
-- [qr code chimp - QR Code生成](https://www.qrcodechimp.com/pricing)
-- [デザイナー必見！無料で利用できるおすすめのQRコード作成ツール10選](https://www.mdn.co.jp/web/helpful_tips/5807)
+Moved to [tools](./dic/t/Tools/README.md)
 
 ### Infrastructure Management
 
-- [Ansible vs. terraform](https://talklowykr.blogspot.com/2024/02/ansible-terraform.html)
-* [Automate Infrastructure on Any Cloud - TerraForm](./dic/t/terraform)
-    - Easy to mass deploy tool on Azure, AWS, GCE
-* [Shell/bash](https://github.com/LowyShin/KnowledgeBase/wiki/Shell)
-* [crontab](https://github.com/LowyShin/KnowledgeBase/wiki/crontab)
-* [Windows PowerShell](./dic/p/ps1)
-* [Windows(DOS) batch](https://github.com/LowyShin/KnowledgeBase/wiki/WinBatch)
-* [Wscript/wsf](https://github.com/LowyShin/KnowledgeBase/wiki/Wscript)
-* [AWS](./dic/a/AWS)
-  * [アベイラビリティーゾーンを使用できるかを確認する](https://aws.amazon.com/jp/premiumsupport/knowledge-center/vpc-find-availability-zone-options/)
-* [Azure](./dic/a/azure/README.md)
-  * [Application Gateway](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/azure-application-gateway.md)
-  * [仮想マシン スケールセット を試す](https://www.cloudou.net/virtual-machine-scale-sets/vmss001/)
-  - [Azure Networking](./dic/a/azure/networking.md)
-  - [Azure Static Web Apps](./dic/a/azure/static-web-apps.md)
-* [File Sync(rsync, scp...)](https://github.com/LowyShin/KnowledgeBase/wiki/Sync)
-* [KnownPort(wikipedia)](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+Moved to [infrastructure](./dic/i/infrastructure/README.md)
 
 ### Project Management
 
-- [JIRA](https://www.atlassian.com/software/jira)
-    - issue管理及びプロジェクト管理の定番ツール
-    - add-onが強い
-    - [Confluence](https://www.atlassian.com/software/confluence)
-        - wiki形式のコンテンツ管理ツール(CMS)
-- [Wrike](https://www.wrike.com/)
-    - JIRAに近いプロジェクト管理ツール
-    - 基本機能でganttが自動作成されるのが強み
-    - 値段が高い
-- [Trello](https://trello.com/en)
-    - カード型イシュー管理サービス
-    - Add-onでgantt chartがある。
-- [ASANA](https://asana.com/)
-    - カード型イシュー管理サービス
-- [draw.io](https://app.diagrams.net/)
-    - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
-    - 無料なのに強力
-    - Googleドライブに保存して共有したりすると共同作業が便利
-- [mural.ly](https://www.mural.co/)
-    - 大きい壁に貼り付ける感覚でプロジェクトの管理ツール
+Moved to [project_management](./dic/p/project_management/README.md)
 
 ### SEO
 
@@ -297,25 +143,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
 
 ### Storage
 
-* [GFS(Google File System) Architecture](https://medium.com/geekculture/google-file-system-architecture-cdeabef3f1ea)
-* [alluxio](https://www.alluxio.io/)
-* [Ceph](https://ceph.io/)
-* [apache cloudstack](https://cloudstack.apache.org/)
-* [Free NAS](https://www.freenas.org/)
-* [Apache Hadoop](https://hadoop.apache.org/)
-* [lustre](http://lustre.org/)
-* [openmediavault](https://www.openmediavault.org/)
-  * openmediavault is the next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, DAAP media server, RSync, BitTorrent client and many more. Thanks to the modular design of the framework it can be enhanced via plugins.
-* [openstack](https://www.openstack.org/)
-* [pydio](https://pydio.com/)
-* [raider](http://raider.sourceforge.net/)
-  * 	Raider is a tool to automate linux software raid conversion.
-It is able to convert a single linux system disk in to a software raid 1, 4, 5, 6 or 10 system in a two-pass simple command.
-* [sheepdog](http://sheepdog.github.io/sheepdog/)
-  * Sheepdog is a distributed object storage system for volume and container services and manages the disks and nodes intelligently. Sheepdog features ease of use, simplicity of code and can scale out to thousands of nodes.
-  * ![sheepdog structure](http://sheepdog.github.io/sheepdog/_images/overview.png)
-* [snapraid](http://www.snapraid.it/)
-  * backup program for disk arrays. It stores parity information of your data and it recovers from up to six disk failures.
+Moved to [stroage](./dic/s/storage/README.md)
 
 ### OS
 
@@ -382,37 +210,7 @@ It is able to convert a single linux system disk in to a software raid 1, 4, 5, 
 
 ### Hobby
 
-- [スポーツやろうよ](https://www.net-menber.com/)
-  - 一人でも参加可能なアマチュアスポーツメンバー募集サイト
-- [つなげーと](https://tunagate.com/)
-  - 様々な趣味を一緒に楽しめるメンバー募集サービス
-- [イラスト・マンガ描き方ナビ](https://www.clipstudio.net/oekaki)
-  - お絵かきがさらに楽しくなるクリエイターのための情報サイト
-- [アマチュアマンガ・開催地やジャンル（作品名）で探す](https://www.akaboo.jp/event/item/sa001.html)
-- [イベント早見一覧（開催日別）](https://www.akaboo.jp/event/index.html)
-
-- Vtuber/Streamer
-  - [Vライバー事務所MIRULAプロダクション](https://mirula-production.com/)
-    - イラストレーター・ライバー（Vtuber）・事務所を募集
-  - [IRIAM（イリアム）｜新感覚Vtuberアプリ](https://www.live.iriam.com/)
-* [VR(VirutualReality)](./dic/v/vr)
-  * Oculus Quest 2
-    * [Immersed](./dic/v/vr/immersed.md)
-* [AR - A glimpse of the future through an augmented reality headset - Meron Gribetz](https://www.ted.com/talks/meron_gribetz_a_glimpse_of_the_future_through_an_augmented_reality_headset?language=en)
-* [Lithum-ion Battery](./dic/h/Hobby/Lithium-ion-Battery.md)
-- [HONDA 着脱式可搬バッテリー「Honda Mobile Power Pack」を活用した取り組みについて](https://www.honda.co.jp/news/2021/c211029b.html)
-- [Honda goldwing price](https://www.honda.co.jp/GOLDWING/type/)
-* [Ebike](./dic/h/Hobby/EBike.md)
-* [Fountain Pen ink cartridge guide](https://unsharpen.com/fountain-pen-cartridge-guide/)
-* [住宅も3Dプリンターで価格革命](https://youtu.be/kTeysI5U-xw)
-* [ロングセラー確実！？「iPhone SE」（第3世代）は買って損なしの圧倒的な安心感が魅力](./dic/h/Hobby/iphonese20220325.md)
-* [Electronic goods](https://github.com/LowyShin/KnowledgeBase/wiki/Electronic-goods)
-* [キズの付いたCDを修復する方法](https://www.wikihow.jp/%E3%82%AD%E3%82%BA%E3%81%AE%E4%BB%98%E3%81%84%E3%81%9FCD%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B)
-* [プラスチックについた傷を消す方法](https://www.wikihow.jp/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%9F%E5%82%B7%E3%82%92%E6%B6%88%E3%81%99)
-* [aerodrone - 1万円台の高性能ドローン](https://get-aerodrone.com/)
-- [キャパシタとコンデンサの違い](https://www.musashi-es.co.jp/blog/2021/05/53cd8895d7f57f6b8e1db96904ad793b05c6567b.html
-- [AWS規格別許容電流表](https://www.batteryspace.jp/html/page28.html)
-
+Moved to [hobby](./dic/h/Hobby/README.md)
 
 ### Life
 
