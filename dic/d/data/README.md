@@ -7,7 +7,7 @@
 
 ### SQL Server
 
-* [SQL Server](./dic/s/SQL-Server/README.md)
+* [SQL Server](https://github.com/LowyShin/KnowledgeBase/tree/master/dic/s/SQL-Server)
   * 同時5000Transaction程のDB負荷なら管理がしやすいSQL Serverをお勧めします。Azure SQLを使うと自動チューニング機能があってオンしておくと勝手にIndex Tuningを行います。（勝手にIndexがなくなったり作成されたり）データのアクセスパターンによって同じデータセットだとしても使うユーザーのパターンによってチューニングが変わるのでDBMSに詳しくない場合でも十分なパフォーマンスが保たれます。
   * [Ezis - RDBMS Monitoring](https://github.com/LowyShin/ezis-jp)
 
