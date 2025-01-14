@@ -23,8 +23,13 @@
 
 ## 비자 갱신
 
-https://www.moj.go.jp/isa/applications/status/dependent.html
+### 입국관리국 공식 문서
+- 비자 보유자의 가족체재 자격 취득/연장
+  - https://www.moj.go.jp/isa/applications/status/dependent.html?utm_source=chatgpt.com
+- 정주자(일본인/영주권자)의 가족으로 변경하는 경우
+  - https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00122.html
 
+### 필요서류
 - 在留期間更新許可申請書　１通
   - 在留期間更新許可申請書（PDF:197KB）
   - 在留期間更新許可申請書（Excel:77KB）
