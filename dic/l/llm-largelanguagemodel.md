@@ -1,8 +1,7 @@
 ## **LLM에서 Transformer 외의 아키텍처**
 현재 대부분의 **대규모 언어 모델(LLM, Large Language Model)**은 **Transformer 아키텍처**를 기반으로 하고 있지만, Transformer 외에도 몇 가지 대체 아키텍처가 연구되고 있습니다.  
 
-아래에서는 **LLM에서 사용되는 주요 아키텍처**를 살펴보겠습니다.
-
+LLM을 활용한 모델들
 ---
 
 ## **1. Transformer 기반 모델 (가장 널리 사용됨)**
