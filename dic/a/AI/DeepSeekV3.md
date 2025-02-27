@@ -1,6 +1,7 @@
 # DeepSeek V3 파일 구성 해설
 
 - source : https://github.com/deepseek-ai/DeepSeek-V3
+    - 참고로 DeepSeek R1의 레포지토리에는 소스가 전혀 없고, V3를 베이스로 한다고 되어 있음.
 
 ## File Structure
 
