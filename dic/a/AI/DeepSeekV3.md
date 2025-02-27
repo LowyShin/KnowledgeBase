@@ -104,3 +104,7 @@ generate.py 파일은 Transformer 모델을 사용하여 텍스트를 생성하�
 
 소개 논문에는 [PRO, GPRO](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/AI/PPO_DPO_KTO_GRPO_Comparison.md) 를 통한 [KL확산(Kullback-Leibler Divergence)](https://github.com/LowyShin/KnowledgeBase/blob/master/dic/a/AI/Kullback-Leibler.md) 처리에 대해 집중적으로 다루었으나 
 이에 대한 내용이 없음. 
+
+https://youtu.be/zFXmIoSQU5Q
+![0201(1)](https://github.com/user-attachments/assets/67146c3b-32c4-4114-872a-5364fcc10267)
+
