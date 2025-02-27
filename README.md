@@ -19,6 +19,12 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   - Korean : https://github.com/LowyShin/giipdoc-ko/wiki
 * [giip Service Web](https://giipasp.azurewebsites.net)
 
+## IT Techtree
+
+- Lowyが説明・教育可能な技術
+  - https://drive.google.com/file/d/1FWtnOQBwebXVYlOf67iqojIzZod37iwL/view?usp=sharing
+
+
 ### 職業
 
 ![ITProfessional drawio](https://github.com/LowyShin/KnowledgeBase/assets/20239203/9d6f5182-46ca-4087-89fe-2a389515534e)
