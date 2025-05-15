@@ -1,0 +1,59 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore apps folder temporary files
+/apps/__pycache__/
+/apps/*/__pycache__/
+
+# Ignore markdown backup files
+*.md~
+
+# Ignore images and binary files
+images/**/*.png
+images/**/*.jpg
+images/**/*.gif
+
+# Ignore other unnecessary files
+node_modules/
+build/
+dist/
+*.bak
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+*.swp
+*.swx
+*.tmp
+*.temp
+*.~
+*.~*
