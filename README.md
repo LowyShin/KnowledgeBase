@@ -19,7 +19,7 @@ GIIP(Global Infrastructure Information Platform)은 인프라의 정보를 기�
   - English : https://github.com/LowyShin/giip/wiki
   - Japanses : https://github.com/LowyShin/giipdoc-ja/wiki
   - Korean : https://github.com/LowyShin/giipdoc-ko/wiki
-* [giip Service Web](https://giipasp.azurewebsites.net)
+* [giip Service Web](https://giipv3.vercel.app/) : giip v3 는 https://giipv3.vercel.app/ 로 현재 시범 서비스 중
   * [giipAgent for UiPath](https://github.com/LowyShin/giipAgentUIP)
   * [giipAgent for Linux](https://github.com/LowyShin/giipAgentLinux)
   * [giipAgent for Windows](https://github.com/LowyShin/giipAgentWin)
