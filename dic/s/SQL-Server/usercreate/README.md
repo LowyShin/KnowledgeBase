@@ -66,6 +66,32 @@ ExcelファイルのGenシートからcreateuser-mssql-gen.batファイルにコ
 
 SQL Serverに接続してユーザー作成クエリを実行する。
 
+## RDS for SQL Server でのマスターユーザー権限の複製
+
+Amazon RDS for SQL Server では、マスターユーザーの権限を他のユーザーに複製する必要がある場合があります。
+
+### 主な方法
+
+1. **T-SQLスクリプトを使用した権限の複製**
+   - `sp_helprotect` を使って既存の権限を確認
+   - `GRANT`, `DENY`, `REVOKE` ステートメントを使って権限を複製
+   - サーバーロール、データベースロール、オブジェクトレベルの権限を個別に設定
+
+2. **RDS固有の制約事項**
+   - RDSではマスターユーザーでも `sysadmin` ロールは付与されない
+   - `db_owner` や `processadmin` などの限定的なロールで管理
+   - 一部のシステムストアドプロシージャへのアクセスは制限される
+
+3. **権限複製の手順**
+   - ソースユーザー（マスターユーザー）の権限を抽出
+   - 新しいユーザーにログインとデータベースユーザーを作成
+   - 抽出した権限を新しいユーザーに適用
+   - 必要に応じてサーバーロールとデータベースロールを追加
+
+### 参考リンク
+
+- [Amazon RDS for SQL Server でマスターユーザー権限を複製する方法 - AWS Blog](https://aws.amazon.com/jp/blogs/news/how-to-clone-master-user-permissions-in-amazon-rds-for-sql-server/)
+
 ## 参考
 
 - [SQL Server のインスタンス間でログインとパスワードを転送する-Microsoft](https://learn.microsoft.com/ja-jp/troubleshoot/sql/database-engine/security/transfer-logins-passwords-between-instances)
